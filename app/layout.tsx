@@ -13,16 +13,35 @@ export const metadata: Metadata = {
   description: 'Master Irish traffic signs with interactive quizzes, detailed explanations, and personalized learning paths.',
   keywords: ['Irish traffic signs', 'road signs', 'Ireland', 'driving', 'quiz', 'learning'],
   authors: [{ name: 'Irish Traffic Signs Team' }],
+  icons: {
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon.ico', sizes: 'any' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
   openGraph: {
     title: 'Irish Traffic Signs - Learn Irish Road Signs',
     description: 'Master Irish traffic signs with interactive quizzes, detailed explanations, and personalized learning paths.',
     type: 'website',
     locale: 'en_IE',
+    images: [
+      {
+        url: '/appicon.png',
+        width: 512,
+        height: 512,
+        alt: 'Irish Traffic Signs Logo',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Irish Traffic Signs - Learn Irish Road Signs',
     description: 'Master Irish traffic signs with interactive quizzes, detailed explanations, and personalized learning paths.',
+    images: ['/appicon.png'],
   },
 }
 
@@ -42,6 +61,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="#16a34a" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="Irish Traffic Signs" />
+      </head>
       <body className={inter.className}>
         <Providers>
           <Header />
