@@ -1,0 +1,28 @@
+{
+  "name": "irish-traffic-signs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "start:frontend": "cd frontend && npm run start",
+    "start:backend": "cd backend && npm run start",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "db:generate": "cd backend && npx prisma generate",
+    "db:push": "cd backend && npx prisma db push",
+    "db:seed": "cd backend && npx prisma db seed",
+    "load:signs": "node scripts/load-signs-from-json.js",
+    "add:signs": "node scripts/add-signs.js",
+    "test:json": "node scripts/test-json.js",
+    "test:backend": "node scripts/test-backend.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "axios": "^1.6.0"
+  }
+}
