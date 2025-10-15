@@ -5,6 +5,7 @@ import { Providers } from './providers'
 import { Toaster } from 'react-hot-toast'
 import { Header } from '@/components/layout/header'
 import { Footer } from '@/components/layout/footer'
+import { Analytics } from '@vercel/analytics/react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -86,6 +87,7 @@ export default function RootLayout({
             }}
           />
         </Providers>
+        <Analytics />
       </body>
     </html>
   )
