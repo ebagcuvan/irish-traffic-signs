@@ -103,53 +103,15 @@ export default function AppPage() {
             {/* App Screenshots */}
             <div className="relative">
               <div className="relative bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-3xl shadow-2xl p-8 border border-green-200 dark:border-green-700">
-                {/* Mock Phone Frame */}
-                <div className="relative mx-auto w-64 h-[500px] bg-gray-900 rounded-[2.5rem] p-2 shadow-2xl">
-                  <div className="w-full h-full bg-white rounded-[2rem] overflow-hidden">
-                    {/* Status Bar */}
-                    <div className="flex justify-between items-center px-4 py-2 bg-gray-50">
-                      <span className="text-xs font-medium">9:41</span>
-                      <div className="flex space-x-1">
-                        <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
-                        <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
-                        <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
-                      </div>
-                    </div>
-                    
-                    {/* App Content */}
-                    <div className="p-4">
-                      <div className="text-center mb-6">
-                        <div className="w-16 h-16 bg-green-100 rounded-2xl mx-auto mb-4 flex items-center justify-center">
-                          <BookOpen className="h-8 w-8 text-green-600" />
-                        </div>
-                        <h3 className="text-lg font-bold text-gray-900">Irish Traffic Signs</h3>
-                        <p className="text-sm text-gray-600">Learn & Practice</p>
-                      </div>
-                      
-                      <div className="space-y-3">
-                        <div className="bg-green-50 rounded-xl p-3">
-                          <div className="flex items-center justify-between mb-2">
-                            <span className="text-sm font-medium text-green-800">Progress</span>
-                            <span className="text-sm text-green-600">75%</span>
-                          </div>
-                          <div className="w-full bg-green-200 rounded-full h-2">
-                            <div className="bg-green-600 h-2 rounded-full" style={{ width: '75%' }}></div>
-                          </div>
-                        </div>
-                        
-                        <div className="grid grid-cols-2 gap-2">
-                          <div className="bg-gray-50 rounded-lg p-3 text-center">
-                            <div className="text-2xl mb-1">🚦</div>
-                            <p className="text-xs text-gray-600">Signs</p>
-                          </div>
-                          <div className="bg-gray-50 rounded-lg p-3 text-center">
-                            <div className="text-2xl mb-1">🧠</div>
-                            <p className="text-xs text-gray-600">Quiz</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                {/* Main App Screenshot */}
+                <div className="relative mx-auto w-64 h-[500px] rounded-[2.5rem] overflow-hidden shadow-2xl">
+                  <Image
+                    src="/ss/homepage.png"
+                    alt="Irish Traffic Signs App - Homepage"
+                    fill
+                    className="object-cover rounded-[2.5rem]"
+                    priority
+                  />
                 </div>
                 
                 {/* Floating Elements */}
@@ -252,37 +214,43 @@ export default function AppPage() {
               {
                 title: 'Home Dashboard',
                 description: 'Overview of your learning progress and quick access to features',
-                mockup: '📱'
+                image: '/ss/homepage.png'
               },
               {
                 title: 'Sign Library',
                 description: 'Browse and search through all Irish traffic signs with detailed information',
-                mockup: '🚦'
+                image: '/ss/sign-lab.png'
               },
               {
                 title: 'Interactive Quiz',
                 description: 'Test your knowledge with multiple question types and difficulty levels',
-                mockup: '🧠'
+                image: '/ss/quiz.png'
               },
               {
                 title: 'Progress Tracking',
                 description: 'Monitor your learning journey with detailed analytics and achievements',
-                mockup: '📊'
+                image: '/ss/tracking.png'
               },
               {
                 title: 'Favorites',
                 description: 'Save your favorite signs for quick access and personalized study',
-                mockup: '❤️'
+                image: '/ss/favorites.png'
               },
               {
-                title: 'Settings',
-                description: 'Customize your learning experience with various preferences',
-                mockup: '⚙️'
+                title: 'Sign Details',
+                description: 'Detailed information about each traffic sign with explanations',
+                image: '/ss/sign-detail.png'
               }
             ].map((screenshot, index) => (
               <div key={index} className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 text-center">
-                <div className="w-48 h-80 mx-auto bg-gray-100 dark:bg-gray-700 rounded-2xl mb-4 flex items-center justify-center text-6xl">
-                  {screenshot.mockup}
+                <div className="w-48 h-80 mx-auto bg-gray-100 dark:bg-gray-700 rounded-2xl mb-4 overflow-hidden">
+                  <Image
+                    src={screenshot.image}
+                    alt={screenshot.title}
+                    width={192}
+                    height={320}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{screenshot.title}</h3>
                 <p className="text-gray-600 dark:text-gray-300 text-sm">{screenshot.description}</p>
@@ -348,6 +316,53 @@ export default function AppPage() {
               <div className="flex items-center">
                 <CheckCircle className="h-5 w-5 mr-2" />
                 <span className="text-sm">Regular updates</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Quiz Results Section */}
+      <section className="py-16 lg:py-24 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-800 dark:to-gray-900">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
+                Track Your Progress
+              </h2>
+              <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
+                See your quiz results, track your learning progress, and celebrate your achievements. 
+                Our detailed analytics help you understand your strengths and areas for improvement.
+              </p>
+              <div className="space-y-4">
+                <div className="flex items-center">
+                  <CheckCircle className="h-6 w-6 text-green-600 mr-3" />
+                  <span className="text-gray-700 dark:text-gray-300">Detailed quiz results and explanations</span>
+                </div>
+                <div className="flex items-center">
+                  <CheckCircle className="h-6 w-6 text-green-600 mr-3" />
+                  <span className="text-gray-700 dark:text-gray-300">Progress tracking and statistics</span>
+                </div>
+                <div className="flex items-center">
+                  <CheckCircle className="h-6 w-6 text-green-600 mr-3" />
+                  <span className="text-gray-700 dark:text-gray-300">Achievement badges and streaks</span>
+                </div>
+                <div className="flex items-center">
+                  <CheckCircle className="h-6 w-6 text-green-600 mr-3" />
+                  <span className="text-gray-700 dark:text-gray-300">Personalized study recommendations</span>
+                </div>
+              </div>
+            </div>
+            <div className="relative">
+              <div className="relative bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-3xl shadow-2xl p-8 border border-blue-200 dark:border-blue-700">
+                <div className="relative mx-auto w-64 h-[500px] rounded-[2.5rem] overflow-hidden shadow-2xl">
+                  <Image
+                    src="/ss/quiz-result.png"
+                    alt="Irish Traffic Signs App - Quiz Results"
+                    fill
+                    className="object-cover rounded-[2.5rem]"
+                  />
+                </div>
               </div>
             </div>
           </div>
