@@ -1,26 +1,28 @@
-# Irish Traffic Signs Learning Platform
+# Irish Traffic Signs
 
-A comprehensive web application for learning Irish traffic signs, built with Next.js and featuring interactive quizzes, detailed sign explanations, and a modern user interface.
+A comprehensive learning platform for Irish traffic signs built with Next.js 14, TypeScript, and Tailwind CSS.
 
 ## 🚦 Features
 
-- **400+ Traffic Signs**: Complete collection of Irish road signs with detailed explanations
-- **Interactive Quizzes**: Test your knowledge with multiple choice questions
-- **Sign Details**: Comprehensive information including meaning, category, and context
-- **Favorites System**: Save your favorite signs for quick access
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
-- **Dark/Light Theme**: Toggle between themes for comfortable viewing
-- **SEO Optimized**: Each sign has its own page with proper metadata
-- **Modern UI**: Clean, intuitive interface with Irish green theme
+- **📚 Complete Sign Library**: 410+ Irish traffic signs with detailed explanations
+- **🧠 Interactive Quizzes**: Multiple quiz types with adaptive difficulty
+- **📱 Mobile Responsive**: Optimized for all devices
+- **🌙 Dark Mode**: Beautiful dark and light themes
+- **❤️ Favorites System**: Save and organize your favorite signs
+- **📊 Progress Tracking**: Monitor your learning journey
+- **🔍 Advanced Search**: Find signs by name, category, or difficulty
+- **📖 FAQ Section**: Comprehensive help and support
+- **📱 Mobile App**: Dedicated mobile app promotion page
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: Next.js 14, React, TypeScript
+- **Framework**: Next.js 14 with App Router
+- **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Icons**: Lucide React
 - **Animations**: Framer Motion
-- **Data**: JSON-based sign database
-- **Deployment**: Vercel-ready
+- **State Management**: React Query
+- **UI Components**: Custom components with shadcn/ui
 
 ## 🚀 Getting Started
 
@@ -31,95 +33,126 @@ A comprehensive web application for learning Irish traffic signs, built with Nex
 
 ### Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/ebagcuvan/irish-traffic-signs.git
-cd irish-traffic-signs
-```
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/irish-traffic-signs.git
+   cd irish-traffic-signs
+   ```
 
-2. Install dependencies:
-```bash
-cd frontend
-npm install
-```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-3. Run the development server:
-```bash
-npm run dev
-```
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
 ## 📁 Project Structure
 
 ```
-irish-traffic-signs/
-├── frontend/                 # Next.js application
-│   ├── app/                 # App router pages
-│   │   ├── signs/          # Traffic signs pages
-│   │   ├── quiz/           # Quiz functionality
-│   │   ├── faq/            # FAQ page
-│   │   └── ...
-│   ├── components/         # React components
-│   ├── lib/               # Utility functions
-│   └── public/            # Static assets
-├── data/                   # JSON data files
-├── scripts/               # Utility scripts
-└── docs/                  # Documentation
+frontend/
+├── app/                    # Next.js App Router pages
+│   ├── signs/             # Traffic signs pages
+│   ├── quiz/              # Quiz functionality
+│   ├── faq/               # FAQ page
+│   ├── app/               # Mobile app promotion
+│   └── ...                # Other pages
+├── components/            # Reusable components
+│   ├── landing/           # Landing page components
+│   ├── layout/            # Header, footer
+│   ├── signs/             # Sign-related components
+│   └── ui/                # UI components
+├── lib/                   # Utilities and contexts
+├── public/                # Static assets
+│   ├── signs/             # Traffic sign images
+│   └── data/              # JSON data files
+└── types/                 # TypeScript type definitions
 ```
 
-## 🎯 Key Pages
+## 🎨 Pages
 
-- **Homepage**: Hero section, features, testimonials, and app promotion
-- **Signs**: Browse all traffic signs with filtering and search
-- **Sign Detail**: Individual sign pages with comprehensive information
-- **Quiz**: Interactive quiz to test your knowledge
-- **FAQ**: Frequently asked questions about Irish traffic signs
-- **Help Center**: Driving test information and resources
-- **App**: Mobile app promotion page
+- **Home** (`/`): Landing page with hero, features, and testimonials
+- **Signs** (`/signs`): Browse all traffic signs with filtering
+- **Quiz** (`/quiz`): Interactive learning quizzes
+- **FAQ** (`/faq`): Frequently asked questions
+- **Help Center** (`/help-center`): Comprehensive help and support
+- **App** (`/app`): Mobile app promotion and features
+- **Favorites** (`/favorites`): Saved signs (localStorage)
+- **About** (`/about`): About the platform
+- **Privacy** (`/privacy`): Privacy policy
+- **Terms** (`/terms`): Terms of service
+- **Accessibility** (`/accessibility`): Accessibility statement
 
-## 🎨 Design Features
+## 🎯 Key Features
 
-- **Irish Green Theme**: Consistent color scheme throughout
-- **Modern Typography**: Clean, readable fonts
-- **Responsive Grid**: Adaptive layouts for all screen sizes
-- **Interactive Elements**: Hover effects and smooth transitions
-- **Accessibility**: Proper contrast ratios and keyboard navigation
+### Traffic Signs
+- Complete library of 410+ Irish traffic signs
+- High-quality images and detailed explanations
+- Irish and English names
+- Category and difficulty filtering
+- Individual sign detail pages with SEO optimization
+
+### Interactive Learning
+- Multiple quiz types (multiple choice, true/false, matching)
+- Adaptive difficulty based on performance
+- Progress tracking and achievements
+- Personalized learning paths
+
+### User Experience
+- Responsive design for all devices
+- Dark/light theme toggle
+- Fast loading with Next.js optimization
+- SEO-friendly with metadata generation
+- Accessibility compliant
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy automatically
+
+### Other Platforms
+- **Netlify**: Connect GitHub repository
+- **Railway**: Deploy with one click
+- **DigitalOcean**: Use App Platform
 
 ## 📱 Mobile App
 
-The platform also promotes a mobile app with:
+The platform includes a dedicated mobile app promotion page showcasing:
+- App features and screenshots
+- Download links for iOS and Android
 - Offline learning capabilities
-- Progress tracking
-- Push notifications
-- Native performance
-
-## 🔧 Development
-
-### Adding New Signs
-
-1. Add sign data to `data/traffic_signs.json`
-2. Add corresponding image to `frontend/public/signs/`
-3. Update the image path in the JSON file
-
-### Customizing Styles
-
-- Main theme colors: `frontend/tailwind.config.js`
-- Component styles: Individual component files
-- Global styles: `frontend/app/globals.css`
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+- Progress synchronization
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Irish Road Safety Authority for traffic sign data
+- Next.js team for the amazing framework
+- Tailwind CSS for the utility-first styling
+- Lucide for the beautiful icons
 
 ## 📞 Support
 
-For support or questions, please open an issue on GitHub.
+For support, email support@irishtrafficsigns.ie or visit our [Help Center](/help-center).
 
 ---
 
-Built with ❤️ for Irish drivers and learners
+Made with ❤️ for Irish drivers learning traffic signs

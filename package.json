@@ -1,28 +1,42 @@
 {
-  "name": "irish-traffic-signs",
-  "version": "1.0.0",
+  "name": "irish-traffic-signs-frontend",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
-    "dev:frontend": "cd frontend && npm run dev",
-    "dev:backend": "cd backend && npm run dev",
-    "build": "npm run build:frontend && npm run build:backend",
-    "build:frontend": "cd frontend && npm run build",
-    "build:backend": "cd backend && npm run build",
-    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
-    "start:frontend": "cd frontend && npm run start",
-    "start:backend": "cd backend && npm run start",
-    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
-    "db:generate": "cd backend && npx prisma generate",
-    "db:push": "cd backend && npx prisma db push",
-    "db:seed": "cd backend && npx prisma db seed",
-    "load:signs": "node scripts/load-signs-from-json.js",
-    "add:signs": "node scripts/add-signs.js",
-    "test:json": "node scripts/test-json.js",
-    "test:backend": "node scripts/test-backend.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@radix-ui/react-progress": "^1.1.7",
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.0.0",
+    "framer-motion": "^10.16.16",
+    "lucide-react": "^0.294.0",
+    "next": "14.0.4",
+    "postcss": "^8.4.32",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.48.2",
+    "react-hot-toast": "^2.4.1",
+    "react-intersection-observer": "^9.5.3",
+    "react-query": "^3.39.3",
+    "recharts": "^2.8.0",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.3.3"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2",
-    "axios": "^1.6.0"
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.0.4"
   }
 }
