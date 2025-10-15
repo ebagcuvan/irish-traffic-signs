@@ -1,236 +1,125 @@
-# Irish Traffic Signs - Modern Web Platform
+# Irish Traffic Signs Learning Platform
 
-A comprehensive web application for learning Irish traffic signs with interactive quizzes, progress tracking, and personalized learning paths.
+A comprehensive web application for learning Irish traffic signs, built with Next.js and featuring interactive quizzes, detailed sign explanations, and a modern user interface.
 
-## 🚀 Features
+## 🚦 Features
 
-- **Comprehensive Sign Library**: 200+ Irish traffic signs with detailed explanations
-- **Interactive Quizzes**: Multiple quiz types with difficulty levels
-- **Progress Tracking**: Detailed analytics and achievement system
-- **Personalized Learning**: Favorites, collections, and custom learning paths
-- **Responsive Design**: Works perfectly on all devices
-- **Dark Mode**: System preference detection with manual toggle
-- **User Authentication**: Secure JWT-based authentication
-- **Real-time Features**: Live quiz results and progress updates
+- **400+ Traffic Signs**: Complete collection of Irish road signs with detailed explanations
+- **Interactive Quizzes**: Test your knowledge with multiple choice questions
+- **Sign Details**: Comprehensive information including meaning, category, and context
+- **Favorites System**: Save your favorite signs for quick access
+- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
+- **Dark/Light Theme**: Toggle between themes for comfortable viewing
+- **SEO Optimized**: Each sign has its own page with proper metadata
+- **Modern UI**: Clean, intuitive interface with Irish green theme
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
-### Frontend
-- **Next.js 14** with App Router
-- **React 18** with TypeScript
-- **Tailwind CSS** for styling
-- **Framer Motion** for animations
-- **React Query** for data fetching
-- **React Hook Form** for form handling
+- **Frontend**: Next.js 14, React, TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Animations**: Framer Motion
+- **Data**: JSON-based sign database
+- **Deployment**: Vercel-ready
 
-### Backend
-- **Node.js** with Express
-- **TypeScript** for type safety
-- **PostgreSQL** database
-- **Prisma ORM** for database operations
-- **JWT** for authentication
-- **bcryptjs** for password hashing
-
-## 📦 Installation
+## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js 18+ 
-- PostgreSQL 13+
 - npm or yarn
 
-### 1. Clone the repository
+### Installation
+
+1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/irish-traffic-signs.git
+git clone https://github.com/ebagcuvan/irish-traffic-signs.git
 cd irish-traffic-signs
 ```
 
-### 2. Install dependencies
-```bash
-npm run install:all
-```
-
-### 3. Environment Setup
-
-#### Backend Environment
-```bash
-cd backend
-cp env.example .env
-```
-
-Edit `backend/.env` with your configuration:
-```env
-DATABASE_URL="postgresql://username:password@localhost:5432/irish_traffic_signs"
-JWT_SECRET="your-super-secret-jwt-key-here"
-JWT_EXPIRES_IN="7d"
-PORT=3001
-NODE_ENV="development"
-CORS_ORIGIN="http://localhost:3000"
-```
-
-#### Frontend Environment
+2. Install dependencies:
 ```bash
 cd frontend
+npm install
 ```
 
-Create `frontend/.env.local`:
-```env
-NEXT_PUBLIC_API_URL=http://localhost:3001
-```
-
-### 4. Database Setup
+3. Run the development server:
 ```bash
-# Generate Prisma client
-npm run db:generate
-
-# Push database schema
-npm run db:push
-
-# Seed the database with sample data
-npm run db:seed
-
-# Or load signs from your JSON file
-npm run load:signs
-```
-
-### 5. Start Development Servers
-```bash
-# Start both frontend and backend
 npm run dev
-
-# Or start individually
-npm run dev:frontend  # Frontend on http://localhost:3000
-npm run dev:backend   # Backend on http://localhost:3001
 ```
 
-## 🗄 Database Schema
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-The application uses the following main entities:
+## 📁 Project Structure
 
-- **Users**: User accounts with authentication
-- **TrafficSigns**: Irish traffic signs with metadata
-- **Favorites**: User's favorite signs
-- **FavoriteCollections**: Organized collections of favorites
-- **Quizzes**: Interactive quiz content
-- **QuizAttempts**: User quiz attempts and scores
-- **Achievements**: User achievements and badges
-- **Ratings**: User ratings and reviews for signs
-
-## 🔧 API Endpoints
-
-### Authentication
-- `POST /api/auth/register` - User registration
-- `POST /api/auth/login` - User login
-- `GET /api/auth/me` - Get current user
-- `POST /api/auth/refresh` - Refresh token
-
-### Traffic Signs
-- `GET /api/signs` - Get all signs (with filtering)
-- `GET /api/signs/:id` - Get single sign
-- `GET /api/signs/:id/related` - Get related signs
-
-### Favorites
-- `GET /api/favorites` - Get user favorites
-- `POST /api/favorites` - Add to favorites
-- `DELETE /api/favorites/:id` - Remove from favorites
-
-### Quizzes
-- `GET /api/quizzes` - Get all quizzes
-- `GET /api/quizzes/:id` - Get quiz details
-- `POST /api/quizzes/:id/attempt` - Start quiz attempt
-- `POST /api/quizzes/:id/submit` - Submit quiz answers
-
-## 🎨 UI Components
-
-The application includes a comprehensive set of reusable components:
-
-- **Layout Components**: Header, Footer, Navigation
-- **UI Components**: Button, Input, Card, Modal
-- **Feature Components**: SignCard, QuizInterface, ProgressTracker
-- **Landing Page**: Hero, Features, Testimonials, FAQ
-
-## 🚀 Deployment
-
-### Frontend (Vercel)
-1. Connect your GitHub repository to Vercel
-2. Set environment variables in Vercel dashboard
-3. Deploy automatically on push to main branch
-
-### Backend (Railway/Render)
-1. Connect your GitHub repository
-2. Set environment variables
-3. Configure PostgreSQL database
-4. Deploy with automatic builds
-
-### Database
-- Use a managed PostgreSQL service (Railway, Supabase, or AWS RDS)
-- Run migrations: `npm run db:push`
-- Seed data: `npm run db:seed`
-
-## 📱 Mobile Support
-
-The application is fully responsive and includes:
-- Mobile-first design approach
-- Touch-friendly interactions
-- Optimized images and assets
-- Progressive Web App features
-
-## 🔒 Security Features
-
-- JWT-based authentication
-- Password hashing with bcrypt
-- Rate limiting on API endpoints
-- CORS configuration
-- Input validation and sanitization
-- SQL injection prevention (Prisma)
-
-## 🧪 Testing
-
-```bash
-# Run frontend tests
-cd frontend
-npm test
-
-# Run backend tests
-cd backend
-npm test
-
-# Run all tests
-npm run test:all
+```
+irish-traffic-signs/
+├── frontend/                 # Next.js application
+│   ├── app/                 # App router pages
+│   │   ├── signs/          # Traffic signs pages
+│   │   ├── quiz/           # Quiz functionality
+│   │   ├── faq/            # FAQ page
+│   │   └── ...
+│   ├── components/         # React components
+│   ├── lib/               # Utility functions
+│   └── public/            # Static assets
+├── data/                   # JSON data files
+├── scripts/               # Utility scripts
+└── docs/                  # Documentation
 ```
 
-## 📊 Performance
+## 🎯 Key Pages
 
-- Lighthouse score: 90+
-- Page load time: < 3 seconds
-- Time to interactive: < 5 seconds
-- Mobile optimization: 90+ score
-- Database query optimization with indexes
+- **Homepage**: Hero section, features, testimonials, and app promotion
+- **Signs**: Browse all traffic signs with filtering and search
+- **Sign Detail**: Individual sign pages with comprehensive information
+- **Quiz**: Interactive quiz to test your knowledge
+- **FAQ**: Frequently asked questions about Irish traffic signs
+- **Help Center**: Driving test information and resources
+- **App**: Mobile app promotion page
 
-## 🤝 Contributing
+## 🎨 Design Features
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
+- **Irish Green Theme**: Consistent color scheme throughout
+- **Modern Typography**: Clean, readable fonts
+- **Responsive Grid**: Adaptive layouts for all screen sizes
+- **Interactive Elements**: Hover effects and smooth transitions
+- **Accessibility**: Proper contrast ratios and keyboard navigation
+
+## 📱 Mobile App
+
+The platform also promotes a mobile app with:
+- Offline learning capabilities
+- Progress tracking
+- Push notifications
+- Native performance
+
+## 🔧 Development
+
+### Adding New Signs
+
+1. Add sign data to `data/traffic_signs.json`
+2. Add corresponding image to `frontend/public/signs/`
+3. Update the image path in the JSON file
+
+### Customizing Styles
+
+- Main theme colors: `frontend/tailwind.config.js`
+- Component styles: Individual component files
+- Global styles: `frontend/app/globals.css`
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is open source and available under the [MIT License](LICENSE).
 
-## 🆘 Support
+## 🤝 Contributing
 
-For support, email support@irishtrafficsigns.ie or create an issue on GitHub.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 🎯 Roadmap
+## 📞 Support
 
-- [ ] Mobile app (React Native)
-- [ ] AI-powered recommendations
-- [ ] Social features and sharing
-- [ ] Advanced analytics dashboard
-- [ ] Multilingual support
-- [ ] API for third-party integrations
+For support or questions, please open an issue on GitHub.
 
 ---
 
-Made with ❤️ for Irish drivers
+Built with ❤️ for Irish drivers and learners
