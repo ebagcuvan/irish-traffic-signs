@@ -68,6 +68,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     const description = signData.description || signData.meaning || `Learn about the ${signData.name} traffic sign in Ireland.`
     
     return {
+      metadataBase: new URL('https://irish-traffic-signs.vercel.app'),
       title,
       description,
       keywords: [
@@ -84,6 +85,8 @@ export async function generateMetadata({ params }: { params: { slug: string } })
         title,
         description,
         type: 'article',
+        url: `https://irish-traffic-signs.vercel.app/signs/${generateSlug(signData.id, signData.name)}`,
+        siteName: 'Irish Traffic Signs',
         images: [
           {
             url: signData.imagePath || '/images/default-sign.jpg',
@@ -92,7 +95,6 @@ export async function generateMetadata({ params }: { params: { slug: string } })
             alt: signData.name,
           }
         ],
-        siteName: 'Irish Traffic Signs',
       },
       twitter: {
         card: 'summary_large_image',
@@ -118,6 +120,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   } catch (error) {
     console.error('Error generating metadata:', error)
     return {
+      metadataBase: new URL('https://irish-traffic-signs.vercel.app'),
       title: 'Irish Traffic Signs',
       description: 'Learn about Irish traffic signs and road safety.',
     }
