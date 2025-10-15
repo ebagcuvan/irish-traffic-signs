@@ -53,7 +53,21 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     const data = await response.json()
     
     const slug = params.slug as string
-    const signId = slug.split('_')[0] // Keep as string
+    // Extract the ID from slug - handle both 2-part and 3-part IDs
+    const slugParts = slug.split('_')
+    let signId: string
+    
+    if (slugParts.length >= 3 && slugParts[1] === 'custom') {
+      // Handle 3-part IDs like "warning_custom_083_side_road_left" -> "warning_custom_083"
+      signId = `${slugParts[0]}_${slugParts[1]}_${slugParts[2]}`
+    } else if (slugParts.length >= 2) {
+      // Handle 2-part IDs like "warning_001_accompanied_horses" -> "warning_001"
+      signId = `${slugParts[0]}_${slugParts[1]}`
+    } else {
+      // Fallback to first part only
+      signId = slugParts[0]
+    }
+    
     const signData = data.signs.find((s: TrafficSignData) => s.id === signId)
     
     if (!signData) {
