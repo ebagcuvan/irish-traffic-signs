@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { Smartphone, Download, Star, Award, BookOpen } from 'lucide-react'
 
@@ -41,10 +42,9 @@ export function AppPromotion() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                <Button size="lg" className="bg-white text-green-600 hover:bg-green-50 px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300" asChild>
+                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300" asChild>
                   <Link href="/app">
-                    <Download className="mr-2 h-5 w-5" />
-                    Download App
+                    📱 Download App
                   </Link>
                 </Button>
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold rounded-xl" asChild>
@@ -78,12 +78,12 @@ export function AppPromotion() {
                   <div className="p-2 rounded-lg bg-white/20">
                     <Smartphone className="h-5 w-5 text-yellow-300" />
                   </div>
-                  <span className="text-green-100">iOS & Android</span>
+                  <span className="text-green-100">Android</span>
                 </div>
               </div>
             </div>
 
-            {/* Mock Phone */}
+            {/* App Screenshot */}
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -91,70 +91,33 @@ export function AppPromotion() {
               viewport={{ once: true }}
               className="relative flex justify-center"
             >
-              <div className="relative w-64 h-[500px] bg-gray-900 rounded-[2.5rem] p-2 shadow-2xl">
-                <div className="w-full h-full bg-white rounded-[2rem] overflow-hidden">
-                  {/* Status Bar */}
-                  <div className="flex justify-between items-center px-4 py-2 bg-gray-50">
-                    <span className="text-xs font-medium">9:41</span>
-                    <div className="flex space-x-1">
-                      <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
-                      <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
-                      <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
-                    </div>
-                  </div>
-                  
-                  {/* App Content */}
-                  <div className="p-4">
-                    <div className="text-center mb-6">
-                      <div className="w-16 h-16 bg-green-100 rounded-2xl mx-auto mb-4 flex items-center justify-center">
-                        <BookOpen className="h-8 w-8 text-green-600" />
-                      </div>
-                      <h3 className="text-lg font-bold text-gray-900">Irish Traffic Signs</h3>
-                      <p className="text-sm text-gray-600">Learn & Practice</p>
-                    </div>
-                    
-                    <div className="space-y-3">
-                      <div className="bg-green-50 rounded-xl p-3">
-                        <div className="flex items-center justify-between mb-2">
-                          <span className="text-sm font-medium text-green-800">Progress</span>
-                          <span className="text-sm text-green-600">75%</span>
-                        </div>
-                        <div className="w-full bg-green-200 rounded-full h-2">
-                          <div className="bg-green-600 h-2 rounded-full" style={{ width: '75%' }}></div>
-                        </div>
-                      </div>
-                      
-                      <div className="grid grid-cols-2 gap-2">
-                        <div className="bg-gray-50 rounded-lg p-3 text-center">
-                          <div className="text-2xl mb-1">🚦</div>
-                          <p className="text-xs text-gray-600">Signs</p>
-                        </div>
-                        <div className="bg-gray-50 rounded-lg p-3 text-center">
-                          <div className="text-2xl mb-1">🧠</div>
-                          <p className="text-xs text-gray-600">Quiz</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div className="relative w-full max-w-sm">
+                <Image
+                  src="/appss.png"
+                  alt="Irish Traffic Signs Mobile App Screenshot"
+                  width={400}
+                  height={800}
+                  className="w-full h-auto rounded-2xl shadow-2xl"
+                  priority
+                />
+                
+                {/* Floating Elements */}
+                <motion.div
+                  animate={{ y: [0, -15, 0], rotate: [0, 5, 0] }}
+                  transition={{ duration: 3, repeat: Infinity }}
+                  className="absolute -top-6 -right-6 bg-gradient-to-r from-yellow-400 to-yellow-500 text-white p-4 rounded-2xl shadow-xl"
+                >
+                  <Star className="h-8 w-8" />
+                </motion.div>
+                
+                <motion.div
+                  animate={{ y: [0, 15, 0], rotate: [0, -5, 0] }}
+                  transition={{ duration: 3, repeat: Infinity, delay: 1.5 }}
+                  className="absolute -bottom-6 -left-6 bg-gradient-to-r from-green-400 to-green-500 text-white p-4 rounded-2xl shadow-xl"
+                >
+                  <Award className="h-8 w-8" />
+                </motion.div>
               </div>
-              
-              {/* Floating Elements */}
-              <motion.div
-                animate={{ y: [0, -15, 0], rotate: [0, 5, 0] }}
-                transition={{ duration: 3, repeat: Infinity }}
-                className="absolute -top-6 -right-6 bg-gradient-to-r from-yellow-400 to-yellow-500 text-white p-4 rounded-2xl shadow-xl"
-              >
-                <Star className="h-8 w-8" />
-              </motion.div>
-              
-              <motion.div
-                animate={{ y: [0, 15, 0], rotate: [0, -5, 0] }}
-                transition={{ duration: 3, repeat: Infinity, delay: 1.5 }}
-                className="absolute -bottom-6 -left-6 bg-gradient-to-r from-green-400 to-green-500 text-white p-4 rounded-2xl shadow-xl"
-              >
-                <Award className="h-8 w-8" />
-              </motion.div>
             </motion.div>
           </div>
         </motion.div>

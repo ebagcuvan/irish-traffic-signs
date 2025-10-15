@@ -57,14 +57,12 @@ export function Hero() {
             >
               <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center" asChild>
                 <Link href="/signs">
-                  Start Learning Free
-                  <ArrowRight className="ml-2 h-5 w-5" />
+                  🚀 Start Learning Free
                 </Link>
               </Button>
               <Button variant="outline" size="lg" className="border-green-600 text-green-600 hover:bg-green-50 dark:hover:bg-green-900 px-8 py-4 text-lg font-semibold rounded-xl flex items-center" asChild>
                 <Link href="/quiz">
-                  <Play className="mr-2 h-5 w-5" />
-                  Try Quiz
+                  🧠 Try Quiz
                 </Link>
               </Button>
             </motion.div>
