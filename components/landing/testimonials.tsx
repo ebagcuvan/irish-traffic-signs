@@ -26,27 +26,6 @@ const testimonials = [
     content: 'As someone new to Ireland, this platform was invaluable for understanding Irish road signs. The explanations are clear and helpful.',
     rating: 5,
   },
-  {
-    name: 'David Walsh',
-    role: 'Student',
-    avatar: '/appicon.png',
-    content: 'The personalized learning paths and favorites system helped me focus on the signs I needed to work on most.',
-    rating: 5,
-  },
-  {
-    name: 'Lisa Ryan',
-    role: 'Professional Driver',
-    avatar: '/appicon.png',
-    content: 'Even as an experienced driver, I found new insights about Irish traffic signs. The community features are great too.',
-    rating: 5,
-  },
-  {
-    name: 'James Murphy',
-    role: 'Driving Test Candidate',
-    avatar: '/appicon.png',
-    content: 'The mobile app is perfect for studying on the go. I used it during my lunch breaks and it made all the difference.',
-    rating: 5,
-  },
 ]
 
 export function Testimonials() {

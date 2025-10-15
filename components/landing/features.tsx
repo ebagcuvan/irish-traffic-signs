@@ -16,7 +16,7 @@ const features = [
   {
     icon: BookOpen,
     title: 'Comprehensive Sign Library',
-    description: 'Access 410+ Irish traffic signs with detailed explanations, Irish and English names, and real-world context.',
+    description: 'Access 400+ Irish traffic signs with detailed explanations, Irish and English names, and real-world context.',
     color: 'text-green-600 dark:text-green-400',
     bgColor: 'bg-green-100 dark:bg-green-900',
   },

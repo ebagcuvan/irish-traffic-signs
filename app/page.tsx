@@ -3,7 +3,7 @@ import { Features } from '@/components/landing/features'
 import { Stats } from '@/components/landing/stats'
 import { Testimonials } from '@/components/landing/testimonials'
 import { FAQ } from '@/components/landing/faq'
-import { Newsletter } from '@/components/landing/newsletter'
+import { AppPromotion } from '@/components/landing/newsletter'
 
 export default function HomePage() {
   return (
@@ -13,7 +13,7 @@ export default function HomePage() {
       <Stats />
       <Testimonials />
       <FAQ />
-      <Newsletter />
+      <AppPromotion />
     </div>
   )
 }

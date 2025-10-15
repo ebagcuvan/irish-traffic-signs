@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { BookOpen, Mail, Twitter, Github, Linkedin } from 'lucide-react'
+import { BookOpen } from 'lucide-react'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -11,16 +11,13 @@ export function Footer() {
       { name: 'Favorites', href: '/favorites' },
     ],
     support: [
-      { name: 'Help Center', href: '/help' },
-      { name: 'Contact Us', href: '/contact' },
+      { name: 'Help Center', href: '/help-center' },
       { name: 'FAQ', href: '/faq' },
-      { name: 'Bug Report', href: '/bug-report' },
     ],
     company: [
       { name: 'About Us', href: '/about' },
       { name: 'Privacy Policy', href: '/privacy' },
       { name: 'Terms of Service', href: '/terms' },
-      { name: 'Accessibility', href: '/accessibility' },
     ],
   }
 
@@ -41,32 +38,6 @@ export function Footer() {
             <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
               Master Irish traffic signs with interactive quizzes, detailed explanations, and personalized learning paths.
             </p>
-            <div className="flex space-x-4">
-              <a
-                href="mailto:contact@irishtrafficsigns.ie"
-                className="text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-              >
-                <Mail className="h-5 w-5" />
-              </a>
-              <a
-                href="https://twitter.com/irishtrafficsigns"
-                className="text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-              >
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a
-                href="https://github.com/irishtrafficsigns"
-                className="text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-              >
-                <Github className="h-5 w-5" />
-              </a>
-              <a
-                href="https://linkedin.com/company/irishtrafficsigns"
-                className="text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-              >
-                <Linkedin className="h-5 w-5" />
-              </a>
-            </div>
           </div>
 
           {/* Learn */}

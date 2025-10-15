@@ -25,7 +25,7 @@ export function Hero() {
               className="inline-flex items-center px-4 py-2 rounded-full bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 text-sm font-medium mb-6"
             >
               <Shield className="h-4 w-4 mr-2" />
-              Official Irish Traffic Signs
+              Learn Irish Road Signs
             </motion.div>
 
             <motion.h1
@@ -53,15 +53,15 @@ export function Hero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-16"
+              className="flex flex-row gap-4 justify-center lg:justify-start mb-16"
             >
-              <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300" asChild>
+              <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center" asChild>
                 <Link href="/signs">
                   Start Learning Free
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button variant="outline" size="lg" className="border-green-600 text-green-600 hover:bg-green-50 dark:hover:bg-green-900 px-8 py-4 text-lg font-semibold rounded-xl" asChild>
+              <Button variant="outline" size="lg" className="border-green-600 text-green-600 hover:bg-green-50 dark:hover:bg-green-900 px-8 py-4 text-lg font-semibold rounded-xl flex items-center" asChild>
                 <Link href="/quiz">
                   <Play className="mr-2 h-5 w-5" />
                   Try Quiz
@@ -79,14 +79,14 @@ export function Hero() {
                 <div className="flex items-center justify-center mb-3">
                   <Users className="h-8 w-8 text-green-600" />
                 </div>
-                <div className="text-3xl font-bold text-gray-900 dark:text-white mb-1">10K+</div>
+                <div className="text-3xl font-bold text-gray-900 dark:text-white mb-1">100+</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Active Learners</div>
               </div>
               <div className="text-center p-4 rounded-xl bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm border border-green-200 dark:border-green-700">
                 <div className="flex items-center justify-center mb-3">
                   <BookOpen className="h-8 w-8 text-green-600" />
                 </div>
-                <div className="text-3xl font-bold text-gray-900 dark:text-white mb-1">410+</div>
+                <div className="text-3xl font-bold text-gray-900 dark:text-white mb-1">400+</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Traffic Signs</div>
               </div>
               <div className="text-center p-4 rounded-xl bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm border border-green-200 dark:border-green-700">
