@@ -165,6 +165,8 @@ export default function QuizPage() {
       console.log('Generated questions:', questions.length)
       setQuizQuestions(questions)
       setStartTime(Date.now())
+      // Quiz başladıktan sonra URL'yi güncelle
+      updateURL(0)
     }
   }, [allSigns, quizStarted, questionCount])
 
@@ -421,7 +423,6 @@ export default function QuizPage() {
                 onClick={() => {
                   console.log('Start Quiz clicked!', { allSignsLength: allSigns.length, isLoading })
                   setQuizStarted(true)
-                  updateURL(0)
                 }}
                 size="lg"
                 className="px-8 py-4 text-lg"
