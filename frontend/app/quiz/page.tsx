@@ -84,12 +84,12 @@ export default function QuizPage() {
   //   }
   // }, [searchParams, quizQuestions.length, userAnswers, quizStarted])
 
-  // URL'yi güncelle
-  const updateURL = (questionIndex: number) => {
-    const newSearchParams = new URLSearchParams(searchParams.toString())
-    newSearchParams.set('page', (questionIndex + 1).toString())
-    router.push(`/quiz?${newSearchParams.toString()}`, { scroll: false })
-  }
+  // URL'yi güncelle - kaldırıldı
+  // const updateURL = (questionIndex: number) => {
+  //   const newSearchParams = new URLSearchParams(searchParams.toString())
+  //   newSearchParams.set('page', (questionIndex + 1).toString())
+  //   router.push(`/quiz?${newSearchParams.toString()}`, { scroll: false })
+  // }
 
   // Load signs from data file
   useEffect(() => {
@@ -239,7 +239,6 @@ export default function QuizPage() {
       setCurrentQuestion(nextQuestion)
       setSelectedAnswer(userAnswers[nextQuestion] || null)
       setShowResult(false)
-      updateURL(nextQuestion)
     } else {
       // Quiz completed
       const finalAnswers = {
@@ -257,7 +256,6 @@ export default function QuizPage() {
       setCurrentQuestion(prevQuestion)
       setSelectedAnswer(userAnswers[prevQuestion] || null)
       setShowResult(false)
-      updateURL(prevQuestion)
     }
   }
 
@@ -292,8 +290,6 @@ export default function QuizPage() {
     setCategory('')
     setDifficulty('MIXED')
     setQuestionCount(10)
-    // URL'yi temizle
-    router.push('/quiz', { scroll: false })
   }
 
   const getScoreColor = (accuracy: number) => {
@@ -676,7 +672,6 @@ export default function QuizPage() {
                       setCurrentQuestion(index)
                       setSelectedAnswer(userAnswers[index] || null)
                       setShowResult(false)
-                      updateURL(index)
                     }}
                     className={`w-8 h-8 rounded-full text-sm font-medium transition-colors ${
                       currentQuestion === index
