@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { pingGoogleSitemap, notifyGoogleBatch } from '../../../lib/google-indexing'
+import { pingGoogleSitemap, notifyGoogleBatch } from '../../lib/google-indexing'
 
 export async function POST(request: NextRequest) {
   try {

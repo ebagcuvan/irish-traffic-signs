@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { pingGoogleSitemap } from '../../../lib/google-indexing'
+import { pingGoogleSitemap } from '../../../../lib/google-indexing'
 
 export async function GET(request: NextRequest) {
   try {
