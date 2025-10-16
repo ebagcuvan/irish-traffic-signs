@@ -20,9 +20,10 @@ import {
 } from 'lucide-react'
 import Image from 'next/image'
 import { formatTextWithLineBreaks } from '@/lib/text-utils'
+import { trafficSignsData } from '../../lib/data'
 
 interface TrafficSignData {
-  id: number
+  id: string
   name: string
   category: string
   categories: string[]
@@ -66,17 +67,16 @@ export default function QuizPage() {
   const [isLoading, setIsLoading] = useState(false)
   const [quizQuestions, setQuizQuestions] = useState<QuizQuestion[]>([])
 
-  // Load signs from JSON file
+  // Load signs from data file
   useEffect(() => {
-    const loadSigns = async () => {
+    const loadSigns = () => {
       try {
         setIsLoading(true)
-        const response = await fetch('/data/traffic_signs.json')
-        const data = await response.json()
+        const data = trafficSignsData
         
         // Transform JSON data to TrafficSign format
         const transformedSigns: TrafficSign[] = data.signs.map((sign: TrafficSignData) => ({
-          id: sign.id.toString(),
+          id: sign.id,
           irishName: sign.name,
           englishName: sign.name,
           description: sign.description || sign.meaning || '',
@@ -100,8 +100,8 @@ export default function QuizPage() {
   }, [])
 
   // Map category from JSON to database enum
-  const mapCategory = (category: string): string => {
-    const categoryMap: { [key: string]: string } = {
+  const mapCategory = (category: string): 'WARNING' | 'REGULATORY' | 'MANDATORY' | 'INFORMATIONAL' | 'DIRECTIONAL' | 'ROADWORK' | 'OTHERS' | 'SUPPLEMENTARY' => {
+    const categoryMap: { [key: string]: 'WARNING' | 'REGULATORY' | 'MANDATORY' | 'INFORMATIONAL' | 'DIRECTIONAL' | 'ROADWORK' | 'OTHERS' | 'SUPPLEMENTARY' } = {
       'Warning Signs': 'WARNING',
       'Regulatory Signs': 'REGULATORY',
       'Mandatory Signs': 'MANDATORY',
@@ -117,7 +117,7 @@ export default function QuizPage() {
   }
 
   // Determine difficulty level based on sign properties
-  const determineDifficultyLevel = (sign: TrafficSignData): string => {
+  const determineDifficultyLevel = (sign: TrafficSignData): 'BEGINNER' | 'INTERMEDIATE' | 'ADVANCED' => {
     if (sign.category === 'Warning Signs' && sign.tags?.includes('complex')) {
       return 'ADVANCED'
     }
