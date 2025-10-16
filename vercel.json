@@ -17,5 +17,13 @@
   ],
   "buildCommand": "cd frontend && npm ci && npm run build",
   "outputDirectory": "frontend/.next",
-  "installCommand": "cd frontend && npm install"
+  "installCommand": "cd frontend && npm install",
+  "functions": {
+    "frontend/app/api/**/*.ts": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "env": {
+    "NODE_ENV": "production"
+  }
 }

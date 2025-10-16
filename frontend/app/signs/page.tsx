@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge'
 import { Search, Filter, Grid, List, Heart, Star, Eye, Clock, MapPin, ChevronDown } from 'lucide-react'
 import { SignCard } from '@/components/signs/sign-card'
 import Image from 'next/image'
+import trafficSignsData from '../../public/data/traffic_signs.json'
 
 interface TrafficSignData {
   id: number
@@ -34,11 +35,10 @@ export default function SignsPage() {
 
   // Load signs from JSON file
   useEffect(() => {
-    const loadSigns = async () => {
+    const loadSigns = () => {
       try {
         setIsLoading(true)
-        const response = await fetch('/data/traffic_signs.json')
-        const data = await response.json()
+        const data = trafficSignsData
         
         // Transform JSON data to TrafficSign format
         const transformedSigns: TrafficSign[] = data.signs.map((sign: TrafficSignData) => ({
