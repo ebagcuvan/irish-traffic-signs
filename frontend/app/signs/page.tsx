@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge'
 import { Search, Filter, Grid, List, Heart, Star, Eye, Clock, MapPin, ChevronDown } from 'lucide-react'
 import { SignCard } from '@/components/signs/sign-card'
 import Image from 'next/image'
-import trafficSignsData from '../../public/data/traffic_signs.json'
+import { trafficSignsData } from '../../lib/data'
 
 interface TrafficSignData {
   id: string
