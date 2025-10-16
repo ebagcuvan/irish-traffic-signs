@@ -71,18 +71,18 @@ export default function QuizPage() {
   const [quizQuestions, setQuizQuestions] = useState<QuizQuestion[]>([])
 
   // URL'den sayfa numarasını oku (sadece quiz başladıktan sonra)
-  useEffect(() => {
-    if (!quizStarted || quizQuestions.length === 0) return
-    
-    const pageParam = searchParams.get('page')
-    if (pageParam && !isNaN(Number(pageParam))) {
-      const pageNumber = Number(pageParam) - 1 // URL'de 1-based, state'te 0-based
-      if (pageNumber >= 0 && pageNumber < quizQuestions.length) {
-        setCurrentQuestion(pageNumber)
-        setSelectedAnswer(userAnswers[pageNumber] || null)
-      }
-    }
-  }, [searchParams, quizQuestions.length, userAnswers, quizStarted])
+  // useEffect(() => {
+  //   if (!quizStarted || quizQuestions.length === 0) return
+  //   
+  //   const pageParam = searchParams.get('page')
+  //   if (pageParam && !isNaN(Number(pageParam))) {
+  //     const pageNumber = Number(pageParam) - 1 // URL'de 1-based, state'te 0-based
+  //     if (pageNumber >= 0 && pageNumber < quizQuestions.length) {
+  //       setCurrentQuestion(pageNumber)
+  //       setSelectedAnswer(userAnswers[pageNumber] || null)
+  //     }
+  //   }
+  // }, [searchParams, quizQuestions.length, userAnswers, quizStarted])
 
   // URL'yi güncelle
   const updateURL = (questionIndex: number) => {
@@ -165,8 +165,6 @@ export default function QuizPage() {
       console.log('Generated questions:', questions.length)
       setQuizQuestions(questions)
       setStartTime(Date.now())
-      // Quiz başladıktan sonra URL'yi güncelle
-      updateURL(0)
     }
   }, [allSigns, quizStarted, questionCount])
 
