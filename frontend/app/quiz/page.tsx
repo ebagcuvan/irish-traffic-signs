@@ -312,12 +312,14 @@ export default function QuizPage() {
   }
 
   // Debug quiz state
+  const isButtonDisabled = isLoading || allSigns.length === 0
   console.log('Quiz state:', { 
     quizStarted, 
     allSignsLength: allSigns.length, 
     quizQuestionsLength: quizQuestions.length,
     currentQuestion,
-    isLoading 
+    isLoading,
+    isButtonDisabled
   })
 
   // Don't auto-start quiz, let user choose settings first
@@ -427,6 +429,10 @@ export default function QuizPage() {
                 size="lg"
                 className="px-8 py-4 text-lg"
                 disabled={isLoading || allSigns.length === 0}
+                style={{ 
+                  backgroundColor: (isLoading || allSigns.length === 0) ? '#gray' : '#blue',
+                  cursor: (isLoading || allSigns.length === 0) ? 'not-allowed' : 'pointer'
+                }}
               >
                 <Play className="h-5 w-5 mr-2" />
                 {isLoading ? 'Loading Signs...' : allSigns.length === 0 ? 'No Signs Available' : 'Start Quiz'}
