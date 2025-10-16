@@ -1,0 +1,23 @@
+# Backend files (not needed for frontend deployment)
+../backend/
+../data/
+backend/
+data/
+
+# Development files
+*.log
+.env.local
+.env.development.local
+.env.test.local
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
