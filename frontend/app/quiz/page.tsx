@@ -415,33 +415,31 @@ export default function QuizPage() {
 
             {/* Start Quiz Button */}
             <div className="text-center">
-              <button
+              <Button
                 onClick={() => {
                   console.log('Start Quiz clicked!', { allSignsLength: allSigns.length, isLoading })
                   setQuizStarted(true)
                 }}
                 disabled={isLoading || allSigns.length === 0}
-                style={{ 
-                  backgroundColor: (isLoading || allSigns.length === 0) ? '#gray' : '#blue',
-                  cursor: (isLoading || allSigns.length === 0) ? 'not-allowed' : 'pointer',
-                  padding: '16px 32px',
-                  fontSize: '18px',
-                  borderRadius: '8px',
-                  border: 'none',
-                  color: 'white',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '8px'
-                }}
+                size="lg"
+                className="px-12 py-6 text-xl font-semibold bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none disabled:shadow-lg"
               >
-                <Play className="h-5 w-5 mr-2" />
+                <Play className="h-6 w-6 mr-3" />
                 {isLoading ? 'Loading Signs...' : allSigns.length === 0 ? 'No Signs Available' : 'Start Quiz'}
-              </button>
+              </Button>
               
               {allSigns.length > 0 && (
-                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
-                  {allSigns.length} signs available for quiz
-                </p>
+                <div className="mt-6 p-4 bg-gradient-to-r from-green-50 to-blue-50 dark:from-green-900/20 dark:to-blue-900/20 rounded-xl border border-green-200 dark:border-green-800">
+                  <div className="flex items-center justify-center gap-2 text-green-700 dark:text-green-400">
+                    <Target className="h-5 w-5" />
+                    <span className="font-medium">
+                      {allSigns.length} signs available for quiz
+                    </span>
+                  </div>
+                  <p className="text-sm text-green-600 dark:text-green-500 mt-1">
+                    Choose your settings above and test your knowledge!
+                  </p>
+                </div>
               )}
             </div>
           </div>
