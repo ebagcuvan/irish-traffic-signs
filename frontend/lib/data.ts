@@ -1,31 +1,9497 @@
-// Traffic signs data
+// Auto-generated data file
 export const trafficSignsData = {
   "signs": [
     {
       "id": "warning_001",
       "name": "Accompanied Horses",
       "category": "Warning Signs",
-      "categories": ["Warning Signs"],
+      "categories": [
+        "Warning Signs"
+      ],
       "imagePath": "/signs/accompaniedhorses.png",
       "description": "Horses (ridden or led) may be on or crossing the road; they can react unpredictably to noise or sudden movement.",
       "meaning": "🐢 Reduce your speed.\n🤫 Avoid sudden movements or loud noises.\n🐎 Give priority and plenty of space to horses and handlers.",
-      "tags": ["accompanied", "horses", "animals", "warning"],
+      "tags": [
+        "accompanied",
+        "horses",
+        "animals",
+        "warning"
+      ],
       "shape": "Triangular",
       "color": "Red and white"
+    },
+    {
+      "id": "warning_002",
+      "name": "Barrier Board - 3 Bars",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/barrierboard3bars.png",
+      "description": "Start of a taper—lane/shoulder begins narrowing ahead.",
+      "meaning": "🔻 Indicates the lane will begin to narrow ahead.\n🐢 Slow down and merge safely.\n👀 Watch out for merging traffic.",
+      "tags": [
+        "barrier",
+        "board",
+        "3",
+        "taper",
+        "narrowing",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_003",
+      "name": "Barrier Board - 4 Bars",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/barrierboard4bars.png",
+      "description": "Mid‑taper—remaining merging distance is reduced.",
+      "meaning": "⚠️ Shows the remaining distance for merging is reduced.\n↔️ The lane merge is in progress.\n🚗 Proceed with caution, minding the traffic flow.",
+      "tags": [
+        "barrier",
+        "board",
+        "4",
+        "merge",
+        "taper",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_004",
+      "name": "Barrier Board - 5 Bars",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/barrierboard5bars.png",
+      "description": "Taper end—closure point is imminent or lane fully ending.",
+      "meaning": "🔚 Informs that the lane is about to end.\n❌ The lane closure point is approaching.\n➡️ Complete the lane merge safely.",
+      "tags": [
+        "barrier",
+        "board",
+        "5",
+        "taper",
+        "closure",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_005",
+      "name": "Cattle or Farm Animals",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/cattleorfarmanimals.png",
+      "description": "Farm animals may be walking, crossing, or standing on the carriageway.",
+      "meaning": "🐄 Warns that there may be farm animals on the road.\n🐢 Reduce your speed and be cautious.\n🛑 Be prepared to stop to give way to animals.",
+      "tags": [
+        "cattle",
+        "farm",
+        "animals",
+        "livestock",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_006",
+      "name": "Children Crossing",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/childrencrossing.png",
+      "description": "High likelihood of children crossing (school/play area proximity).",
+      "meaning": "🚸 Indicates you are approaching an area with a high likelihood of children crossing.\n🏫 Be especially careful near schools and playgrounds.\n🐢 Significantly reduce your speed.",
+      "tags": [
+        "children",
+        "crossing",
+        "school",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_007",
+      "name": "Compact Junction",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/compactjunction.png",
+      "description": "Tight/space‑restricted junction ahead; turning paths short.",
+      "meaning": "↔️ Informs of a tight and restricted junction ahead.\n🔄 Be prepared for sharp turns.\n🐢 Reduce your speed to maneuver.",
+      "tags": [
+        "compact",
+        "junction",
+        "turn",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_008",
+      "name": "Crossroads (Major Road) Ahead",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/crossroadsmajorroadahead.png",
+      "description": "Crossroads with a major road—higher traffic priority crossing.",
+      "meaning": "➕ Indicates an upcoming intersection with a major road.\n🚗 Traffic on the intersecting road may have priority.\n🛑 Be prepared to stop or yield.",
+      "tags": [
+        "crossroads",
+        "major",
+        "junction",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_009",
+      "name": "Crossroads Ahead at Dual C'way",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/crossroadsaheadatdualcway.png",
+      "description": "Crossroads intersects a dual carriageway—fast cross traffic possible.",
+      "meaning": "🛣️ Informs of an intersection with a dual carriageway ahead.\n💨 Traffic on the intersecting road may be fast.\n👀 Carefully check for traffic from both directions.",
+      "tags": [
+        "crossroads",
+        "dual",
+        "carriageway",
+        "junction",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_010",
+      "name": "Crossroads at Sharp Corner - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/crossroadsatsharpcornerleft.png",
+      "description": "Crossroads hidden within/after a sharp left corner limiting sight.",
+      "meaning": "↩️ Indicates a crossroads within or immediately after a sharp left corner.\n🙈 Visibility is limited.\n🐢 Significantly reduce your speed before entering the corner.",
+      "tags": [
+        "crossroads",
+        "sharp",
+        "corner",
+        "left",
+        "junction",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_011",
+      "name": "Crossroads at Sharp Corner - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/crossroadsatsharpcornerright.png",
+      "description": "Crossroads appears during/after a sharp right bend—limited view.",
+      "meaning": "↪️ Informs of a crossroads within or immediately after a sharp right corner.\n🙈 Your line of sight may be limited.\n🐢 Be especially cautious and slow down when approaching the junction.",
+      "tags": [
+        "crossroads",
+        "sharp",
+        "corner",
+        "right",
+        "junction",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_012",
+      "name": "Crossroads on Bend - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/crossroadsonbendleft.png",
+      "description": "Crossroads located along a left bend—restricted approach visibility.",
+      "meaning": "⤴️ Indicates a crossroads located on a left bend ahead.\n👀 Your visibility may be restricted when approaching the junction.\n⚠️ Slow down and be prepared for unexpected vehicles.",
+      "tags": [
+        "crossroads",
+        "bend",
+        "left",
+        "visibility",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_013",
+      "name": "Crossroads on Bend - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/crossroadsonbendright.png",
+      "description": "Crossroads located along a right bend—sightlines compressed.",
+      "meaning": "⤵️ Informs of a crossroads on a right bend.\n👀 You may have difficulty seeing the junction and other vehicles due to the bend.\n🐢 Reduce your speed for a safe passage.",
+      "tags": [
+        "crossroads",
+        "bend",
+        "right",
+        "visibility",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_014",
+      "name": "Crossroads on Dual C'way",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/crossroadsondualcway.png",
+      "description": "Crossroads positioned on a dual carriageway—higher closing speeds.",
+      "meaning": "➕ Indicates a crossroads on a dual carriageway.\n🚀 The speed of approaching vehicles may be high.\n🛑 Be very careful before entering the junction.",
+      "tags": [
+        "crossroads",
+        "dual",
+        "carriageway",
+        "junction",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_015",
+      "name": "Crossroads",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/crossroads.png",
+      "description": "Standard crossroads ahead with potential multi‑direction conflict.",
+      "meaning": "➕ Informs of a four-way intersection ahead.\n↔️ There may be vehicles coming from different directions.\n👀 Check the road carefully before proceeding.",
+      "tags": [
+        "crossroads",
+        "junction",
+        "intersection",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_016",
+      "name": "Crosswind",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/crosswind.png",
+      "description": "Area subject to strong lateral wind gusts affecting stability.",
+      "meaning": "🌬️ Warns of possible strong crosswinds.\n🚗 The wind can affect your vehicle's stability.\n🚚 High-sided vehicles should be particularly cautious.",
+      "tags": [
+        "crosswind",
+        "wind",
+        "gusts",
+        "stability",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_017",
+      "name": "Cyclists Dismount",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/cyclistsdismount.png",
+      "description": "Cyclists must dismount and proceed on foot beyond this point.",
+      "meaning": "🚲 Indicates that cyclists must get off their bikes beyond this point.\n🚶 You must proceed on foot.\n🛑 Cycling is prohibited.",
+      "tags": [
+        "cyclists",
+        "dismount",
+        "foot",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_018",
+      "name": "Cyclists",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/cyclists.png",
+      "description": "Likelihood of cyclists sharing or entering the carriageway.",
+      "meaning": "🚴 Warns that cyclists may be on the road or joining it.\n↔️ Give them plenty of space when passing.\n👀 Be aware of their sudden movements.",
+      "tags": [
+        "cyclists",
+        "bicycles",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_019",
+      "name": "Deer or Wild Animals",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/deerorwildanimals.png",
+      "description": "Wild animals may cross unpredictably, especially at dawn or dusk.",
+      "meaning": "🦌 Indicates that deer or other wild animals may suddenly appear on the road.\n🌅 Be especially cautious at dawn and dusk.\n🐢 Reduce your speed and keep your eyes on the road.",
+      "tags": [
+        "deer",
+        "wild",
+        "animals",
+        "dawn",
+        "dusk",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_020",
+      "name": "Drive on Left (Entry Point)",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/driveonleftentrypoint.png",
+      "description": "Reminder to keep left (often at borders or car parks).",
+      "meaning": "⬅️ Reminds you to drive on the left.\n🚗 Often found at entry points like ports or airports.\n🌍 Foreign drivers need to be cautious.",
+      "tags": [
+        "drive",
+        "left",
+        "reminder",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_021",
+      "name": "Drive on Left (Repeater)",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/driveonleftrepeater.png",
+      "description": "Reiterates left-side driving in areas with visiting drivers.",
+      "meaning": "⬅️ Reiterates that you must continue to drive on the left.\n🔁 Emphasizes you are in an area where this rule applies.\n👀 Often found in areas with a high number of tourists.",
+      "tags": [
+        "drive",
+        "left",
+        "repeater",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_022",
+      "name": "Dual Carriageway Ends",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/dualcarriagewayends.png",
+      "description": "Separation ends and two-way opposing traffic resumes.",
+      "meaning": "↕️ The divided highway is ending ahead.\n🚗 Prepare for two-way traffic with oncoming vehicles.\n⚠️ Stay in your lane and be aware of opposing cars.",
+      "tags": [
+        "dual",
+        "carriageway",
+        "ends",
+        "two-way",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_023",
+      "name": "Falling Rocks",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/fallingrocks.png",
+      "description": "Risk of rockfall or debris on the carriageway.",
+      "meaning": "⛰️ Warns of the potential for rocks falling onto the road.\n🪨 Be alert for debris on the carriageway.\n🚗 Proceed with caution and avoid stopping in this area.",
+      "tags": [
+        "falling",
+        "rocks",
+        "debris",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_024",
+      "name": "Ford",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/ford.png",
+      "description": "Shallow water crossing of variable depth.",
+      "meaning": "🌊 Indicates a shallow water crossing ahead.\n🚗 Proceed with caution as water depth may vary.\n🐢 Drive slowly to avoid stalling or losing control.",
+      "tags": [
+        "ford",
+        "water",
+        "crossing",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_025",
+      "name": "Humpback Bridge",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/humpbackbridge.png",
+      "description": "Steep profile bridge with restricted crest visibility.",
+      "meaning": "🌉 Warns of a steep bridge ahead which limits visibility.\n🐢 Reduce your speed as you cannot see oncoming traffic.\n👀 Be cautious of vehicles from the other side.",
+      "tags": [
+        "humpback",
+        "bridge",
+        "crest",
+        "visibility",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_026",
+      "name": "Jaunting Cars",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/jauntingcars.png",
+      "description": "Horse-drawn tourist vehicles may travel slowly.",
+      "meaning": "🐴 Be aware of slow-moving, horse-drawn tourist carriages.\n⏳ Be patient and prepare to slow down.\n↔️ Overtake only when it is safe, giving plenty of space.",
+      "tags": [
+        "jaunting",
+        "cars",
+        "horse-drawn",
+        "slow",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_027",
+      "name": "Junction With Major Road at Sharp Corner - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/junctionwithmajorroadatsharpcornerleft.png",
+      "description": "Major road junction emerges at or after a sharp left bend.",
+      "meaning": "↩️ A major road junction is located at or after a sharp left bend.\n🙈 Visibility of the junction is severely limited.\n🐢 Slow down significantly before the bend.",
+      "tags": [
+        "junction",
+        "major",
+        "sharp",
+        "left",
+        "corner",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_028",
+      "name": "Junction With Major Road at Sharp Corner - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/junctionwithmajorroadatsharpcornerright.png",
+      "description": "Major road junction appears inside or after a sharp right corner.",
+      "meaning": "↪️ A junction with a major road appears within or after a sharp right corner.\n🙈 Your view of traffic on the major road is restricted.\n🐢 Approach with extreme caution and be prepared to stop.",
+      "tags": [
+        "junction",
+        "major",
+        "sharp",
+        "right",
+        "corner",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_029",
+      "name": "Lane Loss (Four to Three Lanes) - Left (with 400m panel)",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/lanelossfourtothreelanesleftwith400mpanel.png",
+      "description": "Left lane ends in 400 m—four lanes reducing to three.",
+      "meaning": "🔢 The number of lanes is reducing from four to three.\n⬅️ The left-most lane will end in 400 metres.\n🚗 Prepare to merge into the adjacent lane safely.",
+      "tags": [
+        "lane",
+        "loss",
+        "four",
+        "three",
+        "left",
+        "400m",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_030",
+      "name": "Lane Loss (Four to Three Lanes) - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/lanelossfourtothreelanesright.png",
+      "description": "Right lane terminating and capacity reducing.",
+      "meaning": "🔢 The road ahead narrows from four to three lanes.\n➡️ The right-most lane is ending.\n🚗 Move into a continuing lane in good time.",
+      "tags": [
+        "lane",
+        "loss",
+        "four",
+        "three",
+        "right",
+        "termination",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_031",
+      "name": "Lane Loss (Three to Two Lanes) - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/lanelossthreetotwolanesleft.png",
+      "description": "Left lane ends—three lanes reducing to two.",
+      "meaning": "🔢 The number of lanes reduces from three to two ahead.\n⬅️ The left lane is about to end.\n🚗 Prepare to merge safely to the right.",
+      "tags": [
+        "lane",
+        "loss",
+        "three",
+        "two",
+        "left",
+        "merge",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_032",
+      "name": "Lane Loss (Three to Two Lanes) - Right (with 200m panel)",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/lanelossthreetotwolanesrightwith200mpanel.png",
+      "description": "Right lane ends in 200 m—space available but diminishing.",
+      "meaning": "🔢 Three lanes will become two in 200 metres.\n➡️ The right-hand lane is closing.\n🚗 Traffic must merge to the left.",
+      "tags": [
+        "lane",
+        "loss",
+        "three",
+        "two",
+        "right",
+        "200m",
+        "merge",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_033",
+      "name": "Lane Loss (Two to One Lane) - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/lanelosstwotoonelaneleft.png",
+      "description": "Two lanes narrowing to single—left lane terminating.",
+      "meaning": "↔️ The road narrows from two lanes to a single lane.\n⬅️ The left lane is ending.\n🚗 All traffic must merge to the right.",
+      "tags": [
+        "lane",
+        "loss",
+        "two",
+        "one",
+        "left",
+        "narrowing",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_034",
+      "name": "Lane Loss (Two to One Lane) - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/lanelosstwotoonelaneright.png",
+      "description": "Two lanes to one—right lane ends.",
+      "meaning": "↔️ Two lanes merge into one ahead.\n➡️ The right lane is ending.\n🚗 All traffic must merge to the left.",
+      "tags": [
+        "lane",
+        "loss",
+        "two",
+        "one",
+        "right",
+        "merge",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_035",
+      "name": "Level Crossing Countdown Marker (200 m)",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/levelcrossingcountdownmarker200m.png",
+      "description": "200 m to protected/unprotected level crossing.",
+      "meaning": "🚆 You are approaching a railway level crossing.\n📏 This marker is 200 metres from the crossing.\n🐢 Prepare to slow down and possibly stop.",
+      "tags": [
+        "level",
+        "crossing",
+        "countdown",
+        "200m",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_036",
+      "name": "Level Crossing Countdown Marker (300 m)",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/levelcrossingcountdownmarker300m.png",
+      "description": "300 m advance marker for level crossing.",
+      "meaning": "🚆 You are approaching a railway level crossing.\n📏 This marker is 300 metres from the crossing.\n👀 Be alert for warning signals.",
+      "tags": [
+        "level",
+        "crossing",
+        "countdown",
+        "300m",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_037",
+      "name": "Level Crossing Countdown Marker 100 m",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/levelcrossingcountdownmarker100m.png",
+      "description": "100 m to level crossing—imminent hazard zone.",
+      "meaning": "🚆 A railway level crossing is very close.\n📏 You are now 100 metres away.\n🛑 Be prepared to stop for trains.",
+      "tags": [
+        "level",
+        "crossing",
+        "countdown",
+        "100m",
+        "hazard",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_038",
+      "name": "Level Crossing With Flashing Red Signals",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/levelcrossingwithflashingredsignals.png",
+      "description": "Crossing protected by flashing red lights (and possibly barriers).",
+      "meaning": "🚆 Warns of a railway crossing with automated signals.\n🚨 Flashing red lights mean you must stop.\n🚧 Barriers may also lower to block the road.",
+      "tags": [
+        "level",
+        "crossing",
+        "flashing",
+        "red",
+        "signals",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_039",
+      "name": "Level Crossing With No Flashing Red Signals",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/levelcrossingwithnoflashingredsignals.png",
+      "description": "Passive/unguarded crossing relying on user observation.",
+      "meaning": "🚆 Indicates a railway crossing without automatic lights or barriers.\n👀 You are responsible for checking for trains.\n🛑 Stop, look, and listen before crossing.",
+      "tags": [
+        "level",
+        "crossing",
+        "unguarded",
+        "passive",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_040",
+      "name": "Loop",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/loop.png",
+      "description": "Circular or looping roadway geometry ahead.",
+      "meaning": "🔄 Warns of a loop in the road ahead.\n🐢 Reduce your speed to safely navigate the sharp curve.\n↔️ Be aware of the unusual road layout.",
+      "tags": [
+        "loop",
+        "circular",
+        "geometry",
+        "roadway",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_041",
+      "name": "Low-flying Aircraft",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/lowflyingaircraft.png",
+      "description": "Sudden noise/distraction from low aircraft possible.",
+      "meaning": "✈️ Be aware of low-flying aircraft in this area.\n🔊 Expect sudden and loud noise.\n🚗 Stay focused on the road and do not get distracted.",
+      "tags": [
+        "low",
+        "flying",
+        "aircraft",
+        "noise",
+        "distraction",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_042",
+      "name": "Maximum Axle Weight",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/maximumaxleweight.png",
+      "description": "Structural limit—axle load beyond stated value prohibited.",
+      "meaning": "⚖️ Indicates a weight limit per axle for a bridge or road section ahead.\n🚚 Vehicles exceeding this limit are prohibited.\n🛑 Check your vehicle's axle weight before proceeding.",
+      "tags": [
+        "maximum",
+        "axle",
+        "weight",
+        "limit",
+        "load",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_043",
+      "name": "Maximum Gross Weight (Traffic Management)",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/maximumgrossweighttrafficmanagement.png",
+      "description": "Weight restriction for traffic management / infrastructure protection.",
+      "meaning": "⚖️ Indicates a total vehicle weight restriction for this route.\n🚚 This limit is for traffic management or to protect the road.\n❌ Overweight vehicles must use an alternative route.",
+      "tags": [
+        "maximum",
+        "gross",
+        "weight",
+        "restriction",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_044",
+      "name": "Maximum Gross Weight",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/maximumgrossweight.png",
+      "description": "Absolute gross weight ceiling for structure/road segment.",
+      "meaning": "🌉 Indicates the absolute maximum weight for a bridge or structure.\n🚚 Vehicles weighing more than the amount shown are prohibited.\n⚠️ Exceeding the limit could cause structural damage.",
+      "tags": [
+        "maximum",
+        "gross",
+        "weight",
+        "ceiling",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_045",
+      "name": "Maximum Vehicle Length",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/maximumvehiclelength.png",
+      "description": "Length beyond stated value cannot safely navigate ahead.",
+      "meaning": "📏 Warns of a vehicle length restriction ahead.\n🚚 Vehicles longer than the stated limit are prohibited.\n🔄 This is usually due to sharp turns or tight spaces.",
+      "tags": [
+        "maximum",
+        "vehicle",
+        "length",
+        "restriction",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_046",
+      "name": "Maximum Vehicle Width",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/maximumvehiclewidth.png",
+      "description": "Restricted width (bridge, chicane, narrowing) ahead.",
+      "meaning": "↔️ Warns of a width restriction ahead.\n🚚 Vehicles wider than the stated limit are not allowed.\n🌉 Often used for narrow bridges or lanes.",
+      "tags": [
+        "maximum",
+        "vehicle",
+        "width",
+        "restricted",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_047",
+      "name": "Merging and Diverging Traffic",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/merginganddivergingtraffic.png",
+      "description": "Combined merge and split movements create multi‑direction conflict.",
+      "meaning": "🔀 Warns of a complex junction with multiple merging and diverging lanes.\n👀 Be alert for traffic changing lanes from several directions.\n🐢 Reduce speed and be prepared for sudden movements.",
+      "tags": [
+        "merging",
+        "diverging",
+        "traffic",
+        "conflict",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_048",
+      "name": "Merging Traffic From Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/mergingtrafficfromleft.png",
+      "description": "Additional traffic will enter from left.",
+      "meaning": "🚗 Traffic will be merging from the left-hand side.\n↔️ Be prepared to adjust your speed and position.\n👀 Watch for vehicles entering your lane.",
+      "tags": [
+        "merging",
+        "traffic",
+        "left",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_049",
+      "name": "Merging With Traffic From Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/mergingwithtrafficfromright.png",
+      "description": "Traffic streams from right joining main flow.",
+      "meaning": "🚗 Traffic will be merging from the right-hand side.\n↔️ Be prepared to make space for joining vehicles.\n🐢 Adjust your speed to allow for a safe merge.",
+      "tags": [
+        "merging",
+        "traffic",
+        "right",
+        "flow",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_050",
+      "name": "Mini Roundabout Ahead",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/miniroundaboutahead.png",
+      "description": "Small roundabout—tight geometry; right‑hand priority applies.",
+      "meaning": "🔄 Warns of a mini-roundabout ahead.\n➡️ Give way to traffic already on the roundabout (from your right).\n🐢 Slow down due to the tight turning circle.",
+      "tags": [
+        "mini",
+        "roundabout",
+        "priority",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_051",
+      "name": "Multiple Chevrons (Three) - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/multiplechevronsthreeleft.png",
+      "description": "Sharp left bend indicated by triple chevrons.",
+      "meaning": "↩️ Indicates a very sharp bend to the left.\n🐢 Reduce your speed significantly.\n🚗 Keep to your side of the road.",
+      "tags": [
+        "chevrons",
+        "three",
+        "left",
+        "bend",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_052",
+      "name": "Multiple Chevrons (Three) - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/multiplechevronsthreeright.png",
+      "description": "Sharp right bend indicated by triple chevrons.",
+      "meaning": "↪️ Indicates a very sharp bend to the right.\n🐢 Slow down considerably before the bend.\n🚗 Stay well within your lane as you turn.",
+      "tags": [
+        "chevrons",
+        "three",
+        "right",
+        "bend",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_053",
+      "name": "Multiple Chevrons (Two) - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/multiplechevronstwoleft.png",
+      "description": "Noticeable left bend with dual chevrons.",
+      "meaning": "↩️ Warns of a significant bend to the left.\n🐢 Adjust your speed accordingly.\n👀 Follow the direction of the chevrons.",
+      "tags": [
+        "chevrons",
+        "two",
+        "left",
+        "bend",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_054",
+      "name": "Multiple Chevrons (Two) - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/multiplechevronstworight.png",
+      "description": "Noticeable right bend with dual chevrons.",
+      "meaning": "↪️ Warns of a significant bend to the right.\n🐢 Reduce your speed before entering the bend.\n👀 Follow the curve of the road as indicated.",
+      "tags": [
+        "chevrons",
+        "two",
+        "right",
+        "bend",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_055",
+      "name": "One-Lane Section",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/onelanesection.png",
+      "description": "Carriageway narrows to single lane—two‑way traffic must negotiate.",
+      "meaning": "↔️ The road ahead narrows to a single lane for two-way traffic.\n🚗 You must give way to oncoming traffic if the obstruction is on your side.\n⏳ Be prepared to stop and wait for a clear passage.",
+      "tags": [
+        "one",
+        "lane",
+        "section",
+        "narrow",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_056",
+      "name": "Opening Bridge",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/openingbridge.png",
+      "description": "Movable bridge may lift for vessel passage.",
+      "meaning": "🌉 Warns of a movable bridge ahead.\n🚢 The bridge may open to allow boats to pass.\n🛑 Be prepared to stop for lights and barriers.",
+      "tags": [
+        "opening",
+        "bridge",
+        "movable",
+        "vessel",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_057",
+      "name": "Other Hazard",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/otherhazard.png",
+      "description": "Non‑standard hazard ahead (see supplementary plate if present).",
+      "meaning": "❗️ Indicates a potential hazard that is not shown on other standard signs.\nℹ️ Look for a supplementary plate below for more information.\n🐢 Proceed with caution and be prepared for the unexpected.",
+      "tags": [
+        "other",
+        "hazard",
+        "nonstandard",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_058",
+      "name": "Overhead Electrical Cables",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/overheadelectricalcables.png",
+      "description": "Low or exposed overhead cables—risk for tall equipment or loads.",
+      "meaning": "⚡️ Warns of overhead electrical cables.\n🚚 High vehicles or equipment should take extreme care.\n⚠️ Danger of electrocution if contact is made.",
+      "tags": [
+        "overhead",
+        "electrical",
+        "cables",
+        "tall",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_059",
+      "name": "Pedestrian Cycle Crossing",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/pedestriancyclecrossing.png",
+      "description": "Shared crossing for pedestrians and cyclists.",
+      "meaning": "🚶 Indicates a crossing point used by both pedestrians and cyclists.\n🚴 Be prepared to stop for people crossing.\n🐢 Approach the crossing at a reduced speed.",
+      "tags": [
+        "pedestrian",
+        "cycle",
+        "crossing",
+        "shared",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_060",
+      "name": "Pedestrians Crossing",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/pedestrianscrossing.png",
+      "description": "Increased likelihood of pedestrians crossing ahead.",
+      "meaning": "🚶 Warns of a place where pedestrians are likely to be crossing the road.\n🛑 Be prepared to slow down or stop.\n👀 Watch carefully for people on or near the road.",
+      "tags": [
+        "pedestrians",
+        "crossing",
+        "likelihood",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_061",
+      "name": "Pedestrians",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/pedestrians.png",
+      "description": "Pedestrians may be present or walking near the carriageway.",
+      "meaning": "🚶 Be aware that pedestrians may be walking along the road.\n↔️ Give them plenty of space.\n🐢 Drive carefully and at a reduced speed.",
+      "tags": [
+        "pedestrians",
+        "presence",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_062",
+      "name": "Prohibited Number of Axles",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/prohibitednumberofaxles.png",
+      "description": "Vehicles with a certain axle count prohibited.",
+      "meaning": "🚚 Prohibits entry for vehicles with the number of axles shown.\n❌ This restriction may be due to weak road structures or tight turns.\n🗺️ Find an alternative route if your vehicle is affected.",
+      "tags": [
+        "prohibited",
+        "axles",
+        "count",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_063",
+      "name": "Queues Likely",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/queueslikely.png",
+      "description": "Sudden queues or stationary traffic may form.",
+      "meaning": "🚗 Warns that you may encounter sudden traffic queues ahead.\n🛑 Be prepared for slow-moving or stationary traffic.\n↔️ Keep a safe distance from the vehicle in front.",
+      "tags": [
+        "queues",
+        "stationary",
+        "traffic",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_064",
+      "name": "Restricted Headroom",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/restrictedheadroom.png",
+      "description": "Limited vertical clearance ahead.",
+      "meaning": "🌉 Warns of low overhead clearance ahead.\n↕️ The maximum safe height is usually indicated.\n🚚 Tall vehicles must check the height limit before proceeding.",
+      "tags": [
+        "restricted",
+        "headroom",
+        "clearance",
+        "vertical",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_065",
+      "name": "Risk of Grounding",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/riskofgrounding.png",
+      "description": "Sharp crest or dip could cause long or low vehicles to ground.",
+      "meaning": "🚚 Warns that long or low vehicles are at risk of getting stuck.\n⛰️ This is due to a steep hump or dip in the road.\n🐢 Approach slowly to avoid damage to the underside of your vehicle.",
+      "tags": [
+        "risk",
+        "grounding",
+        "crest",
+        "dip",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_066",
+      "name": "Road Depression",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/roaddepression.png",
+      "description": "Dip in roadway may hide hazards or ponding.",
+      "meaning": "🕳️ Warns of a dip or depression in the road surface.\n🐢 Reduce your speed to maintain control.\n💧 Be aware of potential water pooling after rain.",
+      "tags": [
+        "road",
+        "depression",
+        "dip",
+        "hazards",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_067",
+      "name": "Road Divides",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/roaddivides.png",
+      "description": "Roadway splits into separated carriageways.",
+      "meaning": "➗ The road ahead splits into two separate carriageways.\n⬅️ Keep to the appropriate side of the physical barrier.\n🚗 Prepare for a dual carriageway layout.",
+      "tags": [
+        "road",
+        "divides",
+        "split",
+        "carriageways",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_068",
+      "name": "Road Hump",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/roadhump.png",
+      "description": "Speed or traffic calming hump present.",
+      "meaning": "〰️ Warns of a road hump or speed bump ahead.\n🐢 Slow down to avoid discomfort or damage to your vehicle.\n🚗 These are used as a traffic calming measure.",
+      "tags": [
+        "road",
+        "hump",
+        "speed",
+        "calming",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_069",
+      "name": "Road Narrows on Both Sides",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/roadnarrowsonbothsides.png",
+      "description": "Symmetrical narrowing reduces lateral clearance.",
+      "meaning": "↔️ The road ahead narrows from both sides.\n🚗 Be aware of reduced space for vehicles.\n🐢 Slow down and be prepared to give way if necessary.",
+      "tags": [
+        "road",
+        "narrows",
+        "both",
+        "sides",
+        "clearance",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_070",
+      "name": "Road Narrows on Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/roadnarrowsonleft.png",
+      "description": "Left edge constricts.",
+      "meaning": "↔️ The road narrows on the left side ahead.\n🚗 Keep to the center of your lane.\n👀 Watch for cyclists or pedestrians who may have less space.",
+      "tags": [
+        "road",
+        "narrows",
+        "left",
+        "constricts",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_071",
+      "name": "Road Narrows on Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/roadnarrowsonright.png",
+      "description": "Right side narrowing reduces clearance.",
+      "meaning": "↔️ The road narrows on the right side ahead.\n🚗 Be aware of reduced clearance.\n👀 Be mindful of oncoming traffic.",
+      "tags": [
+        "road",
+        "narrows",
+        "right",
+        "clearance",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_072",
+      "name": "Roundabout Ahead",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/roundaboutahead.png",
+      "description": "Roundabout approaching; priority to traffic from right.",
+      "meaning": "🔄 Warns of a roundabout ahead.\n➡️ Give way to traffic approaching from your right.\n🐢 Reduce your speed on approach and select the correct lane.",
+      "tags": [
+        "roundabout",
+        "ahead",
+        "priority",
+        "right",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_073",
+      "name": "School Ahead",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/schoolahead.png",
+      "description": "School zone—children may cross suddenly.",
+      "meaning": "🏫 You are approaching a school.\n🚸 Be extremely cautious as children may be crossing.\n🐢 Drive slowly, especially during school opening and closing times.",
+      "tags": [
+        "school",
+        "ahead",
+        "children",
+        "zone",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_074",
+      "name": "Series of Sharp Bends - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/seriesofsharpbendsleft.png",
+      "description": "Multiple sharp left bends ahead.",
+      "meaning": "↩️ Warns of a series of bends ahead, the first of which is to the left.\n🐢 Reduce your speed for the entire section.\n🚗 Be prepared for multiple changes in direction.",
+      "tags": [
+        "series",
+        "sharp",
+        "bends",
+        "left",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_075",
+      "name": "Series of Sharp Bends - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/seriesofsharpbendsright.png",
+      "description": "Multiple sharp right bends.",
+      "meaning": "↪️ Warns of a series of bends ahead, the first of which is to the right.\n🐢 Slow down before the first bend.\n🚗 Anticipate further curves and adjust your driving.",
+      "tags": [
+        "series",
+        "sharp",
+        "bends",
+        "right",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_076",
+      "name": "Series of Sharp Corners - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/seriesofsharpcornersleft.png",
+      "description": "Several tight left corners.",
+      "meaning": "↩️ Indicates multiple tight corners ahead, starting with a left turn.\n🐢 A significant reduction in speed is required.\n🚗 Be cautious of limited visibility through the corners.",
+      "tags": [
+        "series",
+        "sharp",
+        "corners",
+        "left",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_077",
+      "name": "Series of Sharp Corners - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/seriesofsharpcornersright.png",
+      "description": "Several tight right corners.",
+      "meaning": "↪️ Indicates multiple tight corners ahead, starting with a right turn.\n🐢 Slow down considerably before the first corner.\n🚗 Maintain a safe speed throughout the series of turns.",
+      "tags": [
+        "series",
+        "sharp",
+        "corners",
+        "right",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_078",
+      "name": "Sharp Bend - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/sharpbendleft.png",
+      "description": "Pronounced left bend.",
+      "meaning": "↩️ There is a sharp bend to the left ahead.\n🐢 Reduce your speed before you enter the bend.\n🚗 Keep well to your side of the road.",
+      "tags": [
+        "sharp",
+        "bend",
+        "left",
+        "pronounced",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_079",
+      "name": "Sharp Bend - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/sharpbendright.png",
+      "description": "Sharp right bend with reduced visibility.",
+      "meaning": "↪️ There is a sharp bend to the right ahead.\n🐢 Slow down, as visibility may be limited.\n🚗 Stay in your lane throughout the bend.",
+      "tags": [
+        "sharp",
+        "bend",
+        "right",
+        "visibility",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_080",
+      "name": "Sharp Corner - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/sharpcornerleft.png",
+      "description": "Tight left corner requiring extra speed reduction.",
+      "meaning": "↩️ Indicates a tight, corner-like turn to the left.\n🐢 Requires greater speed reduction than a simple bend.\n👀 Be prepared for a sudden change in direction.",
+      "tags": [
+        "sharp",
+        "corner",
+        "left",
+        "speed",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_081",
+      "name": "Sharp Corner - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/sharpcornerright.png",
+      "description": "Tight right corner causing sudden direction change.",
+      "meaning": "↪️ Indicates a tight, corner-like turn to the right.\n🐢 You must slow down significantly to navigate the corner safely.\n🚗 Stay alert for the abrupt change in the road's direction.",
+      "tags": [
+        "sharp",
+        "corner",
+        "right",
+        "direction",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_082",
+      "name": "Sheep",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/sheep.png",
+      "description": "Sheep may wander or flock on roadway.",
+      "meaning": "🐑 Warns that sheep may be on or near the road.\n🚶 They can move unpredictably.\n🐢 Slow down and be prepared to stop.",
+      "tags": [
+        "sheep",
+        "animals",
+        "wander",
+        "flock",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_083",
+      "name": "Side Road - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/sideroadleft.png",
+      "description": "Side road enters from left.",
+      "meaning": "↖️ Indicates a junction with a minor road joining from the left.\n🚗 Be aware of traffic entering or exiting the main road.\n👀 Watch for vehicles pulling out unexpectedly.",
+      "tags": [
+        "side",
+        "road",
+        "left",
+        "entry",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_084",
+      "name": "Side Road - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/sideroadright.png",
+      "description": "Side road enters from right.",
+      "meaning": "↗️ Indicates a junction with a minor road joining from the right.\n🚗 Be aware of traffic entering or leaving the side road.\n👀 Be cautious of vehicles turning onto your road.",
+      "tags": [
+        "side",
+        "road",
+        "right",
+        "entry",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_085",
+      "name": "Side Road on Dual C'way - (No CR Break)",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/sideroadondualcwaynocrbreak.png",
+      "description": "Side road joins dual carriageway without median break.",
+      "meaning": "🛣️ A side road joins the dual carriageway from the left.\n⛔ There is no gap in the central reserve, so traffic cannot cross.\n🚗 Watch for traffic merging from the left only.",
+      "tags": [
+        "side",
+        "road",
+        "dual",
+        "no",
+        "median",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_086",
+      "name": "Side Road on Dual C'way - Left (with CR Break)",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/sideroadondualcwayleftwithcrbreak.png",
+      "description": "Left side entry with median gap enabling crossing.",
+      "meaning": "🛣️ A side road joins from the left with a gap in the central reserve.\n↔️ This allows traffic to cross the carriageway.\n👀 Be alert for traffic merging left and potentially turning right across your path.",
+      "tags": [
+        "side",
+        "road",
+        "dual",
+        "left",
+        "median",
+        "gap",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_087",
+      "name": "Side Road on Dual C'way - Right (with CR Break)",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/sideroadondualcwayrightwithcrbreak.png",
+      "description": "Right side entry with crossing potential.",
+      "meaning": "🛣️ A side road joins from the right with a gap in the central reserve.\n🚗 This allows vehicles from the other carriageway to make U-turns.\n👀 Be alert for traffic crossing your path from the right.",
+      "tags": [
+        "side",
+        "road",
+        "dual",
+        "right",
+        "crossing",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_088",
+      "name": "Side Road on Inside of Bend - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/sideroadoninsideofbendleft.png",
+      "description": "Hidden left junction within bend.",
+      "meaning": "⤴️ Warns of a side road on the left, on the inside of a bend.\n🙈 The junction may be hidden from view until you are very close.\n🐢 Reduce speed and be prepared for vehicles emerging.",
+      "tags": [
+        "side",
+        "road",
+        "inside",
+        "bend",
+        "left",
+        "hidden",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_089",
+      "name": "Side Road on Inside of Bend - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/sideroadoninsideofbendright.png",
+      "description": "Hidden right junction mid‑bend.",
+      "meaning": "⤵️ Warns of a side road on the right, on the inside of a bend.\n🙈 Visibility of the junction is restricted by the curve.\n🐢 Approach the bend with caution and watch for turning traffic.",
+      "tags": [
+        "side",
+        "road",
+        "inside",
+        "bend",
+        "right",
+        "hidden",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_090",
+      "name": "Side Road on Outside of Bend - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/sideroadonoutsideofbendleft.png",
+      "description": "Left junction appears after bend exit.",
+      "meaning": "⤴️ Warns of a side road on the left, on the outside of a bend.\n👀 You may have a better view than if it were on the inside.\n🚗 Still be cautious of traffic entering or exiting the junction.",
+      "tags": [
+        "side",
+        "road",
+        "outside",
+        "bend",
+        "left",
+        "junction",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_091",
+      "name": "Side Road on Outside of Bend - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/sideroadonoutsideofbendright.png",
+      "description": "Right junction emerges post‑bend.",
+      "meaning": "⤵️ Warns of a side road on the right, on the outside of a bend.\n🚗 Be alert for vehicles turning as you exit the curve.\n🐢 Adjust your speed to approach the junction safely.",
+      "tags": [
+        "side",
+        "road",
+        "outside",
+        "bend",
+        "right",
+        "junction",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_092",
+      "name": "Single Chevron - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/singlechevronleft.png",
+      "description": "Moderate left bend (single marker).",
+      "meaning": "↩️ Indicates a moderate bend to the left.\n🐢 Adjust your speed and position for the curve.\n🚗 Follow the direction indicated by the chevron.",
+      "tags": [
+        "single",
+        "chevron",
+        "left",
+        "bend",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_093",
+      "name": "Single Chevron - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/singlechevronright.png",
+      "description": "Moderate right bend.",
+      "meaning": "↪️ Indicates a moderate bend to the right.\n🐢 Slow down to a safe speed for the curve.\n🚗 Steer smoothly through the bend.",
+      "tags": [
+        "single",
+        "chevron",
+        "right",
+        "bend",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_094",
+      "name": "Slippery for Cyclists",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/slipperyforcyclists.png",
+      "description": "Surface offers reduced grip to bicycle tyres.",
+      "meaning": "🚴 Warns that the road surface may be slippery for cyclists.\n💧 This could be due to wet leaves, metal plates, or ice.\n🚗 Drivers should be extra cautious around cyclists in this area.",
+      "tags": [
+        "slippery",
+        "cyclists",
+        "surface",
+        "grip",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_095",
+      "name": "Slippery Road",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/slipperyroad.png",
+      "description": "Low friction surface (wet, polished, icy or contaminated).",
+      "meaning": "🚗 Warns that the road ahead may be slippery.\n🐢 Slow down and avoid sudden braking or sharp turns.\n↔️ Increase your following distance from the vehicle in front.",
+      "tags": [
+        "slippery",
+        "road",
+        "low",
+        "friction",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_096",
+      "name": "Soft Verge",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/softverge.png",
+      "description": "Road edge may not support vehicle weight.",
+      "meaning": "🌿 The edge of the road (verge) is soft.\n🚗 Avoid driving onto the verge as your vehicle could get stuck.\n↔️ Keep your vehicle on the main carriageway.",
+      "tags": [
+        "soft",
+        "verge",
+        "edge",
+        "support",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_097",
+      "name": "Staggered Crossroads Ahead - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/staggeredcrossroadsaheadleft.png",
+      "description": "Two offset junctions—left arrives first.",
+      "meaning": " staggered junction ahead.\n⬅️ The side road on the left appears before the one on the right.\n👀 Be alert for traffic from two separate minor roads.",
+      "tags": [
+        "staggered",
+        "crossroads",
+        "left",
+        "offset",
+        "junctions",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_098",
+      "name": "Staggered Crossroads Ahead - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/staggeredcrossroadsaheadright.png",
+      "description": "Two offset junctions—right arrives first.",
+      "meaning": " staggered junction ahead.\n➡️ The side road on the right appears before the one on the left.\n🚗 Watch for traffic from both offset junctions.",
+      "tags": [
+        "staggered",
+        "crossroads",
+        "right",
+        "offset",
+        "junctions",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_099",
+      "name": "Staggered Crossroads Ahead at Dual C'way - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/staggeredcrossroadsaheadatdualcwayleft.png",
+      "description": "Dual carriageway stagger—left junction first.",
+      "meaning": "🛣️ Indicates a staggered junction on a dual carriageway.\n⬅️ The side road on the left appears before the one on the right.\n👀 Be alert for traffic entering and exiting from these offset junctions.",
+      "tags": [
+        "staggered",
+        "crossroads",
+        "dual",
+        "left",
+        "junction",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_100",
+      "name": "Staggered Crossroads Ahead at Dual C'way - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/staggeredcrossroadsaheadatdualcwayright.png",
+      "description": "Dual carriageway stagger—right junction first.",
+      "meaning": "🛣️ Indicates a staggered junction on a dual carriageway.\n➡️ The side road on the right appears before the one on the left.\n🚗 Watch for traffic from both offset junctions, especially vehicles crossing the central reserve.",
+      "tags": [
+        "staggered",
+        "crossroads",
+        "dual",
+        "right",
+        "junction",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_101",
+      "name": "Staggered Junctions - Left Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/staggeredjunctionsleftright.png",
+      "description": "Sequential junctions—left then right offset.",
+      "meaning": "➕ Warns of two offset junctions ahead.\n⬅️ The first junction is on the left.\n➡️ The second junction is immediately after, on the right.",
+      "tags": [
+        "staggered",
+        "junctions",
+        "left",
+        "right",
+        "offset",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_102",
+      "name": "Staggered Junctions - Right Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/staggeredjunctionsrightleft.png",
+      "description": "Sequential junctions—right then left.",
+      "meaning": "➕ Warns of two offset junctions ahead.\n➡️ The first junction is on the right.\n⬅️ The second junction is immediately after, on the left.",
+      "tags": [
+        "staggered",
+        "junctions",
+        "right",
+        "left",
+        "sequential",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_103",
+      "name": "Start of Climbing Lane",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/startofclimbinglane.png",
+      "description": "Additional uphill lane for slower vehicles.",
+      "meaning": "🚚 An extra lane for slow-moving vehicles begins here on an uphill gradient.\n🐢 Slower vehicles should use the left-hand lane.\n🚗 Faster traffic can use the right-hand lane to overtake.",
+      "tags": [
+        "start",
+        "climbing",
+        "lane",
+        "uphill",
+        "slow",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_104",
+      "name": "Start of Passing Lane",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/startofpassinglane.png",
+      "description": "Overtaking lane provided briefly.",
+      "meaning": "🛣️ An extra lane is provided ahead to allow for overtaking.\n🚗 You may use the right lane to pass slower vehicles.\n🔚 Be aware that the overtaking lane will end a short distance ahead.",
+      "tags": [
+        "start",
+        "passing",
+        "lane",
+        "overtaking",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_105",
+      "name": "Steep Ascent",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/steepascent.png",
+      "description": "Strong uphill gradient demands power.",
+      "meaning": "📈 Warns of a steep uphill slope ahead.\n⚙️ You may need to change to a lower gear.\n🚚 Be aware of slow-moving heavy vehicles.",
+      "tags": [
+        "steep",
+        "ascent",
+        "uphill",
+        "gradient",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_106",
+      "name": "Steep Descent",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/steepdescent.png",
+      "description": "Significant downhill gradient—brake fade risk.",
+      "meaning": "📉 Warns of a steep downhill slope ahead.\n⚙️ Select a low gear to use engine braking.\n brakes to avoid overheating.",
+      "tags": [
+        "steep",
+        "descent",
+        "downhill",
+        "gradient",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_107",
+      "name": "Stop Ahead",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/stopahead.png",
+      "description": "Mandatory STOP line or sign soon.",
+      "meaning": "🛑 Prepare to stop at a junction ahead.\n🚗 This gives you advance warning of an upcoming 'STOP' sign.\n🐢 Slow down and be ready to come to a complete stop.",
+      "tags": [
+        "stop",
+        "ahead",
+        "mandatory",
+        "line",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_108",
+      "name": "T Junction (Major Road) Ahead",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/tjunctionmajorroadahead.png",
+      "description": "T‑junction meets major priority road.",
+      "meaning": " T-junction ahead where you must give way.\n🚗 Traffic on the major road has priority.\n🛑 Be prepared to stop before joining the main road.",
+      "tags": [
+        "t",
+        "junction",
+        "major",
+        "priority",
+        "road",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_109",
+      "name": "T Junction Ahead at Dual C'way (No CR Break)",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/tjunctionaheadatdualcwaynocrbreak.png",
+      "description": "T‑junction into dual carriageway lacking median opening.",
+      "meaning": "🛣️ The road ahead joins a dual carriageway at a T-junction.\n⬅️ You will only be able to turn left.\n⛔ There is no gap in the central reserve to turn right.",
+      "tags": [
+        "t",
+        "junction",
+        "dual",
+        "no",
+        "median",
+        "opening",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_110",
+      "name": "T Junction Ahead at Dual C'way (With CR Break)",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/tjunctionaheadatdualcwaywithcrbreak.png",
+      "description": "T‑junction with central reserve gap.",
+      "meaning": "🛣️ The road ahead joins a dual carriageway at a T-junction.\n↔️ There is a gap in the central reserve.\n🚗 This allows you to turn right, but be extremely careful of fast-moving traffic.",
+      "tags": [
+        "t",
+        "junction",
+        "dual",
+        "central",
+        "reserve",
+        "gap",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_111",
+      "name": "T-Junction (Type 1) - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/tjunctiontypeoneleft.png",
+      "description": "Left approach forming T.",
+      "meaning": " T-junction where a road joins from the left.\n🚗 Be aware of traffic entering from the side road.\n👀 Proceed with caution.",
+      "tags": [
+        "t",
+        "junction",
+        "type",
+        "1",
+        "left",
+        "approach",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_112",
+      "name": "T-Junction (Type 1) - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/tjunctiontypeoneright.png",
+      "description": "Right approach forming T.",
+      "meaning": " T-junction where a road joins from the right.\n🚗 Be aware of traffic entering from the side road.\n👀 Proceed with caution.",
+      "tags": [
+        "t",
+        "junction",
+        "type",
+        "1",
+        "right",
+        "approach",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_113",
+      "name": "T-Junction (Type 2) - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/tjunctiontypetwoleft.png",
+      "description": "Left variant T‑junction geometry.",
+      "meaning": " T-junction with a specific layout.\n🚗 The side road joins from the left.\n🛑 Prepare to give way to traffic on the major road.",
+      "tags": [
+        "t",
+        "junction",
+        "type",
+        "2",
+        "left",
+        "geometry",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_114",
+      "name": "T-Junction (Type 2) - Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/tjunctiontypetworight.png",
+      "description": "Right variant T‑junction geometry.",
+      "meaning": " T-junction with a specific layout.\n🚗 The side road joins from the right.\n🛑 Prepare to give way to traffic on the major road.",
+      "tags": [
+        "t",
+        "junction",
+        "type",
+        "2",
+        "right",
+        "geometry",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_115",
+      "name": "Three Lanes of Traffic (One With, Two Against)",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/threelanesoftrafficonewithtwoagainst.png",
+      "description": "Three-lane layout adverse to your direction (one your way, two opposing).",
+      "meaning": "↔️ The road ahead has three lanes in total.\n➡️ You have one lane in your direction.\n⬅️ There are two lanes of oncoming traffic.",
+      "tags": [
+        "three",
+        "lanes",
+        "traffic",
+        "one",
+        "two",
+        "opposing",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_116",
+      "name": "Three Lanes of Traffic (Two With, One Against)",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/threelanesoftraffictwowithoneagainst.png",
+      "description": "Two lanes favour your direction; one oncoming.",
+      "meaning": "↔️ The road ahead has three lanes in total.\n➡️ You have two lanes in your direction.\n⬅️ There is one lane of oncoming traffic.",
+      "tags": [
+        "three",
+        "lanes",
+        "two",
+        "one",
+        "oncoming",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_117",
+      "name": "Tractors",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/tractors.png",
+      "description": "Slow agricultural vehicles possible.",
+      "meaning": "🚜 Be aware of slow-moving tractors or other farm vehicles.\n⏳ Be patient and prepare to slow down.\n↔️ Only overtake when it is safe to do so.",
+      "tags": [
+        "tractors",
+        "agricultural",
+        "slow",
+        "vehicles",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_118",
+      "name": "Traffic Signals",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/trafficsignals.png",
+      "description": "Signal-controlled junction ahead.",
+      "meaning": "🚦 Warns of traffic lights at the junction ahead.\n🛑 Be prepared to stop if the lights are red or amber.\n🚗 Slow down on approach.",
+      "tags": [
+        "traffic",
+        "signals",
+        "junction",
+        "controlled",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_119",
+      "name": "Tram Advisory Speed",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/tramadvisoryspeed.png",
+      "description": "Suggested max tram speed for section.",
+      "meaning": "🚋 This sign is for tram drivers.\n advises the maximum safe speed for the tram.\n🚗 Car drivers should be aware of tram movements.",
+      "tags": [
+        "tram",
+        "advisory",
+        "speed",
+        "section",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_120",
+      "name": "Tram Crossing",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/tramcrossing.png",
+      "description": "Tram track crosses or merges with road alignment.",
+      "meaning": "🚋 Warns that a tram line crosses the road ahead.\n🛤️ Be aware of the tracks, which can be slippery for cyclists and motorcyclists.\n🛑 Be prepared to stop for trams.",
+      "tags": [
+        "tram",
+        "crossing",
+        "track",
+        "road",
+        "alignment",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_121",
+      "name": "Tunnel",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/tunnel.png",
+      "description": "Enclosed tunnel environment ahead with altered lighting/ventilation.",
+      "meaning": "🚇 You are approaching a tunnel.\n💡 Turn on your dipped headlights before entering.\n🕶️ Remove sunglasses for better visibility.",
+      "tags": [
+        "tunnel",
+        "enclosed",
+        "environment",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_122",
+      "name": "Two Junctions on Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/twojunctionsonleft.png",
+      "description": "Two closely spaced left-side junctions.",
+      "meaning": "↖️ Warns of two side roads on the left, very close together.\n🚗 Be aware of traffic entering or exiting from both junctions.\n👀 Proceed with extra caution.",
+      "tags": [
+        "two",
+        "junctions",
+        "left",
+        "closely",
+        "spaced",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_123",
+      "name": "Two Junctions on Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/twojunctionsonright.png",
+      "description": "Two closely spaced right-side junctions.",
+      "meaning": "↗️ Warns of two side roads on the right, very close together.\n🚗 Be aware of traffic from both junctions.\n👀 Watch for vehicles turning across your path.",
+      "tags": [
+        "two",
+        "junctions",
+        "right",
+        "closely",
+        "spaced",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_124",
+      "name": "Two-Lane Section",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/twolanesection.png",
+      "description": "Road has or resumes two-lane configuration.",
+      "meaning": "↔️ Indicates the start of a two-lane road.\n🚗 There is one lane in each direction.\n🛣️ This may be the start of a new road type or the end of a single-lane section.",
+      "tags": [
+        "two",
+        "lane",
+        "section",
+        "configuration",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_125",
+      "name": "Two-way Traffic Crossing",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/twowaytrafficcrossing.png",
+      "description": "Two-way traffic route crosses ahead.",
+      "meaning": "↔️ Warns that you are about to cross a road with two-way traffic.\n🚗 This is often used when exiting a one-way system.\n👀 Look for traffic from both left and right.",
+      "tags": [
+        "two-way",
+        "traffic",
+        "crossing",
+        "ahead",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_126",
+      "name": "Two-way Traffic",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/twowaytraffic.png",
+      "description": "Start of opposing two-way traffic after separated section.",
+      "meaning": "↔️ The road ahead has two-way traffic.\n🚗 You will now face oncoming vehicles.\n🛣️ This usually marks the end of a dual carriageway or one-way street.",
+      "tags": [
+        "two-way",
+        "traffic",
+        "opposing",
+        "start",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_127",
+      "name": "Uneven Road",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/unevenroad.png",
+      "description": "Irregular surface may disrupt vehicle stability.",
+      "meaning": "〰️ The road surface ahead is bumpy or uneven.\n🐢 Reduce your speed to maintain control and for a smoother ride.\n🚗 Keep a firm grip on the steering wheel.",
+      "tags": [
+        "uneven",
+        "road",
+        "irregular",
+        "surface",
+        "stability",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_128",
+      "name": "Unprotected Water",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/unprotectedwater.png",
+      "description": "Water body close without barrier.",
+      "meaning": "🌊 The road is close to a river, canal, or deep water without a safety barrier.\n🚗 Drive with extreme caution, especially in bad weather.\n⚠️ Be mindful of the risk of entering the water.",
+      "tags": [
+        "unprotected",
+        "water",
+        "body",
+        "barrier",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_custom_129",
+      "name": "Y-Junction - Left",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/yjunctionleft.png",
+      "description": "Y-shaped junction with left branch.",
+      "meaning": " Y-shaped junction ahead.\n🚗 Traffic from two separate roads merges.\n↔️ Be aware of traffic joining from the other branch.",
+      "tags": [
+        "y-junction",
+        "left",
+        "branch",
+        "junction",
+        "warning",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_130",
+      "name": "Y-Junction- Right",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/yjunctionright.png",
+      "description": "Y-shaped junction with right branch.",
+      "meaning": " Y-shaped junction ahead.\n🚗 Traffic from two converging roads will merge.\n↔️ Be prepared for vehicles joining from the other branch.",
+      "tags": [
+        "y-junction",
+        "right",
+        "branch",
+        "junction",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "warning_131",
+      "name": "Yield Ahead",
+      "category": "Warning Signs",
+      "categories": [
+        "Warning Signs"
+      ],
+      "imagePath": "/signs/yieldahead.png",
+      "description": "Advance notice of a yield sign.",
+      "meaning": "🔽 Prepare to give way (yield) at the junction ahead.\n🚗 This sign gives advance warning of a 'Yield' line.\n🐢 Slow down and be ready to stop if necessary.",
+      "tags": [
+        "yield",
+        "ahead",
+        "advance",
+        "notice",
+        "warning"
+      ],
+      "shape": "Triangular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_132",
+      "name": "Bus Stop",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/busstop.png",
+      "description": "Designated stopping area for buses.",
+      "meaning": "🚌 Indicates a designated bus stop.\n🅿️ Do not park or stop your vehicle here, as it will obstruct the bus.\n🚶 Be aware of passengers getting on or off the bus.",
+      "tags": [
+        "bus",
+        "stop",
+        "designated",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_133",
+      "name": "Clearway",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/clearway.png",
+      "description": "No stopping or parking during stated times to keep route clear.",
+      "meaning": "🚫 No stopping or parking on the main carriageway.\n⏰ This restriction usually applies 24/7.\n🚗 You may only stop briefly to pick up or set down passengers.",
+      "tags": [
+        "clearway",
+        "no",
+        "stopping",
+        "parking",
+        "route",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_134",
+      "name": "Contra-Flow Bus Lane",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/contraflowbuslane.png",
+      "description": "Bus lane running opposite to general traffic direction.",
+      "meaning": "🚌 Indicates a bus lane where buses travel in the opposite direction to other traffic.\n⛔ Do not enter this lane.\n⚠️ Be aware of oncoming buses.",
+      "tags": [
+        "contra-flow",
+        "bus",
+        "lane",
+        "opposite",
+        "direction",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_135",
+      "name": "Contra-flow Cycle Track",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/contraflowcycletrack.png",
+      "description": "Cycle track operating opposite general traffic direction.",
+      "meaning": "🚲 Indicates a cycle lane where cyclists travel against the main flow of traffic.\n🚗 Be extra vigilant for cyclists, especially when turning.\n⛔ Do not drive or park in this lane.",
+      "tags": [
+        "contra-flow",
+        "cycle",
+        "track",
+        "opposite",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_136",
+      "name": "Electric Vehicle Parking Permitted",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/electricvehicleparkingpermitted.png",
+      "description": "Space reserved for electric vehicles.",
+      "meaning": "🔌 This parking space is reserved for electric vehicles.\n🅿️ Often, the vehicle must be actively charging.\n🚗 Non-electric vehicles are not permitted to park here.",
+      "tags": [
+        "electric",
+        "vehicle",
+        "parking",
+        "reserved",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_137",
+      "name": "Go (Manual Control)",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/gomanualcontrol.png",
+      "description": "Manually controlled signal instructs traffic may proceed.",
+      "meaning": "🟢 You may proceed with caution.\n👷 This sign is manually operated by a traffic controller.\n🚗 Obey the sign holder's instructions.",
+      "tags": [
+        "go",
+        "manual",
+        "control",
+        "signal",
+        "proceed",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_138",
+      "name": "Géill Slí (Yield sign in Irish)",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/yieldsigninirish.png",
+      "description": "Irish-language yield sign indicating give way priority.",
+      "meaning": "🔽 'Géill Slí' means 'Yield' or 'Give Way' in Irish.\n🚗 You must give way to traffic on the major road ahead.\n🛑 Be prepared to stop if necessary.",
+      "tags": [
+        "géill",
+        "slí",
+        "yield",
+        "irish",
+        "priority",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_139",
+      "name": "Height Restriction",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/heightrestriction.png",
+      "description": "Maximum vehicle height permitted under structure.",
+      "meaning": "⛔ Vehicles taller than the height shown are prohibited.\n🌉 This restriction is usually for a low bridge, tunnel, or car park.\n🚚 Drivers of high vehicles must find an alternative route.",
+      "tags": [
+        "height",
+        "restriction",
+        "maximum",
+        "vehicle",
+        "structure",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_140",
+      "name": "Keep Left",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/keepleft.png",
+      "description": "Mandatory direction—pass on left side or stay left.",
+      "meaning": "⬅️ You must keep to the left of this sign.\n🚧 This is a compulsory instruction, often used to pass an island or obstruction.\n🚗 Do not pass on the right.",
+      "tags": [
+        "keep",
+        "left",
+        "mandatory",
+        "direction",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_141",
+      "name": "Keep Right",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/keepright.png",
+      "description": "Mandatory keep or pass to right instruction.",
+      "meaning": "➡️ You must keep to the right of this sign.\n🚧 This is a mandatory instruction, used to safely pass an obstruction.\n🚗 Do not pass on the left.",
+      "tags": [
+        "keep",
+        "right",
+        "mandatory",
+        "instruction",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_142",
+      "name": "Keep Straight Ahead",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/keepstraightahead.png",
+      "description": "Mandatory straight movement—turns prohibited here.",
+      "meaning": "⬆️ You must proceed straight ahead only.\n⛔ Turning left or right at this junction is prohibited.\n🚗 Follow the mandatory direction.",
+      "tags": [
+        "keep",
+        "straight",
+        "ahead",
+        "mandatory",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_143",
+      "name": "LRT Speed Limit",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/lrtspeedlimit.png",
+      "description": "Maximum permitted speed for light rail transit vehicles.",
+      "meaning": "🚋 This sign indicates a mandatory speed limit for trams only.\n🚗 It does not apply to regular road traffic.\n🔢 The speed is shown in km/h.",
+      "tags": [
+        "lrt",
+        "speed",
+        "limit",
+        "maximum",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_144",
+      "name": "LRT Stop",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/lrtstop.png",
+      "description": "Mandatory stop point for light rail transit vehicles.",
+      "meaning": "🚋 Tram drivers must stop at this sign.\n🛑 This is a mandatory instruction for trams.\n🚗 It does not apply to other vehicles.",
+      "tags": [
+        "lrt",
+        "stop",
+        "mandatory",
+        "point",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_145",
+      "name": "LRT Yield",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/lrtyield.png",
+      "description": "Light rail transit must give way to specified traffic.",
+      "meaning": "🚋 Tram drivers must give way (yield) to other traffic.\n🔽 This sign is for tram operators only.\n🚗 Be aware of tram movements, but they should be yielding to you.",
+      "tags": [
+        "lrt",
+        "yield",
+        "give",
+        "way",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_146",
+      "name": "Maximum Axle Weight",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/maximumaxleweight.png",
+      "description": "Axle load limit to protect structure or road.",
+      "meaning": "⛔ Vehicles with an axle weight exceeding the amount shown are prohibited.\n⚖️ This is to protect weak bridges or road surfaces.\n🚚 Check your vehicle's specifications before proceeding.",
+      "tags": [
+        "maximum",
+        "axle",
+        "weight",
+        "limit",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_147",
+      "name": "Maximum Gross Weight (Traffic Management)",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/maximumgrossweighttrafficmanagement.png",
+      "description": "Gross weight cap for flow or protection.",
+      "meaning": "⛔ Vehicles with a total weight exceeding the amount shown are prohibited.\n⚖️ This is often used to keep heavy traffic out of residential areas.\n🗺️ Find an alternative route if your vehicle is overweight.",
+      "tags": [
+        "maximum",
+        "gross",
+        "weight",
+        "traffic",
+        "management",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_148",
+      "name": "Maximum Gross Weight",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/maximumgrossweight.png",
+      "description": "Structural gross weight limit.",
+      "meaning": "⛔ Vehicles with a total weight exceeding the amount shown are prohibited.\n🌉 This is a structural limit, typically for a weak bridge.\n🚚 Exceeding this limit is dangerous and illegal.",
+      "tags": [
+        "maximum",
+        "gross",
+        "weight",
+        "structural",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_149",
+      "name": "Maximum Vehicle Length",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/maximumvehiclelength.png",
+      "description": "Length limit due to geometry constraints.",
+      "meaning": "⛔ Vehicles longer than the length shown are prohibited.\n🔄 This is usually due to tight turns or narrow spaces ahead.\n🚚 Drivers of long vehicles must find an alternative route.",
+      "tags": [
+        "maximum",
+        "vehicle",
+        "length",
+        "limit",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_150",
+      "name": "Maximum Vehicle Width",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/maximumvehiclewidth.png",
+      "description": "Width restriction enforced ahead.",
+      "meaning": "⛔ Vehicles wider than the width shown are prohibited.\n↔️ This restriction is often for a narrow lane, bridge, or gate.\n🚚 Drivers of wide vehicles must not proceed.",
+      "tags": [
+        "maximum",
+        "vehicle",
+        "width",
+        "restriction",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_151",
+      "name": "Mini Roundabout",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/miniroundabout.png",
+      "description": "Mini roundabout—priority to right circulating traffic.",
+      "meaning": "🔄 You are at a mini-roundabout.\n➡️ Give way to traffic from your right.\n🚗 Drive over the painted circle if necessary, but only if it is safe.",
+      "tags": [
+        "mini",
+        "roundabout",
+        "priority",
+        "right",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_152",
+      "name": "Nearside Tram Lane",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/nearsidetramlane.png",
+      "description": "Tram-dedicated lane on nearside of carriageway.",
+      "meaning": "🚋 Indicates a tram-only lane on the left side of the road.\n⛔ Other vehicles are not permitted in this lane.\n⏰ The restriction may be full-time or at specific times shown on a plate.",
+      "tags": [
+        "nearside",
+        "tram",
+        "lane",
+        "dedicated",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_153",
+      "name": "Nearside With-flow Bus Lane",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/nearsidewithflowbuslane.png",
+      "description": "Left-side bus lane moving with general traffic.",
+      "meaning": "🚌 The left-hand lane is a bus lane.\n⏰ Do not drive in it during the hours of operation shown.\n🏍️ Cyclists and taxis may also be permitted.",
+      "tags": [
+        "nearside",
+        "with-flow",
+        "bus",
+        "lane",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_154",
+      "name": "No Cycles",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/nocycles.png",
+      "description": "Bicycles prohibited on this road or path.",
+      "meaning": "⛔ Cycling is not allowed beyond this point.\n🚲 This applies to all types of bicycles.\n🚶 Cyclists must dismount and walk or use an alternative route.",
+      "tags": [
+        "no",
+        "cycles",
+        "bicycles",
+        "prohibited",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_155",
+      "name": "No Entry",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/noentry.png",
+      "description": "All vehicular entry prohibited from this direction.",
+      "meaning": "⛔ Do not enter.\n🚫 Vehicular traffic is prohibited from entering this road.\n➡️ This is often used to indicate a one-way street or an exit-only.",
+      "tags": [
+        "no",
+        "entry",
+        "vehicular",
+        "prohibited",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_156",
+      "name": "No Horse and Carts",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/nohorseandcarts.png",
+      "description": "Horse-drawn vehicles prohibited.",
+      "meaning": "⛔ Horse-drawn vehicles are not allowed on this road.\n🐴 This restriction is mandatory.\n🗺️ Find an alternative route.",
+      "tags": [
+        "no",
+        "horse",
+        "carts",
+        "prohibited",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_157",
+      "name": "No Left Turn",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/noleftturn.png",
+      "description": "Left turn manoeuvre prohibited.",
+      "meaning": "⛔ You are not allowed to turn left at this junction.\n⬅️ This is a mandatory instruction.\n🚗 Proceed straight ahead or turn right if permitted.",
+      "tags": [
+        "no",
+        "left",
+        "turn",
+        "prohibited",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_158",
+      "name": "No Overtaking",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/noovertaking.png",
+      "description": "Overtaking manoeuvres prohibited in this stretch.",
+      "meaning": "⛔ Overtaking other vehicles is prohibited.\n🚗 Do not cross the solid white line if present.\n🔚 This restriction applies until you see the 'End of No Overtaking' sign.",
+      "tags": [
+        "no",
+        "overtaking",
+        "prohibited",
+        "stretch",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_159",
+      "name": "No Parking",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/noparking.png",
+      "description": "Parking prohibited in this area.",
+      "meaning": "🅿️ Parking your vehicle is not allowed in this area.\n⏰ Restrictions may apply at certain times, as shown on a supplementary plate.\n🚗 You may be allowed to stop briefly to pick up or drop off passengers.",
+      "tags": [
+        "no",
+        "parking",
+        "prohibited",
+        "area",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_160",
+      "name": "No Pedestrians",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/nopedestrians.png",
+      "description": "Pedestrian access prohibited for safety.",
+      "meaning": "⛔ Pedestrians are not allowed beyond this point.\n🚶 This is usually for safety reasons, such as on a motorway.\n🗺️ Pedestrians must use an alternative route.",
+      "tags": [
+        "no",
+        "pedestrians",
+        "access",
+        "prohibited",
+        "safety",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_161",
+      "name": "No Ridden or Accompanied Horses",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/noriddenoraccompaniedhorses.png",
+      "description": "Ridden or led horses prohibited.",
+      "meaning": "⛔ Ridden or led horses are not allowed on this road or path.\n🐴 This restriction is for the safety of both horses and other road users.\n🗺️ Equestrians must find an alternative route.",
+      "tags": [
+        "no",
+        "ridden",
+        "accompanied",
+        "horses",
+        "prohibited",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_162",
+      "name": "No Right Turn",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/norightturn.png",
+      "description": "Right turn manoeuvre prohibited.",
+      "meaning": "⛔ You are not allowed to turn right at this junction.\n➡️ This is a mandatory instruction.\n🚗 Proceed straight ahead or turn left if permitted.",
+      "tags": [
+        "no",
+        "right",
+        "turn",
+        "prohibited",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_163",
+      "name": "No Straight Ahead",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/nostraightahead.png",
+      "description": "Continuing straight is forbidden.",
+      "meaning": "⛔ You cannot go straight ahead at this junction.\n⬆️ This is a mandatory instruction.\n↔️ You must turn left or right.",
+      "tags": [
+        "no",
+        "straight",
+        "ahead",
+        "forbidden",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_164",
+      "name": "No U-Turn",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/nouturn.png",
+      "description": "U-turn manoeuvre prohibited at location.",
+      "meaning": "⛔ Making a U-turn (a 180-degree turn) is prohibited here.\n↩️ This is for safety reasons, often due to high traffic or limited visibility.\n🚗 Continue to a safer place to turn around.",
+      "tags": [
+        "no",
+        "u-turn",
+        "prohibited",
+        "location",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_165",
+      "name": "No Vehicles Carrying Explosives",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/novehiclescarryingexplosives.png",
+      "description": "Vehicles transporting explosive materials prohibited.",
+      "meaning": "⛔ Vehicles carrying explosives or flammable materials are prohibited.\n💥 This is usually for safety in tunnels or built-up areas.\n🗺️ These vehicles must follow a designated alternative route.",
+      "tags": [
+        "no",
+        "vehicles",
+        "carrying",
+        "explosives",
+        "prohibited",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_166",
+      "name": "Offside Tram Lane",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/offsidetramlane.png",
+      "description": "Tram-only lane on offside of carriageway.",
+      "meaning": "🚋 The right-hand or center lane is for trams only.\n⛔ Other traffic must not enter this lane.\n⏰ Check for signs indicating the hours of operation.",
+      "tags": [
+        "offside",
+        "tram",
+        "lane",
+        "only",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_167",
+      "name": "Offside With-flow Bus Lane",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/offsidewithflowbuslane.png",
+      "description": "Right-side bus lane moving in same direction as general traffic.",
+      "meaning": "🚌 The right-hand (center) lane is a bus lane.\n⏰ Do not drive in this lane during its hours of operation.\n🚗 Stay in the unrestricted lanes.",
+      "tags": [
+        "offside",
+        "with-flow",
+        "bus",
+        "lane",
+        "right-side",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_168",
+      "name": "Parking Permitted",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/parkingpermitted.png",
+      "description": "Parking allowed subject to local plate restrictions.",
+      "meaning": "🅿️ Parking is allowed in this area.\nℹ️ Check for supplementary plates that may indicate time limits, fees, or permit requirements.\n🚗 Park your vehicle within marked bays where provided.",
+      "tags": [
+        "parking",
+        "permitted",
+        "allowed",
+        "restrictions",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_169",
+      "name": "Pass Either Side",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/passeitherside.png",
+      "description": "Obstacle may be passed on either left or right.",
+      "meaning": "↔️ You may pass the obstruction ahead on either the left or the right side.\n🚧 This sign is usually found at the start of a traffic island or roadworks.\n🚗 Choose the safest and clearest path.",
+      "tags": [
+        "pass",
+        "either",
+        "side",
+        "obstacle",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_170",
+      "name": "Pedal Cycles Only",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/pedalcyclesonly.png",
+      "description": "Path or lane reserved exclusively for pedal cycles.",
+      "meaning": "🚲 This route is for pedal cycles only.\n⛔ No pedestrians or motor vehicles are allowed.\n🛣️ Indicates the start of a mandatory cycle track.",
+      "tags": [
+        "pedal",
+        "cycles",
+        "only",
+        "reserved",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_171",
+      "name": "Pedestrian Crossing",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/pedestriancrossing.png",
+      "description": "Marked crossing where pedestrians have priority when on crossing.",
+      "meaning": "🚶 Indicates a marked pedestrian crossing (zebra crossing) ahead.\n🛑 You must give way to pedestrians who are on the crossing.\n🐢 Approach with caution and be prepared to stop.",
+      "tags": [
+        "pedestrian",
+        "crossing",
+        "marked",
+        "priority",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_172",
+      "name": "Pedestrianised Street",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/pedestrianisedstreet.png",
+      "description": "Street restricted to pedestrian use.",
+      "meaning": "🚶 You are entering a pedestrianized zone.\n⛔ Motor vehicles are prohibited.\n⏰ Access may be permitted for deliveries at certain times, check local signs.",
+      "tags": [
+        "pedestrianised",
+        "street",
+        "restricted",
+        "pedestrian",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_173",
+      "name": "Prohibited Axles in Right Hand Lane",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/prohibitedaxlesinrighthandlane.png",
+      "description": "Certain axle configurations barred from right lane.",
+      "meaning": "🚚 Vehicles with 3 or more axles are not allowed in the right-hand lane.\n➡️ This is often seen on motorways with steep gradients.\n🚛 HGVs and other large vehicles must use the left/center lanes.",
+      "tags": [
+        "prohibited",
+        "axles",
+        "right",
+        "lane",
+        "configurations",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_174",
+      "name": "Prohibited Number of Axles",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/prohibitednumberofaxles.png",
+      "description": "Vehicles exceeding specified axle count prohibited.",
+      "meaning": "⛔ Vehicles with more than the specified number of axles are prohibited.\n🚚 This restriction may be due to weak road structures or sharp turns.\n🗺️ Affected vehicles must use an alternative route.",
+      "tags": [
+        "prohibited",
+        "number",
+        "axles",
+        "count",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_175",
+      "name": "Restriction on Parking – Specified Events",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/restrictiononparkingspecifiedevents.png",
+      "description": "Parking restricted during posted events or times.",
+      "meaning": "🅿️ Parking is restricted here, but only during specific events.\n🏟️ This is common near stadiums or event venues.\nℹ️ Check the supplementary plate for details on which events the restriction applies to.",
+      "tags": [
+        "restriction",
+        "parking",
+        "specified",
+        "events",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_176",
+      "name": "Rural Speed Limit",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/ruralspeedlimit.png",
+      "description": "Posted maximum rural road speed.",
+      "meaning": "🔚 The previous speed limit has ended.\n🚗 The national speed limit for this type of road now applies.\nℹ️ For cars, this is typically 80 km/h on rural roads.",
+      "tags": [
+        "rural",
+        "speed",
+        "limit",
+        "maximum",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_177",
+      "name": "School Warden",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/schoolwarden.png",
+      "description": "Patrol may halt traffic for child crossing.",
+      "meaning": "🚸 Warns that a school traffic warden may be operating ahead.\n🛑 You must stop when the warden displays their 'STOP' sign.\n🐢 Drive slowly and be prepared to stop for children crossing.",
+      "tags": [
+        "school",
+        "warden",
+        "patrol",
+        "halt",
+        "traffic",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_178",
+      "name": "Segregated Route for Pedal Cycles and Pedestrians (Cycle on Left)",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/segregatedrouteforpedalcyclesandpedestrianscycleonleft.png",
+      "description": "Segregated path—cycle lane left, pedestrians right.",
+      "meaning": "↔️ A shared path for cyclists and pedestrians, with separate lanes for each.\n🚲 Cyclists must use the left-hand side.\n🚶 Pedestrians must use the right-hand side.",
+      "tags": [
+        "segregated",
+        "route",
+        "cycle",
+        "left",
+        "pedestrians",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_179",
+      "name": "Segregated Route for Pedal Cycles and Pedestrians (Cycle on Right)",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/segregatedrouteforpedalcyclesandpedestrianscycleonright.png",
+      "description": "Segregated path—cycle lane on right side.",
+      "meaning": "↔️ A shared path with separate lanes for cyclists and pedestrians.\n🚲 Cyclists must use the right-hand side.\n🚶 Pedestrians must use the left-hand side.",
+      "tags": [
+        "segregated",
+        "route",
+        "cycle",
+        "right",
+        "pedestrians",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_180",
+      "name": "Shared Route for Pedal Cycles and Pedestrians",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/sharedrouteforpedalcyclesandpedestrians.png",
+      "description": "Mixed-use path shared by cyclists and pedestrians.",
+      "meaning": "🤝 An unsegregated route to be shared by both cyclists and pedestrians.\n🚲 Cyclists should be courteous to pedestrians.\n🚶 Pedestrians should be aware of cyclists.",
+      "tags": [
+        "shared",
+        "route",
+        "cycles",
+        "pedestrians",
+        "mixed-use",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_181",
+      "name": "Speed Limit 100 km",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/speedlimit100km.png",
+      "description": "Maximum legal speed 100 km/h.",
+      "meaning": "💯 The maximum permitted speed is 100 kilometres per hour.\n🚗 Do not exceed this speed limit.\n🛣️ This limit typically applies to high-quality dual carriageways.",
+      "tags": [
+        "speed",
+        "limit",
+        "100",
+        "km",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_182",
+      "name": "Speed Limit 120 km",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/speedlimit120km.png",
+      "description": "Maximum legal speed 120 km/h.",
+      "meaning": "💨 The maximum permitted speed is 120 kilometres per hour.\n🚗 This is the highest speed limit and applies only to motorways.\n🛣️ Do not exceed this speed.",
+      "tags": [
+        "speed",
+        "limit",
+        "120",
+        "km",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_183",
+      "name": "Speed Limit 20 km",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/speedlimit20km.png",
+      "description": "Very low-speed environment.",
+      "meaning": "🐢 The maximum permitted speed is 20 kilometres per hour.\n🚗 This very low limit is used in areas with high pedestrian activity.\n🚶 Drive with extreme caution.",
+      "tags": [
+        "speed",
+        "limit",
+        "20",
+        "low",
+        "environment",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_184",
+      "name": "Speed Limit 30 km",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/speedlimit30km.png",
+      "description": "Maximum speed limit of 30 km/h.",
+      "meaning": "🐢 The maximum permitted speed is 30 kilometres per hour.\n🏘️ Often used in residential areas or near schools.\n🚶 Drive slowly and be prepared to stop.",
+      "tags": [
+        "speed",
+        "limit",
+        "30",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_185",
+      "name": "Speed Limit 40 km",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/speedlimit40km.png",
+      "description": "Reduced speed limit area.",
+      "meaning": "🐢 The maximum permitted speed is 40 kilometres per hour.\n🚗 This is a reduced speed limit, so slow down.\n🚦 Used in areas where a lower speed is safer.",
+      "tags": [
+        "speed",
+        "limit",
+        "40",
+        "reduced",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_186",
+      "name": "Speed Limit 50 km",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/speedlimit50km.png",
+      "description": "Standard urban limit.",
+      "meaning": "5️⃣0️⃣ The maximum permitted speed is 50 kilometres per hour.\n🏘️ This is the standard speed limit in built-up areas unless otherwise indicated.\n🚗 Do not exceed this speed.",
+      "tags": [
+        "speed",
+        "limit",
+        "50",
+        "urban",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_187",
+      "name": "Speed Limit 60 km",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/speedlimit60km.png",
+      "description": "Transitional speed zone.",
+      "meaning": "6️⃣0️⃣ The maximum permitted speed is 60 kilometres per hour.\n🚗 This is often used as a transition between a higher and lower speed zone.\n🐢 Adjust your speed accordingly.",
+      "tags": [
+        "speed",
+        "limit",
+        "60",
+        "transitional",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_188",
+      "name": "Speed Limit 80 km",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/speedlimit80km.png",
+      "description": "Typical rural single-carriageway limit.",
+      "meaning": "8️⃣0️⃣ The maximum permitted speed is 80 kilometres per hour.\n🚗 This is the typical limit for rural, single-carriageway roads.\n🛣️ Do not exceed this speed, and drive slower if conditions require it.",
+      "tags": [
+        "speed",
+        "limit",
+        "80",
+        "rural",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_189",
+      "name": "Stop (Manual Control)",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/stopmanualcontrol.png",
+      "description": "Manual controller requires a full stop.",
+      "meaning": "🛑 You must stop here.\n👷 This sign is manually operated by a traffic controller.\n🚗 Do not proceed until you are instructed to do so.",
+      "tags": [
+        "stop",
+        "manual",
+        "control",
+        "full",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_190",
+      "name": "Stop",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/stop.png",
+      "description": "Mandatory full stop at line.",
+      "meaning": "🛑 You must come to a complete stop at the junction line.\n🚗 Do not proceed until the way is clear.\n👀 This is a mandatory instruction, not optional.",
+      "tags": [
+        "stop",
+        "mandatory",
+        "full",
+        "line",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_191",
+      "name": "Taxi Stand",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/taxistand.png",
+      "description": "Designated taxi waiting or boarding area.",
+      "meaning": "🚖 This area is reserved for taxis only.\n🅿️ Other vehicles are not permitted to park or wait here.\n🧍 This is a designated area for hiring a taxi.",
+      "tags": [
+        "taxi",
+        "stand",
+        "designated",
+        "waiting",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_192",
+      "name": "Turn Left Ahead",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/turnleftahead.png",
+      "description": "Mandatory left turn upcoming.",
+      "meaning": "⬅️ You must turn left at the next junction.\n🚗 This is an advance warning of a compulsory turn.\n🛣️ No other movements are permitted.",
+      "tags": [
+        "turn",
+        "left",
+        "ahead",
+        "mandatory",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_193",
+      "name": "Turn Left",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/turnleft.png",
+      "description": "Immediate mandatory left turn.",
+      "meaning": "⬅️ You must turn left at this junction.\n🚗 This is a compulsory instruction.\n⛔ Going straight or turning right is not allowed.",
+      "tags": [
+        "turn",
+        "left",
+        "immediate",
+        "mandatory",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_194",
+      "name": "Turn Right Ahead",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/turnrightahead.png",
+      "description": "Mandatory right turn shortly ahead.",
+      "meaning": "➡️ You must turn right at the next junction.\n🚗 This is an advance warning of a compulsory turn.\n🛣️ No other movements are permitted.",
+      "tags": [
+        "turn",
+        "right",
+        "ahead",
+        "mandatory",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_custom_195",
+      "name": "Turn Right",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/turnright.png",
+      "description": "Immediate mandatory right turn.",
+      "meaning": "➡️ You must turn right at this junction.\n🚗 This is a compulsory instruction.\n⛔ Going straight or turning left is not allowed.",
+      "tags": [
+        "turn",
+        "right",
+        "immediate",
+        "mandatory",
+        "regulatory",
+        "custom"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_196",
+      "name": "Téigh (Manual Control)",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/gomanualcontrol.png",
+      "description": "Irish-language manual instruction to proceed.",
+      "meaning": "🟢 'Téigh' means 'Go' in the Irish language.\n👷 You may proceed when shown this manually operated sign.\n🚗 Follow the instructions of the traffic controller.",
+      "tags": [
+        "téigh",
+        "manual",
+        "proceed",
+        "instruction",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "regulatory_197",
+      "name": "Yield",
+      "category": "Regulatory Signs",
+      "categories": [
+        "Regulatory Signs"
+      ],
+      "imagePath": "/signs/yield.png",
+      "description": "Give way to traffic on the priority road.",
+      "meaning": "🔽 You must give way to traffic on the major road ahead.\n🚗 Let crossing traffic pass before you proceed.\n🛑 Be prepared to stop if necessary.",
+      "tags": [
+        "yield",
+        "give",
+        "way",
+        "priority",
+        "regulatory"
+      ],
+      "shape": "Circular",
+      "color": "Red and white"
+    },
+    {
+      "id": "roadwork_198",
+      "name": "Convoy System in Operation",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/convoysysteminoperation.png",
+      "description": "Traffic guided through works by lead vehicle convoy.",
+      "meaning": "🚗 A convoy system is in use to guide traffic through the roadworks.\n🛑 Wait for the official pilot vehicle.\n➡️ Follow the 'Follow Me' vehicle and do not overtake it.",
+      "tags": [
+        "convoy",
+        "system",
+        "operation",
+        "lead",
+        "vehicle",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_199",
+      "name": "Cyclists Keep Left",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/cyclistskeepleft.png",
+      "description": "Cyclists directed to keep left in works zone.",
+      "meaning": "⬅️ Cyclists must keep to the left through the roadworks.\n🚴 Follow the temporary route provided.\n🚧 Be aware of construction and uneven surfaces.",
+      "tags": [
+        "cyclists",
+        "keep",
+        "left",
+        "works",
+        "zone",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_200",
+      "name": "Cyclists Keep Right",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/cyclistskeepright.png",
+      "description": "Cyclists directed to keep right in special layout.",
+      "meaning": "➡️ Cyclists must keep to the right through the roadworks.\n🚴 Follow the temporary route provided.\n🚧 Be aware of construction and uneven surfaces.",
+      "tags": [
+        "cyclists",
+        "keep",
+        "right",
+        "layout",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_202",
+      "name": "Detour Destination",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/detourdestination.png",
+      "description": "Indicates end destination of signed detour route.",
+      "meaning": "🗺️ This sign indicates the final destination of the current detour.\n➡️ Follow signs for this destination to stay on the correct diversion route.\n✅ Helps confirm you are following the right path.",
+      "tags": [
+        "detour",
+        "destination",
+        "route",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_203",
+      "name": "Detour",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/detour.png",
+      "description": "Official diversion around closure or works.",
+      "meaning": "↪️ Indicates the start of a mandatory diversion due to roadworks or a closure.\n🗺️ Follow the signed detour route to get around the obstruction.\n🛑 Your original route is not accessible.",
+      "tags": [
+        "detour",
+        "diversion",
+        "closure",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_204",
+      "name": "Diverted Traffic (Left)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/divertedtrafficleft.png",
+      "description": "Detoured traffic directed left.",
+      "meaning": "⬅️ Traffic on the detour route must turn left at this junction.\n🗺️ Follow the direction to stay on the official diversion.\n🚧 This is part of the temporary route.",
+      "tags": [
+        "diverted",
+        "traffic",
+        "left",
+        "detour",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_205",
+      "name": "Diverted Traffic (Right)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/divertedtrafficright.png",
+      "description": "Detoured traffic directed right.",
+      "meaning": "➡️ Traffic on the detour route must turn right at this junction.\n🗺️ Follow the arrow to continue on the diversion.\n🚧 This is part of a temporary route due to roadworks.",
+      "tags": [
+        "diverted",
+        "traffic",
+        "right",
+        "detour",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_206",
+      "name": "Diverted Traffic (Straight)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/divertedtrafficstraight.png",
+      "description": "Detour continues straight ahead.",
+      "meaning": "⬆️ The detour route continues straight on at this junction.\n🗺️ Do not turn; follow the main path of the diversion.\n🚧 Continue ahead to bypass the roadworks.",
+      "tags": [
+        "diverted",
+        "traffic",
+        "straight",
+        "detour",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_207",
+      "name": "Diverted Traffic (Upper Left)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/divertedtrafficupperleft.png",
+      "description": "Diversion takes upper-left trajectory.",
+      "meaning": "↖️ The detour route requires you to bear left ahead.\n🗺️ Follow the indicated direction to stay on the diversion.\n🚧 This keeps traffic flowing around the works area.",
+      "tags": [
+        "diverted",
+        "traffic",
+        "upper",
+        "left",
+        "diversion",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_208",
+      "name": "Diverted Traffic (Upper Right)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/divertedtrafficupperright.png",
+      "description": "Diversion directs upper-right path.",
+      "meaning": "↗️ The detour route requires you to bear right ahead.\n🗺️ Follow the indicated path to continue on the diversion.\n🚧 This temporary route bypasses the main road closure.",
+      "tags": [
+        "diverted",
+        "traffic",
+        "upper",
+        "right",
+        "diversion",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_209",
+      "name": "End of Central Reserve or Obstruction",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/endofcentralreserveorobstruction.png",
+      "description": "Taper end where central obstruction finishes.",
+      "meaning": "🔚 The obstruction or work area in the middle of the road has ended.\n🚗 Traffic can return to its normal lanes.\n✅ The roadway is now clear of the central obstruction.",
+      "tags": [
+        "end",
+        "central",
+        "reserve",
+        "obstruction",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_210",
+      "name": "End of Detour",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/endofdetour.png",
+      "description": "Diversion route terminates; normal routing resumes.",
+      "meaning": "✅ The temporary detour has finished.\n🗺️ You can now rejoin your original route.\n🚗 Normal road conditions resume ahead.",
+      "tags": [
+        "end",
+        "detour",
+        "diversion",
+        "route",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_211",
+      "name": "End of Obstruction Between Lanes",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/endofobstructionbetweenlanes.png",
+      "description": "Central obstruction removed; lanes regularize.",
+      "meaning": "🔚 The obstruction that was separating lanes has ended.\n🚗 Traffic no longer needs to pass on either side.\n↔️ Lanes return to their normal configuration.",
+      "tags": [
+        "end",
+        "obstruction",
+        "lanes",
+        "central",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_212",
+      "name": "Flagman Ahead",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/flagmanahead.png",
+      "description": "Human controller operating traffic flow ahead.",
+      "meaning": "👷 Warns that a traffic controller (flagman) is ahead.\n🛑 Be prepared to stop or follow their instructions.\n🐢 Slow down and approach with caution.",
+      "tags": [
+        "flagman",
+        "controller",
+        "traffic",
+        "ahead",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_213",
+      "name": "Follow Me",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/followme.png",
+      "description": "Lead vehicle guiding safe path through works.",
+      "meaning": "🚗 You must follow a lead vehicle through the work zone.\n convoy.\n🚧 This ensures a safe passage through a hazardous area.",
+      "tags": [
+        "follow",
+        "me",
+        "lead",
+        "vehicle",
+        "guiding",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_214",
+      "name": "Free Recovery End",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/freerecoveryend.png",
+      "description": "End of zone offering free breakdown recovery.",
+      "meaning": "✅ The area with free breakdown recovery service has ended.\n🚗 You are now responsible for your own recovery arrangements.\n🔚 Normal motorway rules apply.",
+      "tags": [
+        "free",
+        "recovery",
+        "end",
+        "breakdown",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_215",
+      "name": "Free Recovery",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/freerecovery.png",
+      "description": "Zone where breakdown recovery is free.",
+      "meaning": "🛠️ Indicates the start of a zone with a free recovery service.\n🚗 If you break down in this area, assistance will be provided.\n🛑 Do not stop unless it is an emergency.",
+      "tags": [
+        "free",
+        "recovery",
+        "zone",
+        "breakdown",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_216",
+      "name": "Hump or Ramp",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/humporramp.png",
+      "description": "Raised surface for speed control.",
+      "meaning": "〰️ Warns of a temporary hump or ramp on the road.\n🐢 Slow down to drive over it safely.\n🚧 These are often used to control speed through work zones.",
+      "tags": [
+        "hump",
+        "ramp",
+        "raised",
+        "surface",
+        "speed",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_217",
+      "name": "Lane 1 of 2 Closed (Level 1)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/lane1of2closedlevel1.png",
+      "description": "Left lane of two closed ahead level 1 layout.",
+      "meaning": "🚧 The left lane of a two-lane road is closed ahead.\n➡️ Traffic must merge into the right lane.\n🐢 Reduce your speed and prepare to merge.",
+      "tags": [
+        "lane",
+        "1",
+        "2",
+        "closed",
+        "level1",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_218",
+      "name": "Lane 1 of 2 Closed (Level 3)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane1of2closedlevel3.png",
+      "description": "Left lane of two closed complex layout.",
+      "meaning": "🚧 The left lane is closed ahead on a two-lane road.\n➡️ All traffic must use the right lane.\n🚦 Indicates a more complex roadwork layout.",
+      "tags": [
+        "lane",
+        "1",
+        "2",
+        "closed",
+        "level3",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_219",
+      "name": "Lane 1 of 2 Closed MLC",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane1of2closedmlc.png",
+      "description": "Major lane closure left of two lanes.",
+      "meaning": "🚧 Major roadworks have closed the left lane.\n➡️ Merge to the right in good time.\n🐢 Expect potential delays.",
+      "tags": [
+        "lane",
+        "1",
+        "2",
+        "closed",
+        "mlc",
+        "major",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_220",
+      "name": "Lane 1 of 3 Closed (Level 1)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane1of3closedlevel1.png",
+      "description": "Left lane 1 of 3 closed.",
+      "meaning": "🚧 The left lane of a three-lane road is closed ahead.\n➡️ Traffic should merge into the center or right lanes.\n🐢 Be aware of merging traffic.",
+      "tags": [
+        "lane",
+        "1",
+        "3",
+        "closed",
+        "level1",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_221",
+      "name": "Lane 1 of 3 Closed (Level 3)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane1of3closedlevel3.png",
+      "description": "Left lane closure in complex level 3 setup.",
+      "meaning": "🚧 The left lane of three is closed ahead due to complex roadworks.\n➡️ Move out of the left lane.\n🚦 Be prepared for a more intricate traffic management setup.",
+      "tags": [
+        "lane",
+        "1",
+        "3",
+        "closed",
+        "level3",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_222",
+      "name": "Lane 1 of 3 Closed MLC",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane1of3closedmlc.png",
+      "description": "Major lane closure of left lane.",
+      "meaning": "🚧 The left lane is closed due to major roadworks.\n➡️ Traffic must use the two right-hand lanes.\n🐢 Merge in good time and expect delays.",
+      "tags": [
+        "lane",
+        "1",
+        "3",
+        "closed",
+        "mlc",
+        "major",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_223",
+      "name": "Lane 1 of 4 Closed (Level 3)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane1of4closedlevel3.png",
+      "description": "Leftmost lane of four closed complex layout.",
+      "meaning": "🚧 The far left lane of a four-lane road is closed ahead.\n➡️ Prepare to merge into the three available lanes to the right.\n🚦 This indicates a complex roadwork zone.",
+      "tags": [
+        "lane",
+        "1",
+        "4",
+        "closed",
+        "level3",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_224",
+      "name": "Lane 1 of 4 Closed MLC",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane1of4closedmlc.png",
+      "description": "Major closure left lane of four.",
+      "meaning": "🚧 The left lane is closed on a four-lane road for major works.\n➡️ Traffic must use the three right-hand lanes.\n🐢 Merge right and be prepared for slower traffic.",
+      "tags": [
+        "lane",
+        "1",
+        "4",
+        "closed",
+        "mlc",
+        "major",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_225",
+      "name": "Lane 2 of 2 Closed (Level 1)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane2of2closedlevel1.png",
+      "description": "Right lane of two closed ahead.",
+      "meaning": "🚧 The right lane of a two-lane road is closed ahead.\n⬅️ All traffic must merge into the left lane.\n🐢 Slow down and prepare to merge.",
+      "tags": [
+        "lane",
+        "2",
+        "2",
+        "closed",
+        "right",
+        "level1",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_226",
+      "name": "Lane 2 of 2 Closed (Level 3)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane2of2closedlevel3.png",
+      "description": "Right lane closed complex layout.",
+      "meaning": "🚧 The right lane is closed ahead in a complex roadwork zone.\n⬅️ All traffic must use the left lane.\n🚦 Follow instructions and be aware of the changed layout.",
+      "tags": [
+        "lane",
+        "2",
+        "2",
+        "closed",
+        "right",
+        "level3",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_227",
+      "name": "Lane 2 of 2 Closed MLC",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane2of2closedmlc.png",
+      "description": "Major closure of right lane.",
+      "meaning": "🚧 The right lane is closed for major roadworks.\n⬅️ Traffic must merge into the left lane.\n🐢 Expect potential delays and merge in turn.",
+      "tags": [
+        "lane",
+        "2",
+        "2",
+        "closed",
+        "right",
+        "mlc",
+        "major",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_228",
+      "name": "Lane 2 of 2 Narrow (advance)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane2of2narrowadvance.png",
+      "description": "Both lanes narrowing soon.",
+      "meaning": "↔️ Both lanes of the two-lane carriageway will narrow ahead.\n🐢 Reduce your speed.\n🚗 Be aware of reduced space and keep centered in your lane.",
+      "tags": [
+        "lane",
+        "2",
+        "2",
+        "narrow",
+        "advance",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_229",
+      "name": "Lane 2 of 2 Narrow",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane2of2narrow.png",
+      "description": "Narrow section now active.",
+      "meaning": "↔️ You are now in the section where both lanes are narrow.\n🚗 Proceed with caution and maintain a safe distance.\n🚧 This is due to roadworks at the side of the road.",
+      "tags": [
+        "lane",
+        "2",
+        "2",
+        "narrow",
+        "active",
+        "section",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_230",
+      "name": "Lane 3 of 3 Closed (Level 1)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane3of3closedlevel1.png",
+      "description": "Rightmost lane 3 of 3 closed.",
+      "meaning": "🚧 The right lane of a three-lane road is closed ahead.\n⬅️ Traffic must use the center and left lanes.\n🐢 Prepare to merge left if you are in the right lane.",
+      "tags": [
+        "lane",
+        "3",
+        "3",
+        "closed",
+        "rightmost",
+        "level1",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_231",
+      "name": "Lane 3 of 3 Closed (Level 3)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane3of3closedlevel3.png",
+      "description": "Complex closure right lane 3 of 3.",
+      "meaning": "🚧 The right lane is closed due to a complex roadwork layout.\n⬅️ Move into the center or left lanes.\n🚦 Be alert for changes in the road configuration.",
+      "tags": [
+        "lane",
+        "3",
+        "3",
+        "closed",
+        "right",
+        "level3",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_232",
+      "name": "Lane 3 of 3 Closed MLC",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane3of3closedmlc.png",
+      "description": "Major closure right lane 3 of 3.",
+      "meaning": "🚧 The right lane is closed for major roadworks.\n⬅️ Traffic should merge into the two available left lanes.\n🐢 Merge in good time and expect slower traffic.",
+      "tags": [
+        "lane",
+        "3",
+        "3",
+        "closed",
+        "right",
+        "mlc",
+        "major",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_233",
+      "name": "Lane 3 of 3 Narrow (advance)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane3of3narrowadvance.png",
+      "description": "All three lanes will narrow ahead.",
+      "meaning": "↔️ All three lanes of the carriageway will narrow ahead.\n🐢 Reduce your speed.\n🚗 Be mindful of the reduced road width.",
+      "tags": [
+        "lane",
+        "3",
+        "3",
+        "narrow",
+        "advance",
+        "all",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_234",
+      "name": "Lane 3 of 3 Narrow",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane3of3narrow.png",
+      "description": "Narrow three-lane section active.",
+      "meaning": "↔️ You are now in the section with three narrow lanes.\n🚗 Drive with caution and stay centered in your lane.\n🚧 Roadworks are present at the side.",
+      "tags": [
+        "lane",
+        "3",
+        "3",
+        "narrow",
+        "section",
+        "active",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_235",
+      "name": "Lane 4 of 4 Closed (Level 3)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane4of4closedlevel3.png",
+      "description": "Far right lane of four closed complex layout.",
+      "meaning": "🚧 The far right lane of a four-lane road is closed.\n⬅️ Traffic must use the three available left lanes.\n🚦 Be prepared for a complex roadwork layout ahead.",
+      "tags": [
+        "lane",
+        "4",
+        "4",
+        "closed",
+        "far",
+        "right",
+        "level3",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_236",
+      "name": "Lane 4 of 4 Closed MLC",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lane4of4closedmlc.png",
+      "description": "Major closure of lane 4 of 4.",
+      "meaning": "🚧 The right lane is closed on a four-lane road for major works.\n⬅️ Merge left into one of the three open lanes.\n🐢 Anticipate slower traffic and merge early.",
+      "tags": [
+        "lane",
+        "4",
+        "4",
+        "closed",
+        "mlc",
+        "major",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_237",
+      "name": "Lanes 1 & 2 of 3 Closed (Level 1)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lanes1and2of3closedlevel1.png",
+      "description": "Left and centre lanes closed only right lane open.",
+      "meaning": "🚧 The left and center lanes of a three-lane road are closed.\n➡️ All traffic must merge into the single right lane.\n🐢 Expect significant delays and merge early.",
+      "tags": [
+        "lanes",
+        "1",
+        "2",
+        "3",
+        "closed",
+        "right",
+        "level1",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_238",
+      "name": "Lanes 1 & 2 of 3 Closed (Level 3)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lanes1and2of3closedlevel3.png",
+      "description": "Complex closure of lanes 1 and 2.",
+      "meaning": "🚧 The two left lanes are closed ahead in a complex roadwork zone.\n➡️ All traffic must use the far right lane.\n🚦 Be prepared for a significant change in road layout.",
+      "tags": [
+        "lanes",
+        "1",
+        "2",
+        "3",
+        "closed",
+        "level3",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_239",
+      "name": "Lanes 1 & 2 of 3 Closed MLC",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lanes1and2of3closedmlc.png",
+      "description": "Major closure leaving only right lane.",
+      "meaning": "🚧 Major roadworks have closed the left and center lanes.\n➡️ Traffic must merge into the single right-hand lane.\n🐢 Expect queues and merge in turn.",
+      "tags": [
+        "lanes",
+        "1",
+        "2",
+        "3",
+        "closed",
+        "mlc",
+        "right",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_240",
+      "name": "Lanes 1 & 2 of 4 Closed (Level 3)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lanes1and2of4closedlevel3.png",
+      "description": "Left two lanes closed on four-lane road.",
+      "meaning": "🚧 The two left-hand lanes of a four-lane road are closed.\n➡️ Traffic must use the two available lanes on the right.\n🚦 Follow instructions for the complex traffic management.",
+      "tags": [
+        "lanes",
+        "1",
+        "2",
+        "4",
+        "closed",
+        "level3",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_241",
+      "name": "Lanes 1 & 2 of 4 Closed MLC",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lanes1and2of4closedmlc.png",
+      "description": "Major closure removing lanes 1 and 2.",
+      "meaning": "🚧 The two left lanes are closed for major roadworks.\n➡️ Traffic must merge into the two right-hand lanes.\n🐢 Prepare for reduced capacity and potential delays.",
+      "tags": [
+        "lanes",
+        "1",
+        "2",
+        "4",
+        "closed",
+        "mlc",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_242",
+      "name": "Lanes 2 & 3 of 3 Closed (Level 1)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lanes2and3of3closedlevel1.png",
+      "description": "Centre and right lanes closed only left open.",
+      "meaning": "🚧 The center and right lanes of a three-lane road are closed.\n⬅️ All traffic must merge into the single left lane.\n🐢 Merge early and anticipate significant delays.",
+      "tags": [
+        "lanes",
+        "2",
+        "3",
+        "closed",
+        "left",
+        "level1",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_243",
+      "name": "Lanes 2 & 3 of 3 Closed (Level 3)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lanes2and3of3closedlevel3.png",
+      "description": "Complex closure leaving only left lane.",
+      "meaning": "🚧 The center and right lanes are closed in a complex work zone.\n⬅️ All traffic is required to use the far left lane.\n🚦 Follow the temporary road layout with care.",
+      "tags": [
+        "lanes",
+        "2",
+        "3",
+        "closed",
+        "left",
+        "level3",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_244",
+      "name": "Lanes 2 & 3 of 3 Closed MLC",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lanes2and3of3closedmlc.png",
+      "description": "Major closure only left lane operational.",
+      "meaning": "🚧 The center and right lanes are closed for major roadworks.\n⬅️ Traffic must merge into the single left-hand lane.\n🐢 Expect queues and merge in turn.",
+      "tags": [
+        "lanes",
+        "2",
+        "3",
+        "closed",
+        "left",
+        "mlc",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_245",
+      "name": "Lanes 2 & 3 of 3 Narrow (advance)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lanes2and3of3narrowadvance.png",
+      "description": "Approaching narrowing affecting centre and right lanes.",
+      "meaning": "↔️ The center and right lanes of a three-lane road will narrow ahead.\n🚗 Be aware of reduced width in these lanes.\n🐢 Reduce your speed and proceed with caution.",
+      "tags": [
+        "lanes",
+        "2",
+        "3",
+        "narrow",
+        "advance",
+        "right",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_246",
+      "name": "Lanes 2 & 3 of 3 Narrow",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lanes2and3of3narrow.png",
+      "description": "Narrow section now affecting centre and right lanes.",
+      "meaning": "↔️ You are in a section where the center and right lanes are narrow.\n🚗 Drive carefully and maintain your lane position.\n🚧 Roadworks are ongoing at the side.",
+      "tags": [
+        "lanes",
+        "2",
+        "3",
+        "narrow",
+        "right",
+        "section",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_247",
+      "name": "Lanes 3 & 4 of 4 Closed (Level 3)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/lanes3and4of4closedlevel3.png",
+      "description": "Right two lanes closed on four-lane road.",
+      "meaning": "🚧 The two right-hand lanes of a four-lane road are closed.\n⬅️ Traffic must use the two available lanes on the left.\n🚦 Follow instructions for the complex traffic management.",
+      "tags": [
+        "lanes",
+        "3",
+        "4",
+        "closed",
+        "right",
+        "level3",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_248",
+      "name": "Lanes 3 & 4 of 4 Closed MLC",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lanes3and4of4closedmlc.png",
+      "description": "Major closure removing lanes 3 and 4.",
+      "meaning": "🚧 The two right lanes are closed for major roadworks.\n⬅️ Traffic must merge into the two left-hand lanes.\n🐢 Prepare for reduced capacity and potential delays.",
+      "tags": [
+        "lanes",
+        "3",
+        "4",
+        "closed",
+        "mlc",
+        "major",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_249",
+      "name": "Lanes Diverge at Crossover",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lanesdivergeatcrossover.png",
+      "description": "Traffic lanes split at crossover alignment.",
+      "meaning": "➗ Traffic lanes will split as they cross over to the other carriageway.\n🚗 Ensure you are in the correct lane for your destination.\n↔️ Follow the temporary lane markings carefully.",
+      "tags": [
+        "lanes",
+        "diverge",
+        "crossover",
+        "split",
+        "alignment",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_250",
+      "name": "Lanes Rejoin at Crossover",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/lanesrejoinatcrossover.png",
+      "description": "Previously separated lanes recombine.",
+      "meaning": "🤝 Traffic lanes that were separated will now rejoin.\n🚗 Be aware of traffic from the adjacent lane as you merge back together.\n↔️ Normal lane configuration resumes ahead.",
+      "tags": [
+        "lanes",
+        "rejoin",
+        "crossover",
+        "recombine",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_251",
+      "name": "Loose Chippings",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/loosechippings.png",
+      "description": "Loose aggregate on surface can reduce grip and cause damage.",
+      "meaning": "🪨 Warns of loose stones or gravel on the road surface.\n🐢 Reduce your speed to avoid skidding or losing control.\n🚗 Keep your distance from other vehicles to prevent damage from flying stones.",
+      "tags": [
+        "loose",
+        "chippings",
+        "aggregate",
+        "grip",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_252",
+      "name": "Merge to the Right",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/mergetotheright.png",
+      "description": "Traffic must merge right due to closure or obstruction.",
+      "meaning": "➡️ Indicates that all traffic must merge to the right.\n🚧 This is usually because the left lane is closed.\n🚗 Merge in turn and be courteous to other drivers.",
+      "tags": [
+        "merge",
+        "right",
+        "traffic",
+        "closure",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_254",
+      "name": "Move to Left (One Lane)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/movetoleftonelane.png",
+      "description": "All traffic instructed into single left lane.",
+      "meaning": "⬅️ All traffic must move into the single left-hand lane.\n🚧 The road ahead is reduced to one lane.\n🐢 Slow down and merge in good time.",
+      "tags": [
+        "move",
+        "left",
+        "one",
+        "lane",
+        "traffic",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_255",
+      "name": "Move to Left (Three Lanes)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/movetoleftthreelanes.png",
+      "description": "Traffic must transition left across multiple lanes.",
+      "meaning": "⬅️ Traffic in all three lanes must move to the left.\n↔️ This indicates a shift in the entire carriageway alignment.\n🚗 Follow the temporary road markings carefully.",
+      "tags": [
+        "move",
+        "left",
+        "three",
+        "lanes",
+        "transition",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_256",
+      "name": "Move to Left (Two Lanes)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/movetolefttwolanes.png",
+      "description": "Two-lane left shift required.",
+      "meaning": "⬅️ Traffic in both lanes must move to the left.\n↔️ The road layout ahead shifts to the left.\n🚗 Stay in your lane and follow the new alignment.",
+      "tags": [
+        "move",
+        "left",
+        "two",
+        "lanes",
+        "shift",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_257",
+      "name": "Move to Right (One Lane)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/movetorightonelane.png",
+      "description": "All traffic consolidates into single right lane.",
+      "meaning": "➡️ All traffic must move into the single right-hand lane.\n🚧 The road ahead is reduced to one lane.\n🐢 Slow down and prepare to merge.",
+      "tags": [
+        "move",
+        "right",
+        "one",
+        "lane",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_258",
+      "name": "Move to Right (Three Lanes)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/movetorightthreelanes.png",
+      "description": "Multi-lane rightward move required.",
+      "meaning": "➡️ Traffic in all three lanes must move to the right.\n↔️ The entire carriageway is shifting to the right.\n🚗 Follow the temporary lane markings and cones.",
+      "tags": [
+        "move",
+        "right",
+        "three",
+        "lanes",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_259",
+      "name": "Move to Right (Two Lanes)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/movetorighttwolanes.png",
+      "description": "Two-lane right shift mandated.",
+      "meaning": "➡️ Traffic in both lanes must move to the right.\n↔️ The road alignment shifts to the right.\n🚗 Stay in your lane and follow the temporary path.",
+      "tags": [
+        "move",
+        "right",
+        "two",
+        "lanes",
+        "shift",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_260",
+      "name": "Obstruction Between Lanes",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/obstructionbetweenlanes.png",
+      "description": "Central obstruction divides traffic flows.",
+      "meaning": "🚧 There is a temporary obstruction or work area between lanes.\n↔️ Traffic must pass on either the left or the right side.\n🚗 Follow the markings for your lane.",
+      "tags": [
+        "obstruction",
+        "between",
+        "lanes",
+        "central",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_261",
+      "name": "One-lane Crossover (Back)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/onelanecrossoverback.png",
+      "description": "Single-lane crossover returning traffic alignment.",
+      "meaning": "⬅️ A single lane of traffic is crossing back to the original side of the road.\n🚧 This marks the end of a contraflow section.\n🚗 Prepare to merge back into the normal traffic pattern.",
+      "tags": [
+        "one",
+        "lane",
+        "crossover",
+        "back",
+        "traffic",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_262",
+      "name": "One-lane Crossover (Out)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/onelanecrossoverout.png",
+      "description": "Single-lane crossover diverting traffic away.",
+      "meaning": "➡️ A single lane of traffic must cross over to the other carriageway.\n🚧 You are entering a contraflow system.\n🚗 Follow the crossover lane carefully.",
+      "tags": [
+        "one",
+        "lane",
+        "crossover",
+        "out",
+        "diverting",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_263",
+      "name": "Pedestrians Cross to Left",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/pedestrianscrosstoleft.png",
+      "description": "Pedestrians must divert to left side crossing route.",
+      "meaning": "🚶 Pedestrians must cross to the left side of the road.\n🚧 The footpath ahead is closed.\n↔️ Use the designated crossing point.",
+      "tags": [
+        "pedestrians",
+        "cross",
+        "left",
+        "divert",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_264",
+      "name": "Pedestrians Cross to Right",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/pedestrianscrosstoright.png",
+      "description": "Pedestrian diversion to right side.",
+      "meaning": "🚶 Pedestrians must cross to the right side of the road.\n🚧 The current footpath is closed.\n↔️ Follow the temporary pedestrian route.",
+      "tags": [
+        "pedestrians",
+        "cross",
+        "right",
+        "diversion",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_265",
+      "name": "Queues Likely",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/roadworkqueueslikely.png",
+      "description": "High probability of queueing through works zone.",
+      "meaning": "🚗 Warns that you may encounter sudden traffic queues due to roadworks.\n🛑 Be prepared for slow-moving or stationary traffic.\n↔️ Keep a safe distance from the vehicle in front.",
+      "tags": [
+        "queues",
+        "likely",
+        "works",
+        "zone",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_266",
+      "name": "Road Closed",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/roadclosed.png",
+      "description": "Full closure ahead no through traffic.",
+      "meaning": "⛔ The road ahead is closed to all traffic.\n🗺️ You must use a detour or find an alternative route.\n🛑 Do not proceed past this sign.",
+      "tags": [
+        "road",
+        "closed",
+        "closure",
+        "traffic",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_267",
+      "name": "Road Narrows on Both Sides",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/roadworkroadnarrowsonbothsides.png",
+      "description": "Width reduced from both sides.",
+      "meaning": "↔️ The road ahead narrows from both sides due to roadworks.\n🚗 Be aware of reduced space for vehicles.\n🐢 Slow down and be prepared to give way if necessary.",
+      "tags": [
+        "road",
+        "narrows",
+        "both",
+        "sides",
+        "width",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_268",
+      "name": "Road Narrows on Left",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/roadworkroadnarrowsonleft.png",
+      "description": "Left side encroachment narrows lane.",
+      "meaning": "↔️ The road narrows on the left side due to roadworks.\n🚗 Keep to the center of your lane.\n👀 Watch for workers or equipment on the left.",
+      "tags": [
+        "road",
+        "narrows",
+        "left",
+        "encroachment",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_269",
+      "name": "Road Narrows on Right",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/roadworkroadnarrowsonright.png",
+      "description": "Right side narrowing reduces clearance.",
+      "meaning": "↔️ The road narrows on the right side due to roadworks.\n🚗 Be aware of reduced clearance.\n👀 Be mindful of oncoming traffic and workers.",
+      "tags": [
+        "road",
+        "narrows",
+        "right",
+        "clearance",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_270",
+      "name": "Roadworks Ahead",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/roadworksahead.png",
+      "description": "Active or upcoming roadworks zone.",
+      "meaning": "🚧 Warns of roadworks ahead.\n🐢 Be prepared to slow down.\n👀 Watch for temporary signs, speed limits, and workers.",
+      "tags": [
+        "roadworks",
+        "ahead",
+        "active",
+        "zone",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_271",
+      "name": "Side Road on Left",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/sideroadonleft.png",
+      "description": "Left-side access within works area.",
+      "meaning": "↖️ Indicates a side road on the left within the roadworks area.\n🚗 Be aware of construction traffic entering or exiting.\n👀 Approach the junction with caution.",
+      "tags": [
+        "side",
+        "road",
+        "left",
+        "access",
+        "works",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_272",
+      "name": "Side Road on Right",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/sideroadonright.png",
+      "description": "Right-side junction within works zone.",
+      "meaning": "↗️ Indicates a side road on the right within the roadworks area.\n🚗 Be cautious of vehicles entering or leaving the site.\n👀 Proceed slowly and be prepared to stop.",
+      "tags": [
+        "side",
+        "road",
+        "right",
+        "junction",
+        "works",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_273",
+      "name": "Single Lane (for Shuttle Working)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/singlelaneforshuttleworking.png",
+      "description": "Single alternating traffic lane controlled.",
+      "meaning": "↔️ The road ahead is reduced to a single lane for traffic from both directions.\n🚦 Traffic flow will be controlled by temporary lights or a flagman.\n⏳ Be prepared to stop and wait for your turn.",
+      "tags": [
+        "single",
+        "lane",
+        "shuttle",
+        "alternating",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_274",
+      "name": "Site Access",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/siteaccess.png",
+      "description": "Construction vehicles entering and leaving.",
+      "meaning": "🚚 Warns of an entrance/exit to a construction site.\n🚗 Be aware of slow-moving, large vehicles entering or leaving the roadway.\n🐢 Slow down and be prepared to stop.",
+      "tags": [
+        "site",
+        "access",
+        "construction",
+        "vehicles",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_275",
+      "name": "Slippery for Cyclists",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/roadworkslipperyforcyclists.png",
+      "description": "Temporary surface hazardous to bicycles.",
+      "meaning": "🚴 The temporary road surface may be slippery for cyclists.\n🚧 This could be due to metal plates, mud, or loose material.\n🚗 Drivers should give extra space to cyclists.",
+      "tags": [
+        "slippery",
+        "cyclists",
+        "temporary",
+        "surface",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_276",
+      "name": "Slippery Road",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/roadworkslipperyroad.png",
+      "description": "Temporary works surface reduces tyre grip.",
+      "meaning": "🚗 Warns that the temporary road surface may be slippery.\n🐢 Slow down and avoid sudden braking or steering.\n↔️ Increase your following distance.",
+      "tags": [
+        "slippery",
+        "road",
+        "temporary",
+        "grip",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_277",
+      "name": "Soft Verge",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/roadworksoftverge.png",
+      "description": "Verge disturbed or unstable from works.",
+      "meaning": "🌿 The road edge is soft and unstable due to roadworks.\n🚗 Do not drive on the verge as your vehicle may get stuck.\n↔️ Keep all wheels on the paved surface.",
+      "tags": [
+        "soft",
+        "verge",
+        "unstable",
+        "works",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_278",
+      "name": "Start of Central Reserve or Obstruction",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/startofcentralreserveorobstruction.png",
+      "description": "Beginning of central obstruction or separation.",
+      "meaning": "🚧 Indicates the start of an obstruction in the middle of the road.\n↔️ Traffic must pass on the appropriate side.\n🚗 Follow lane markings and be aware of the narrowed space.",
+      "tags": [
+        "start",
+        "central",
+        "reserve",
+        "obstruction",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_279",
+      "name": "Stop Here On Red",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/stophereonred.png",
+      "description": "Mandatory stopping line for temporary signals.",
+      "meaning": "🛑 When the temporary traffic light is red, you must stop at the line.\n🚦 This sign accompanies temporary signals at roadworks.\n🚗 Do not proceed until the light turns green.",
+      "tags": [
+        "stop",
+        "red",
+        "temporary",
+        "signals",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_280",
+      "name": "Temporary Pedestrian Crossing",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/temporarypedestriancrossing.png",
+      "description": "Temporary crossing installed within works.",
+      "meaning": "🚶 Indicates a temporary crossing point for pedestrians.\n🐢 Slow down and be prepared to stop for people crossing.\n🚧 Be extra vigilant in the work zone.",
+      "tags": [
+        "temporary",
+        "pedestrian",
+        "crossing",
+        "works",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_281",
+      "name": "Temporary Traffic Signals",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/temporarytrafficsignals.png",
+      "description": "Portable lights controlling flow.",
+      "meaning": "🚦 Warns of temporary traffic lights ahead.\n🛑 Be prepared to stop if the light is red.\n🐢 These are used to control traffic flow through the roadworks.",
+      "tags": [
+        "temporary",
+        "traffic",
+        "signals",
+        "portable",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_282",
+      "name": "Two-lane Crossover (Back)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/twolanecrossoverback.png",
+      "description": "Two-lane crossover returning traffic to original carriageway.",
+      "meaning": "⬅️ Two lanes of traffic are crossing back to their normal side of the road.\n🚧 This is the end of a contraflow section.\n🚗 Prepare to merge with other traffic as normal layout resumes.",
+      "tags": [
+        "two",
+        "lane",
+        "crossover",
+        "back",
+        "traffic",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_283",
+      "name": "Two-lane Crossover (Out)",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/twolanecrossoverout.png",
+      "description": "Two-lane crossover diverting traffic away.",
+      "meaning": "➡️ Two lanes of traffic must cross over to the opposite carriageway.\n🚧 You are entering a two-lane contraflow system.\n🚗 Follow the crossover lanes carefully.",
+      "tags": [
+        "two",
+        "lane",
+        "crossover",
+        "out",
+        "diverting",
+        "traffic",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_custom_284",
+      "name": "Two-way Traffic",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/roadworktwowaytraffic.png",
+      "description": "Two-way operation reinstated in works alignment.",
+      "meaning": "↔️ Indicates two-way traffic through or past the roadworks.\n🚗 Be aware of oncoming vehicles in close proximity.\n🚧 Stay in your lane and proceed with caution.",
+      "tags": [
+        "two-way",
+        "traffic",
+        "operation",
+        "reinstated",
+        "roadwork",
+        "custom"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "roadwork_285",
+      "name": "Uneven Surface",
+      "category": "Roadwork Signs",
+      "categories": [
+        "Roadwork Signs"
+      ],
+      "imagePath": "/signs/unevensurface.png",
+      "description": "Temporary irregular surface present.",
+      "meaning": "〰️ The road surface ahead is uneven due to roadworks.\n🐢 Reduce your speed to maintain control and for comfort.\n🚗 Be aware of potential bumps and dips.",
+      "tags": [
+        "uneven",
+        "surface",
+        "temporary",
+        "irregular",
+        "roadwork"
+      ],
+      "shape": "Triangular",
+      "color": "Amber and black"
+    },
+    {
+      "id": "others_286",
+      "name": "60 kmh Speed Limit Ahead",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/sixtykmhspeedlimitahead.png",
+      "description": "Upcoming reduction to 60 km/h limit.",
+      "meaning": "🐢 Prepare to reduce your speed.\n6️⃣0️⃣ A 60 km/h speed limit zone begins shortly.\n🚗 Adjust your speed before entering the new zone.",
+      "tags": [
+        "60",
+        "kmh",
+        "speed",
+        "limit",
+        "ahead",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_287",
+      "name": "Additional Lane Joining From Left (One to Two Lanes)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/additionallanejoiningfromleftonetotwolanes.png",
+      "description": "A new lane will add from left increasing capacity.",
+      "meaning": "🛣️ The road ahead gains an additional lane.\n⬅️ A new lane begins on the left, increasing capacity from one to two lanes.\n🚗 Be aware of vehicles moving into the new lane.",
+      "tags": [
+        "additional",
+        "lane",
+        "joining",
+        "left",
+        "capacity",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_288",
+      "name": "Additional Lanes Joining From Left - Left Joining Lane Continues (Three to Four Lanes)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/additionallanesjoiningfromleftleftjoininglanecontinuesthreetofourlanes.png",
+      "description": "Additional lane from left persists overall lanes increase.",
+      "meaning": "🛣️ The number of lanes increases from three to four.\n⬅️ An additional lane joins from the left and continues as the new left lane.\n🚗 Be aware of merging traffic.",
+      "tags": [
+        "additional",
+        "lanes",
+        "left",
+        "continues",
+        "increase",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_289",
+      "name": "Additional Lanes Joining From Left - Left Joining Lane Continues (Three to Four Lanes)2",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/additionallanesjoiningfromleftleftjoininglanecontinuesthreetofourlanes2.png",
+      "description": "Duplicate configuration left addition continues.",
+      "meaning": "🛣️ The road expands from three lanes to four.\n⬅️ A new lane is added from the left.\n🚗 Be mindful of vehicles joining from the slip road.",
+      "tags": [
+        "additional",
+        "lanes",
+        "left",
+        "duplicate",
+        "continues",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_290",
+      "name": "Additional Lanes Joining From Left - Right Joining Lane Continues (Three to Four Lanes)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/additionallanesjoiningfromleftrightjoininglanecontinuesthreetofourlanes.png",
+      "description": "Left additional lanes while right lane remains continuous.",
+      "meaning": "🛣️ The road widens from three to four lanes.\n⬅️ A new lane from the left merges into the existing lanes.\n🚗 Watch for traffic joining from the left.",
+      "tags": [
+        "additional",
+        "lanes",
+        "left",
+        "right",
+        "continuous",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_291",
+      "name": "Additional Lanes Joining From Right (Two to Three Lanes)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/additionallanesjoiningfromrighttwotothreelanes.png",
+      "description": "New lane adds from right side.",
+      "meaning": "🛣️ The road expands from two lanes to three.\n➡️ A new lane joins from the right.\n🚗 Be aware of merging traffic from the right-hand side.",
+      "tags": [
+        "additional",
+        "lane",
+        "right",
+        "adds",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_292",
+      "name": "Additional Lanes Joining From Right - Left Joining Lane Continues (Two to Three Lanes)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/additionallanesjoiningfromrightleftjoininglanecontinuestwotothreelanes.png",
+      "description": "Lane count increases left lane remains continuous.",
+      "meaning": "🛣️ The road widens from two lanes to three.\n➡️ A new lane from the right merges into the existing lanes.\n🚗 Be aware of traffic joining from the right.",
+      "tags": [
+        "lanes",
+        "right",
+        "left",
+        "continues",
+        "increase",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_293",
+      "name": "Additional Lanes Joining From Right - Right Joining Lane Continues (Two to Three Lanes)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/additionallanesjoiningfromrightrightjoininglanecontinuestwotothreelanes.png",
+      "description": "Right-side lane addition stays.",
+      "meaning": "🛣️ The number of lanes increases from two to three.\n➡️ A new lane joins from the right and continues as the new right lane.\n🚗 Watch for traffic merging from the right.",
+      "tags": [
+        "lanes",
+        "right",
+        "addition",
+        "stays",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_294",
+      "name": "Airport Advance Direction",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/airportadvancedirection.png",
+      "description": "Advance sign guiding toward airport route.",
+      "meaning": "✈️ Provides advance notice for the direction to the airport.\n🗺️ Helps you get into the correct lane early.\n➡️ Follow the signs to ensure you take the correct exit.",
+      "tags": [
+        "airport",
+        "advance",
+        "direction",
+        "route",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_295",
+      "name": "Airport Direction",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/airportdirection.png",
+      "description": "Directional sign pointing to airport.",
+      "meaning": "✈️ Indicates the direction to the airport at a junction.\n➡️ Follow the arrow to take the correct route.\n📍 A helpful sign for travelers.",
+      "tags": [
+        "airport",
+        "direction",
+        "pointer",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_296",
+      "name": "Airport Repeater Sign",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/airportrepeatersign.png",
+      "description": "Reassures correct route toward airport.",
+      "meaning": "✈️ Confirms that you are on the correct road to the airport.\n✅ Acts as a reassurance for drivers.\n🛣️ Usually placed along the main route after a major junction.",
+      "tags": [
+        "airport",
+        "repeater",
+        "route",
+        "confirm",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_297",
+      "name": "Authorised Vehicles Only",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/authorisedvehiclesonly.png",
+      "description": "Restricted area for authorised vehicles only.",
+      "meaning": "⛔ Indicates a restricted area or access road.\n🚗 Only vehicles with specific permission are allowed to enter.\n❌ Unauthorized vehicles are prohibited.",
+      "tags": [
+        "authorised",
+        "vehicles",
+        "only",
+        "restricted",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_298",
+      "name": "Average Speed Zone",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/averagespeedzone.png",
+      "description": "Cameras measure average speed over distance.",
+      "meaning": "📸 You are entering an average speed camera zone.\n⏱️ Your average speed is monitored between two points.\n🐢 Maintain a speed at or below the limit for the entire zone.",
+      "tags": [
+        "average",
+        "speed",
+        "zone",
+        "cameras",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_299",
+      "name": "Bus Parking",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/busparking.png",
+      "description": "Designated parking area for buses only.",
+      "meaning": "🅿️ Indicates a parking area reserved specifically for buses.\n🚌 Other vehicles are not permitted to park here.\n⛔ Unauthorized parking may result in a fine.",
+      "tags": [
+        "bus",
+        "parking",
+        "designated",
+        "only",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_300",
+      "name": "Countdown Marker (motorway, 100m)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/countdownmarkermotorway100m.png",
+      "description": "100 m to motorway exit or hazard.",
+      "meaning": "🛣️ You are approaching a motorway exit.\n📏 This marker is 100 metres from the start of the exit slip road.\n↘️ If you intend to exit, ensure you are in the left-hand lane.",
+      "tags": [
+        "countdown",
+        "marker",
+        "100m",
+        "exit",
+        "hazard",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_301",
+      "name": "Countdown Marker (motorway, 200m)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/countdownmarkermotorway200m.png",
+      "description": "200 m to exit or hazard second panel.",
+      "meaning": "🛣️ You are approaching a motorway exit.\n📏 This marker is 200 metres from the start of the exit slip road.\n↘️ Prepare to move into the exit lane.",
+      "tags": [
+        "countdown",
+        "marker",
+        "200m",
+        "exit",
+        "hazard",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_custom_302",
+      "name": "Countdown Marker (motorway, 300m)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/countdownmarkermotorway300m.png",
+      "description": "300 m advance exit or hazard notice.",
+      "meaning": "🛣️ You are approaching a motorway exit.\n📏 This marker is 300 metres from the start of the exit slip road.\n↘️ This is the first warning for the upcoming exit.",
+      "tags": [
+        "countdown",
+        "marker",
+        "300m",
+        "exit",
+        "hazard",
+        "others",
+        "custom"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_303",
+      "name": "County Boundary Sign (Type A)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/countyboundarysigntypea.png",
+      "description": "Entering new county Type A format.",
+      "meaning": "🗺️ Indicates you are now entering a new county.\n📍 Provides local geographical information.\n🚗 Drive safely and respect the local area.",
+      "tags": [
+        "county",
+        "boundary",
+        "type",
+        "a",
+        "entering",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_304",
+      "name": "County Boundary Sign (Type B)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/countyboundarysigntypeb.png",
+      "description": "County boundary Type B style.",
+      "meaning": "🗺️ Informs you that you have crossed into a different county.\n📍 A geographical marker for drivers.\n🚗 Welcome to the new county.",
+      "tags": [
+        "county",
+        "boundary",
+        "type",
+        "b",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_custom_305",
+      "name": "Cul-de-sac",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/culdesac.png",
+      "description": "Dead-end street no through route.",
+      "meaning": "⛔ This sign indicates a dead-end street.\n↔️ There is no exit at the other end.\n↩️ You will need to turn around to exit.",
+      "tags": [
+        "cul-de-sac",
+        "dead-end",
+        "no",
+        "through",
+        "others",
+        "custom"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_306",
+      "name": "Cycle Parking",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/cycleparking.png",
+      "description": "Designated bicycle parking facility.",
+      "meaning": "🚲 Indicates a designated parking area for bicycles.\n🅿️ Cyclists can securely leave their bikes here.\n📍 Often found near public transport and amenities.",
+      "tags": [
+        "cycle",
+        "parking",
+        "bicycle",
+        "facility",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_307",
+      "name": "Direction Sign (regional road)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/directionsignregionalroad.png",
+      "description": "Direction to destinations via regional route.",
+      "meaning": "🗺️ Shows the direction to towns and cities from a regional road.\n🛣️ White text on a green background is used for regional routes.\n➡️ Follow the sign for your intended destination.",
+      "tags": [
+        "direction",
+        "regional",
+        "road",
+        "destinations",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_308",
+      "name": "Disabled Persons' Parking",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/disabledpersonsparking.png",
+      "description": "Reserved bay for vehicles with permit.",
+      "meaning": "♿ This parking space is reserved for disabled badge holders.\n🅿️ You must display a valid disabled parking permit.\n⛔ Unauthorized parking is not allowed.",
+      "tags": [
+        "disabled",
+        "parking",
+        "reserved",
+        "permit",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_309",
+      "name": "e-Charging",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/echarging.png",
+      "description": "Electric vehicle charging point location.",
+      "meaning": "🔌 Indicates the location of an electric vehicle charging station.\n🚗 EV drivers can charge their vehicles here.\n🔋 A vital sign for electric car users.",
+      "tags": [
+        "e-charging",
+        "electric",
+        "vehicle",
+        "point",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_310",
+      "name": "Emergency (Tunnel) Lay-by",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/emergencytunnellayby.png",
+      "description": "Emergency-only stopping area inside tunnel.",
+      "meaning": "🆘 Indicates an emergency stopping area inside a tunnel.\n🛑 Only use this lay-by in a genuine emergency (e.g., breakdown).\n🚗 Do not stop here for any other reason.",
+      "tags": [
+        "emergency",
+        "tunnel",
+        "lay-by",
+        "stopping",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_311",
+      "name": "Emergency Station",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/emergencystation.png",
+      "description": "Emergency equipment station location.",
+      "meaning": "🆘 Shows the location of an emergency station.\n☎️ Typically includes an emergency telephone.\n🧯 May also include a fire extinguisher.",
+      "tags": [
+        "emergency",
+        "station",
+        "equipment",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_312",
+      "name": "End of Motorway Ahead",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/endofmotorwayahead.png",
+      "description": "Motorway classification ending soon.",
+      "meaning": "🔚 The motorway is ending soon.\n🐢 Be prepared for a change in road type and a lower speed limit.\n🛣️ Normal road rules will apply shortly.",
+      "tags": [
+        "end",
+        "motorway",
+        "ahead",
+        "classification",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_custom_313",
+      "name": "End of Motorway",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/endofmotorway.png",
+      "description": "Motorway regulations cease here.",
+      "meaning": "🔚 The motorway ends here.\n🛣️ Motorway regulations and restrictions no longer apply.\n🐢 Be prepared for a change in speed limit and road conditions.",
+      "tags": [
+        "end",
+        "motorway",
+        "regulations",
+        "cease",
+        "others",
+        "custom"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_314",
+      "name": "Entering a Gaeltacht Area (national road, without name)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/enteringagaeltachtareanationalroadwithoutname.png",
+      "description": "Irish-speaking region begins signage may be Irish only.",
+      "meaning": "🗣️ You are entering a 'Gaeltacht' - an Irish-speaking area.\n🗺️ Place names on signs may be in the Irish language only.\n🚗 Be aware of this change in signage.",
+      "tags": [
+        "entering",
+        "gaeltacht",
+        "area",
+        "irish",
+        "national",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_315",
+      "name": "Entering a Gaeltacht Area (regional road, with name)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/enteringagaeltachtarearegionalroadwithname.png",
+      "description": "Entering named Gaeltacht area on regional road.",
+      "meaning": "🗣️ Indicates you are entering a named Irish-speaking (Gaeltacht) region.\n🗺️ Be aware that road signs may be primarily in Irish.\n🚗 Drive carefully and enjoy the local culture.",
+      "tags": [
+        "entering",
+        "gaeltacht",
+        "area",
+        "regional",
+        "named",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_316",
+      "name": "Exit Sign (motorway)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/exitsignmotorway.png",
+      "description": "Indicates motorway exit location.",
+      "meaning": "↘️ Marks the start of the exit slip road from a motorway.\n🛣️ This is the point where you leave the main carriageway.\n🚗 Ensure you are in the correct lane before this point.",
+      "tags": [
+        "exit",
+        "sign",
+        "motorway",
+        "location",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_317",
+      "name": "Exit Taper Gantry Sign (motorway)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/exittapergantrysignmotorway.png",
+      "description": "Overhead sign marking exit taper start.",
+      "meaning": "🛣️ An overhead sign indicating the start of the lane for an exit.\n↘️ It shows which destinations are served by this exit.\n🚗 Move into the exit lane if you wish to leave the motorway.",
+      "tags": [
+        "exit",
+        "taper",
+        "gantry",
+        "motorway",
+        "start",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_318",
+      "name": "Fire Extinguisher and Telephone",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/fireextinguisherandtelephone.png",
+      "description": "Emergency fire and communication equipment.",
+      "meaning": "🆘 Indicates the location of emergency equipment.\n🧯 A fire extinguisher is available for use.\n☎️ An emergency telephone is also present.",
+      "tags": [
+        "fire",
+        "extinguisher",
+        "telephone",
+        "emergency",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_319",
+      "name": "Fire Extinguisher, Telephone and Lay-by",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/fireextinguishertelephoneandlayby.png",
+      "description": "Emergency lay-by with fire and phone facilities.",
+      "meaning": "🆘 This sign directs you to an emergency lay-by.\n🧯 It is equipped with a fire extinguisher.\n☎️ An emergency telephone is also available.",
+      "tags": [
+        "fire",
+        "extinguisher",
+        "telephone",
+        "lay-by",
+        "emergency",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_320",
+      "name": "Garda Only",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/gardaonly.png",
+      "description": "Access restricted to police vehicles.",
+      "meaning": "🚓 Indicates a road or access point for police (Garda) use only.\n⛔ Public and other unauthorized vehicles are not allowed.\n🛑 Do not enter.",
+      "tags": [
+        "garda",
+        "only",
+        "police",
+        "restricted",
+        "access",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_321",
+      "name": "Garda Station",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/gardastation.png",
+      "description": "Direction or location of police station.",
+      "meaning": "🚓 Indicates the direction or location of a police (Garda) station.\nℹ️ A helpful sign for the public.\n➡️ Follow the sign if you need police assistance.",
+      "tags": [
+        "garda",
+        "station",
+        "police",
+        "location",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_322",
+      "name": "Heavy Vehicle Advance Direction",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/heavyvehicleadvancedirection.png",
+      "description": "Advance route guidance for heavy vehicles.",
+      "meaning": "🚚 Provides an advance warning for a specific route for heavy goods vehicles (HGVs).\n🗺️ This may be to avoid a low bridge or a weight-restricted area.\n➡️ HGV drivers should prepare to follow this route.",
+      "tags": [
+        "heavy",
+        "vehicle",
+        "advance",
+        "direction",
+        "route",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_323",
+      "name": "Heavy Vehicle Direction",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/heavyvehicledirection.png",
+      "description": "Indicates direction heavy vehicles should take.",
+      "meaning": "🚚 Indicates a mandatory or advised route for heavy vehicles.\n➡️ HGVs should follow the direction shown.\n❌ This often helps them avoid unsuitable roads.",
+      "tags": [
+        "heavy",
+        "vehicle",
+        "direction",
+        "route",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_324",
+      "name": "High Vehicle Advance",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/highvehicleadvance.png",
+      "description": "Advance notice for tall vehicles regarding clearance.",
+      "meaning": "🚚 Provides advance warning of a height restriction ahead.\n🗺️ Indicates an alternative route for high vehicles.\n➡️ Drivers of tall vehicles should prepare to take the diversion.",
+      "tags": [
+        "high",
+        "vehicle",
+        "advance",
+        "clearance",
+        "tall",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_325",
+      "name": "High Vehicle Direction",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/highvehicledirection.png",
+      "description": "Direction suitable for tall vehicles.",
+      "meaning": "🚚 Directs tall vehicles onto a suitable alternative route.\n🌉 Helps them avoid a low bridge or other overhead obstruction.\n➡️ Follow the arrow if your vehicle is overheight.",
+      "tags": [
+        "high",
+        "vehicle",
+        "direction",
+        "tall",
+        "route",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_326",
+      "name": "Hospital Advance Direction",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/hospitaladvancedirection.png",
+      "description": "Advance sign guiding to hospital facility.",
+      "meaning": "🏥 Provides advance notice for the direction to a hospital.\n🗺️ Helps you prepare for the turn or exit.\n➕ Particularly important for emergency situations.",
+      "tags": [
+        "hospital",
+        "advance",
+        "direction",
+        "facility",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_327",
+      "name": "Hospital Direction Sign",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/hospitaldirectionsign.png",
+      "description": "Direction arrow toward hospital.",
+      "meaning": "🏥 Indicates the direction to the nearest hospital at a junction.\n➡️ Follow the arrow to get to the medical facility.\n➕ Often marked with a red cross.",
+      "tags": [
+        "hospital",
+        "direction",
+        "arrow",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_custom_328",
+      "name": "Hospital",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/hospital.png",
+      "description": "Hospital located nearby.",
+      "meaning": "🏥 Indicates that a hospital is located nearby.\n🚗 Be aware of ambulance traffic in the area.\n🤫 Drive quietly and respectfully.",
+      "tags": [
+        "hospital",
+        "nearby",
+        "location",
+        "others",
+        "custom"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_329",
+      "name": "Junction Definition Post",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/junctiondefinitionpost.png",
+      "description": "Marker post defining junction reference point.",
+      "meaning": "📍 A marker post used to identify a specific motorway junction.\n🛣️ It shows the junction number for navigation and reference.\n🗺️ Helps drivers confirm their location.",
+      "tags": [
+        "junction",
+        "definition",
+        "post",
+        "marker",
+        "reference",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_330",
+      "name": "Lane Destination Sign (national road)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/lanedestinationsignnationalroad.png",
+      "description": "Shows destinations served by each lane.",
+      "meaning": "🗺️ Shows which towns or routes each lane leads to.\n🚗 Position your vehicle in the correct lane for your destination.\n↔️ This helps to reduce last-minute lane changes.",
+      "tags": [
+        "lane",
+        "destination",
+        "sign",
+        "national",
+        "road",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_331",
+      "name": "Lane Diverge (Three Lanes)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/lanedivergethreelanes.png",
+      "description": "Multi-lane diverge upcoming.",
+      "meaning": "➗ The road ahead splits, with one lane going one way and two the other.\n🚗 Make sure you are in the correct lane for your destination.\n🛣️ This often occurs at motorway splits or major junctions.",
+      "tags": [
+        "lane",
+        "diverge",
+        "three",
+        "upcoming",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_332",
+      "name": "Lane Gain (Three to Four Lanes, 200m)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/lanegainthreetofourlanes200m.png",
+      "description": "Lane count increases ahead in 200 m.",
+      "meaning": "🛣️ The road will widen from three to four lanes in 200 metres.\n➕ This indicates an increase in road capacity.\n🚗 Be aware of traffic movements as the new lane begins.",
+      "tags": [
+        "lane",
+        "gain",
+        "increase",
+        "200m",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_333",
+      "name": "Location Reference Indicator Sign",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/locationreferenceindicatorsign.png",
+      "description": "Reference marker for distance or segment ID.",
+      "meaning": "📍 Provides a specific location marker on a road.\n🔢 The numbers refer to the road and the distance from its starting point.\n🆘 Useful for reporting breakdowns or incidents accurately.",
+      "tags": [
+        "location",
+        "reference",
+        "indicator",
+        "marker",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_334",
+      "name": "Map Type Advance Direction Sign (motorway)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/maptypeadvancedirectionsignmotorway.png",
+      "description": "Diagrammatic motorway junction layout ahead.",
+      "meaning": "🗺️ Shows a diagram of the motorway junction ahead.\n🚗 Helps you understand the layout and choose the correct lane.\n🛣️ Blue signs are for motorways.",
+      "tags": [
+        "map",
+        "advance",
+        "direction",
+        "motorway",
+        "junction",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_335",
+      "name": "Map Type Advance Direction Sign (national road)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/maptypeadvancedirectionsignnationalroad.png",
+      "description": "Map-style sign for national road junction.",
+      "meaning": "🗺️ Shows a diagram of the junction ahead on a national road.\n🚗 Green signs are used for national (non-motorway) routes.\n🛣️ Helps you navigate complex junctions.",
+      "tags": [
+        "map",
+        "advance",
+        "direction",
+        "national",
+        "junction",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_336",
+      "name": "Map Type Advance Direction Sign (regional road, roundabout)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/maptypeadvancedirectionsignregionalroadroundabout.png",
+      "description": "Roundabout layout with exits labelled.",
+      "meaning": "🗺️ Shows a diagram of the roundabout ahead.\n🚗 White signs are typically for regional or local roads.\n🛣️ Shows which exit to take for each destination.",
+      "tags": [
+        "map",
+        "advance",
+        "direction",
+        "roundabout",
+        "exits",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_337",
+      "name": "Metric Speed Limit Information",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/metricspeedlimitinformation.png",
+      "description": "Clarifies speed limits expressed in km/h.",
+      "meaning": "ℹ️ Reminds drivers that speed limits are in kilometres per hour (km/h).\n🌍 Especially useful for visitors from countries using miles per hour (mph).\n🚗 Ensure your speedometer reading corresponds to the limit.",
+      "tags": [
+        "metric",
+        "speed",
+        "limit",
+        "information",
+        "kmh",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_338",
+      "name": "Motorway Prohibitions (English)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/motorwayprohibitionsenglish.png",
+      "description": "Lists classes banned from motorway.",
+      "meaning": "⛔ Lists the types of traffic not allowed on the motorway.\n🚶 Prohibited users include pedestrians, cyclists, and learner drivers.\n🚜 Slow-moving vehicles are also forbidden.",
+      "tags": [
+        "motorway",
+        "prohibitions",
+        "english",
+        "banned",
+        "classes",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_339",
+      "name": "Motorway Prohibitions (Irish)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/motorwayprohibitionsirish.png",
+      "description": "Irish-language list of prohibited motorway users.",
+      "meaning": "⛔ Lists motorway prohibitions in the Irish language.\n🚶 Prohibited users include pedestrians, cyclists, and learner drivers.\n🚜 Slow-moving vehicles are also forbidden.",
+      "tags": [
+        "motorway",
+        "prohibitions",
+        "irish",
+        "users",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_340",
+      "name": "Next Exit Sign (motorway)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/nextexitsignmotorway.png",
+      "description": "Indicates next exit name or number.",
+      "meaning": "🛣️ Informs you about the next exit on the motorway.\n📍 It shows the destination and the distance to the exit.\n🚗 This helps you plan your journey and lane changes.",
+      "tags": [
+        "next",
+        "exit",
+        "sign",
+        "motorway",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_341",
+      "name": "Overhead Gantry Sign (motorway, non-lane drop)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/overheadgantrysignmotorwaynonlanedrop.png",
+      "description": "Over-lane sign giving route or destination info.",
+      "meaning": "🗺️ An overhead sign showing destinations for the lanes below.\n🛣️ Helps you stay in the correct lane for your onward journey.\n🚗 No lanes are ending at this point.",
+      "tags": [
+        "overhead",
+        "gantry",
+        "route",
+        "destination",
+        "motorway",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_342",
+      "name": "Overhead Gantry Sign (national road, lane drop)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/overheadgantrysignnationalroadlanedrop.png",
+      "description": "Overhead sign indicates upcoming lane loss.",
+      "meaning": "🗺️ An overhead sign showing destinations for each lane.\n❌ The red 'X' indicates that this lane will end (lane drop).\n🚗 Move out of the ending lane in good time.",
+      "tags": [
+        "overhead",
+        "gantry",
+        "lane",
+        "drop",
+        "upcoming",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_343",
+      "name": "Park and Ride Advance Direction",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/parkandrideadvancedirection.png",
+      "description": "Advance sign for Park and Ride facility.",
+      "meaning": "🅿️ Provides advance notice for a Park and Ride facility.\n🚌 You can park your car and take public transport into the city.\n🗺️ Helps you prepare for the turn or exit.",
+      "tags": [
+        "park",
+        "ride",
+        "advance",
+        "direction",
+        "facility",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_344",
+      "name": "Park and Ride Direction",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/parkandridedirection.png",
+      "description": "Direction arrow to Park and Ride.",
+      "meaning": "🅿️ Indicates the direction to a Park and Ride facility at a junction.\n🚌 Follow the arrow to access the parking area.\n🚗 A convenient way to avoid city center driving.",
+      "tags": [
+        "park",
+        "ride",
+        "direction",
+        "arrow",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_345",
+      "name": "Parking Advance Direction",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/parkingadvancedirection.png",
+      "description": "Advance info for general parking facility.",
+      "meaning": "🅿️ Provides advance direction to a public car park.\n🗺️ Helps drivers locate parking before reaching the center.\n🚗 Prepare to turn or exit as indicated.",
+      "tags": [
+        "parking",
+        "advance",
+        "direction",
+        "facility",
+        "info",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_346",
+      "name": "Parking Direction",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/parkingdirection.png",
+      "description": "Direction to parking area.",
+      "meaning": "🅿️ Points in the direction of a public parking area.\n➡️ Follow the arrow at a junction to find the car park.\n🚗 Helps reduce traffic searching for parking.",
+      "tags": [
+        "parking",
+        "direction",
+        "area",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_347",
+      "name": "Parking",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/parking.png",
+      "description": "Designated parking location.",
+      "meaning": "🅿️ Indicates that parking is permitted in this area.\n🚗 Look for other signs that may specify time limits or fees.\n✅ You may park your vehicle here.",
+      "tags": [
+        "parking",
+        "designated",
+        "location",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_348",
+      "name": "Pedestrian Exit",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/pedestrianexit.png",
+      "description": "Official exit path for pedestrians.",
+      "meaning": "🚶 Indicates the designated exit for pedestrians.\n➡️ Follow this sign to leave an area on foot.\n✅ Ensures safe separation from vehicle traffic.",
+      "tags": [
+        "pedestrian",
+        "exit",
+        "path",
+        "official",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_349",
+      "name": "River Name Sign with Symbol",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/rivernamesignwithsymbol.png",
+      "description": "Identifies river crossing.",
+      "meaning": "🏞️ Informs you of the name of the river you are crossing.\n🌉 A geographical and tourist information sign.\n💧 The fish symbol indicates it's a known fishing river.",
+      "tags": [
+        "river",
+        "name",
+        "sign",
+        "crossing",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_350",
+      "name": "Route Confirmatory Sign (national road)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/routeconfirmatorysignnationalroad.png",
+      "description": "Confirms route number and destination distances.",
+      "meaning": "✅ Confirms you are on the correct national road.\n🛣️ It shows the road number (e.g., N25).\n📍 It also gives the distances to upcoming towns.",
+      "tags": [
+        "route",
+        "confirmatory",
+        "number",
+        "distances",
+        "national",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_351",
+      "name": "Shared Space",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/sharedspace.png",
+      "description": "Mixed-priority environment shared by users.",
+      "meaning": "🤝 You are entering a shared space zone.\n🚶 This area is designed for use by both pedestrians and vehicles.\n🐢 Drive very slowly and be prepared to stop at any time.",
+      "tags": [
+        "shared",
+        "space",
+        "mixed",
+        "priority",
+        "environment",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_352",
+      "name": "Slow Zone",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/slowzone.png",
+      "description": "Traffic-calmed area requiring reduced speed.",
+      "meaning": "🐢 You are entering a 'Slow Zone'.\n🚗 This is a traffic-calmed area where you must drive slowly.\n🚶 Be especially aware of pedestrians and cyclists.",
+      "tags": [
+        "slow",
+        "zone",
+        "traffic-calmed",
+        "reduced",
+        "speed",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_353",
+      "name": "Speed Camera Ahead",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/speedcameraahead.png",
+      "description": "Automated enforcement camera ahead.",
+      "meaning": "📸 Warns of a speed enforcement camera ahead.\n🚗 Ensure you are driving at or below the speed limit.\n💰 Failure to comply may result in a fine.",
+      "tags": [
+        "speed",
+        "camera",
+        "ahead",
+        "enforcement",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_354",
+      "name": "Stack Type Advance Direction Sign (regional road)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/stacktypeadvancedirectionsignregionalroad.png",
+      "description": "Stacked directional information multiple destinations.",
+      "meaning": "🗺️ An advance sign listing destinations in a 'stack'.\n⬆️ The top destination is usually the furthest away or straight ahead.\n🚗 Helps you prepare for an upcoming junction on a regional road.",
+      "tags": [
+        "stack",
+        "advance",
+        "direction",
+        "regional",
+        "destinations",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_custom_355",
+      "name": "Start of Motorway Ahead",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs",
+        "Custom Signs"
+      ],
+      "imagePath": "/signs/startofmotorwayahead.png",
+      "description": "Motorway regulations will begin soon.",
+      "meaning": "🛣️ The road ahead will soon become a motorway.\n⛔ Prepare for motorway restrictions to apply.\n🚗 This is your last chance to exit if you are not permitted on the motorway.",
+      "tags": [
+        "start",
+        "motorway",
+        "ahead",
+        "regulations",
+        "others",
+        "custom"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_356",
+      "name": "Start of Motorway",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/startofmotorway.png",
+      "description": "Entry point to motorway controlled access.",
+      "meaning": "▶️ You are now entering a motorway.\n🛣️ Special motorway regulations and speed limits apply from this point.\n⛔ Prohibited traffic (e.g., pedestrians, learner drivers) must not enter.",
+      "tags": [
+        "start",
+        "motorway",
+        "entry",
+        "controlled",
+        "access",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_357",
+      "name": "Start of Nearside With-Flow Bus Lane",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/startofnearsidewithflowbuslane.png",
+      "description": "Left-side bus lane begins with traffic direction.",
+      "meaning": "🚌 Indicates the start of a bus lane on the left side of the road.\n⏰ The sign will show the hours of operation.\n🚗 Do not drive in the bus lane during its active hours unless permitted.",
+      "tags": [
+        "start",
+        "nearside",
+        "with-flow",
+        "bus",
+        "lane",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_358",
+      "name": "Start of Offside With-Flow Bus Lane",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/startofoffsidewithflowbuslane.png",
+      "description": "Right-side bus lane starts same direction.",
+      "meaning": "🚌 Indicates the start of a bus lane on the right side (center) of the road.\n⏰ Check the sign for the hours of operation.\n🚗 Stay out of the bus lane during its restricted times.",
+      "tags": [
+        "start",
+        "offside",
+        "with-flow",
+        "bus",
+        "lane",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_359",
+      "name": "Station Advance Direction",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/stationadvancedirection.png",
+      "description": "Advance guidance for station approach.",
+      "meaning": "🚉 Provides advance notice for the direction to a train or bus station.\n🗺️ Helps you prepare for the upcoming turn or exit.\n🚗 Get into the correct lane for the station.",
+      "tags": [
+        "station",
+        "advance",
+        "direction",
+        "approach",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_360",
+      "name": "Station Direction",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/stationdirection.png",
+      "description": "Direction arrow to station entrance.",
+      "meaning": "🚉 Points the way to a nearby train or bus station.\n➡️ Follow the arrow at the junction.\n📍 Helps you locate public transport hubs.",
+      "tags": [
+        "station",
+        "direction",
+        "arrow",
+        "entrance",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_361",
+      "name": "Toll Plaza Ahead",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/tollplazaahead.png",
+      "description": "Charging point ahead lanes may separate.",
+      "meaning": "💰 Warns that you are approaching a toll plaza.\n🚗 Prepare to stop and pay the toll.\n💳 Have your cash or card ready, and choose the correct lane.",
+      "tags": [
+        "toll",
+        "plaza",
+        "ahead",
+        "charging",
+        "lanes",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_362",
+      "name": "Toll Road Ahead",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/tollroadahead.png",
+      "description": "Upcoming road section requires toll payment.",
+      "meaning": "💰 Informs you that the road ahead is a toll road.\n🚗 You will have to pay a fee to use this road.\n🗺️ This is your advance warning to decide whether to use the road or seek an alternative.",
+      "tags": [
+        "toll",
+        "road",
+        "ahead",
+        "payment",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_363",
+      "name": "Town and Village Sign (national road)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/townandvillagesignnationalroad.png",
+      "description": "Entering named settlement on national road.",
+      "meaning": "🏘️ Indicates that you are entering a town or village.\n🐢 Be prepared for a lower speed limit.\n🚶 Watch out for pedestrians and local traffic.",
+      "tags": [
+        "town",
+        "village",
+        "sign",
+        "national",
+        "road",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_364",
+      "name": "Town and Village Sign (regional local road)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/townandvillagesignregionallocalroad.png",
+      "description": "Entering named locality via regional or local route.",
+      "meaning": "🏘️ Informs you that you are entering a named town or village.\n🐢 A lower speed limit will likely apply.\n🚶 Be aware of increased local activity.",
+      "tags": [
+        "town",
+        "village",
+        "regional",
+        "local",
+        "route",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_365",
+      "name": "Town and Village Sign (regional local road, Gaeltacht)",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/townandvillagesignregionallocalroadgaeltacht.png",
+      "description": "Entering Gaelic-speaking locality signage may be Irish only.",
+      "meaning": "🏘️ You are entering a town or village in an Irish-speaking (Gaeltacht) area.\n🗣️ The name is shown in Irish.\n🐢 Be prepared for lower speed limits and local traffic.",
+      "tags": [
+        "town",
+        "village",
+        "gaeltacht",
+        "regional",
+        "local",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_366",
+      "name": "Town Name and Speed Limit Sign",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/townnameandspeedlimitsign.png",
+      "description": "Settlement boundary with posted entering speed limit.",
+      "meaning": "🏘️ Indicates you are entering the named town or village.\n5️⃣0️⃣ A new, lower speed limit applies from this point.\n🐢 Reduce your speed immediately.",
+      "tags": [
+        "town",
+        "name",
+        "speed",
+        "limit",
+        "boundary",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_367",
+      "name": "Tram Information Sign",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/traminformationsign.png",
+      "description": "Provides tram-specific operational or routing information.",
+      "meaning": "🚋 Provides important information related to trams.\nℹ️ This could include warnings, directions, or rules.\n🚗 Pay close attention to the details on the sign.",
+      "tags": [
+        "tram",
+        "information",
+        "operational",
+        "routing",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_368",
+      "name": "Tunnel Information Sign",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/tunnelinformationsign.png",
+      "description": "Displays tunnel name length or special instructions.",
+      "meaning": "🚇 You are about to enter a tunnel.\nℹ️ The sign provides the tunnel's name and length.\n📜 It may also include important safety instructions.",
+      "tags": [
+        "tunnel",
+        "information",
+        "name",
+        "length",
+        "instructions",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_369",
+      "name": "Tunnel Radio Stations",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/tunnelradiostations.png",
+      "description": "Lists frequencies for traffic or emergency updates inside tunnel.",
+      "meaning": "📻 Lists the radio frequencies to use inside the tunnel.\n🎙️ Tune your radio to one of these stations for traffic and safety announcements.\n🚇 This is an important safety feature.",
+      "tags": [
+        "tunnel",
+        "radio",
+        "stations",
+        "frequencies",
+        "updates",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_370",
+      "name": "Turn Back",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/turnback.png",
+      "description": "Ahead route unavailable drivers must reverse direction.",
+      "meaning": "⛔ The road ahead is closed with no alternative route.\n↩️ You must turn back.\n🛑 Do not proceed any further.",
+      "tags": [
+        "turn",
+        "back",
+        "route",
+        "unavailable",
+        "reverse",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_371",
+      "name": "Turn Headlights On",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/turnheadlightson.png",
+      "description": "Visibility or environment requires headlights.",
+      "meaning": "💡 You must switch on your dipped headlights.\n🚇 This is often required when entering a tunnel or a dimly lit area.\n🚗 Ensure your lights are on for safety and visibility.",
+      "tags": [
+        "turn",
+        "headlights",
+        "visibility",
+        "environment",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "others_372",
+      "name": "Warning Traffic Calming Sign",
+      "category": "Others Signs",
+      "categories": [
+        "Others Signs"
+      ],
+      "imagePath": "/signs/warningtrafficcalmingsign.png",
+      "description": "Approaching measures designed to reduce speed.",
+      "meaning": "🐢 Warns that you are approaching a traffic-calmed area.\n〰️ Expect features like road humps, chicanes, or road narrowing.\n🚗 Reduce your speed accordingly.",
+      "tags": [
+        "warning",
+        "traffic",
+        "calming",
+        "measures",
+        "speed",
+        "others"
+      ],
+      "shape": "Rectangular",
+      "color": "Blue and white"
+    },
+    {
+      "id": "supplementary_373",
+      "name": "24-Hour Operation",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/twentyfouroperation.png",
+      "description": "Restriction or rule applies continuously day and night.",
+      "meaning": "🕒 The regulation shown on the main sign applies 24 hours a day.\n☀️ It is in effect at all times, day and night.\n✅ There are no time-based exceptions to the rule.",
+      "tags": [
+        "24-hour",
+        "operation",
+        "continuous",
+        "rule",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_374",
+      "name": "Another Train Coming",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/anothertraincoming.png",
+      "description": "A second train may arrive after the first has passed.",
+      "meaning": "🚆 Used at level crossings with twin tracks.\n⚠️ After one train has passed, another may be coming from the other direction.\n🛑 Do not cross until you are sure all tracks are clear.",
+      "tags": [
+        "another",
+        "train",
+        "coming",
+        "second",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_375",
+      "name": "Both Ways",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/bothways.png",
+      "description": "Hazard or movement affecting traffic in both directions.",
+      "meaning": "↔️ Indicates the main sign's message applies in both directions.\n➡️⬅️ Often used below a 'No Parking' or 'No Stopping' sign.\n🅿️ The restriction applies to the left and right of the sign.",
+      "tags": [
+        "both",
+        "ways",
+        "traffic",
+        "directions",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_376",
+      "name": "Cautionary Speed",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/cautionaryspeed.png",
+      "description": "Advisory safe speed for hazard section.",
+      "meaning": "🐢 Recommends a safe speed for the hazard ahead (e.g., a sharp bend).\n🚗 This is an advisory speed, not a mandatory limit.\n⚠️ You should slow to this speed for safety.",
+      "tags": [
+        "cautionary",
+        "speed",
+        "advisory",
+        "hazard",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_377",
+      "name": "Concealed Entrance",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/concealedentrance.png",
+      "description": "Hidden access where vehicles may emerge unexpectedly.",
+      "meaning": "🙈 Warns of a hidden entrance or junction ahead.\n🚗 Vehicles may pull out into the road with little warning.\n🐢 Reduce your speed and be prepared to stop.",
+      "tags": [
+        "concealed",
+        "entrance",
+        "hidden",
+        "access",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_378",
+      "name": "Cycle Network Arrow",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/cyclenetworkarrow.png",
+      "description": "Direction of designated cycle network route.",
+      "meaning": "🚴 Indicates the direction of a numbered cycle route.\n🗺️ Helps cyclists navigate the designated network.\n➡️ Follow the arrow to stay on the route.",
+      "tags": [
+        "cycle",
+        "network",
+        "arrow",
+        "direction",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_379",
+      "name": "Direction - Left",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/directionleft.png",
+      "description": "Clarifies a left-hand direction for main sign.",
+      "meaning": "⬅️ The regulation on the main sign applies to the left of this sign.\n🅿️ For example, 'No Parking to the left'.\n↔️ The arrow points in the direction the rule is in effect.",
+      "tags": [
+        "direction",
+        "left",
+        "clarifies",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_380",
+      "name": "Direction - Right",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/directionright.png",
+      "description": "Indicates a right-hand direction for main sign.",
+      "meaning": "➡️ The regulation on the main sign applies to the right of this sign.\n🅿️ For example, 'No Parking to the right'.\n↔️ The arrow points in the direction the rule is in effect.",
+      "tags": [
+        "direction",
+        "right",
+        "indicates",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_381",
+      "name": "Direction and Distance - Left",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/directionanddistanceleft.png",
+      "description": "Left direction plus distance to hazard or destination.",
+      "meaning": "⬅️ The hazard or feature on the main sign is to the left.\n📏 It is located at the distance shown on the plate.\n🗺️ Provides both direction and distance.",
+      "tags": [
+        "direction",
+        "distance",
+        "left",
+        "hazard",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_382",
+      "name": "Direction and Distance - Right",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/directionanddistanceright.png",
+      "description": "Right direction and remaining distance indicated.",
+      "meaning": "➡️ The hazard or feature on the main sign is to the right.\n📏 It is located at the distance shown on the plate.\n🗺️ Provides both direction and distance information.",
+      "tags": [
+        "direction",
+        "distance",
+        "right",
+        "remaining",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_383",
+      "name": "Distance",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/distance.png",
+      "description": "Distance to start extent or end of related condition.",
+      "meaning": "📏 The hazard or regulation on the main sign begins at the distance shown.\n⬇️ For example, 'Road Narrows in 100m'.\n🚗 Prepare for the condition ahead.",
+      "tags": [
+        "distance",
+        "start",
+        "end",
+        "extent",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_384",
+      "name": "End",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/end.png",
+      "description": "Termination of preceding restriction or condition.",
+      "meaning": "✅ Indicates the end of a restriction or regulation.\n🔚 For example, placed under a 'No Overtaking' sign to show where the ban finishes.\n🚗 Normal rules apply from this point.",
+      "tags": [
+        "end",
+        "termination",
+        "restriction",
+        "condition",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_385",
+      "name": "Exceptions",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/exceptions.png",
+      "description": "Lists user or vehicle classes exempt from main restriction.",
+      "meaning": "ℹ️ Lists exceptions to the rule on the main sign.\n🚌 For example, 'No Entry... Except Buses'.\n✅ If you are in an excepted category, you may proceed.",
+      "tags": [
+        "exceptions",
+        "exempt",
+        "classes",
+        "restriction",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_386",
+      "name": "Hazard - Direction and Distance",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/hazarddirectionanddistance.png",
+      "description": "Indicates where and how far away the hazard lies.",
+      "meaning": "🗺️ Specifies the direction and distance to a particular hazard.\n⬅️➡️ The arrow points towards the hazard.\n📏 The distance tells you how far away it is.",
+      "tags": [
+        "hazard",
+        "direction",
+        "distance",
+        "indicates",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_387",
+      "name": "Hazard",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/hazard.png",
+      "description": "General unspecified hazard.",
+      "meaning": "❗️ Used with the 'Other Hazard' sign to describe a specific danger.\nℹ️ The plate will contain text detailing the hazard (e.g., 'Dust Cloud').\n🐢 Proceed with caution.",
+      "tags": [
+        "hazard",
+        "unspecified",
+        "general",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_388",
+      "name": "Ice",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/ice.png",
+      "description": "Risk of icy surface reducing tyre grip.",
+      "meaning": "❄️ Warns of the risk of ice on the road ahead.\n🐢 Slow down significantly and avoid harsh braking or steering.\n🚗 Often placed with a 'Slippery Road' sign in winter.",
+      "tags": [
+        "ice",
+        "icy",
+        "surface",
+        "grip",
+        "risk",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_389",
+      "name": "kmh",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/kmh.png",
+      "description": "Speeds referenced in kilometres per hour.",
+      "meaning": "ℹ️ Clarifies that the speed shown is in kilometres per hour.\n🐢 Used with advisory speed signs.\n🚗 A reminder of the unit of measurement.",
+      "tags": [
+        "kmh",
+        "kilometres",
+        "per",
+        "hour",
+        "speeds",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_390",
+      "name": "Length",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/length.png",
+      "description": "States longitudinal extent of a zone.",
+      "meaning": "📏 Indicates the length over which a hazard or regulation applies.\n↔️ For example, 'Road Narrows for 2km'.\n🚗 Be aware that the condition persists for the distance shown.",
+      "tags": [
+        "length",
+        "longitudinal",
+        "extent",
+        "zone",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_391",
+      "name": "Long Low Vehicles",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/longlowvehicles.png",
+      "description": "Presence or vulnerability of long low vehicles.",
+      "meaning": "🚚 Warns that long, low vehicles may have difficulty or be present.\n↔️ Often used with signs for hump back bridges or level crossings.\n🐢 Be patient and give them space.",
+      "tags": [
+        "long",
+        "low",
+        "vehicles",
+        "presence",
+        "vulnerability",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_392",
+      "name": "LRT Information",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/lrtinformation.png",
+      "description": "Supplementary data related to light rail transit operations.",
+      "meaning": "🚋 Provides additional information about trams (Light Rail Transit).\nℹ️ Used below other signs to clarify a situation involving trams.\n🚗 Pay attention to the specific warning or instruction.",
+      "tags": [
+        "lrt",
+        "information",
+        "light",
+        "rail",
+        "transit",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_393",
+      "name": "Oil Spill",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/oilspill.png",
+      "description": "Possible oil contamination reducing surface friction.",
+      "meaning": "💧 Warns of a potential oil spill on the road surface.\n🚗 This can make the road extremely slippery.\n🐢 Reduce speed and avoid sudden manoeuvres.",
+      "tags": [
+        "oil",
+        "spill",
+        "contamination",
+        "friction",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_394",
+      "name": "On Slip Road",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/onsliproad.png",
+      "description": "Indicates restriction applies specifically to slip road.",
+      "meaning": "🛣️ The main sign's warning or rule applies to the slip road only.\n↘️ For example, 'Queues Likely on Slip Road'.\n🚗 Be prepared for the condition as you enter or exit.",
+      "tags": [
+        "on",
+        "slip",
+        "road",
+        "applies",
+        "restriction",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_395",
+      "name": "Oncoming Traffic",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/oncomingtraffic.png",
+      "description": "Warning that opposing traffic may appear close.",
+      "meaning": "↔️ Warns that you may face oncoming traffic.\n🚗 Often used when a one-way street ends or you join a two-way road.\n👀 Be prepared to keep to your side of the road.",
+      "tags": [
+        "oncoming",
+        "traffic",
+        "opposing",
+        "close",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_396",
+      "name": "Parking",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/spparking.png",
+      "description": "Indicates permitted parking area within rule context.",
+      "meaning": "🅿️ Specifies that the area is designated for parking.\nℹ️ Often used with other signs to provide more detail.\n🚗 Clarifies the purpose of the bay or area.",
+      "tags": [
+        "parking",
+        "permitted",
+        "area",
+        "context",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_397",
+      "name": "Pedestrian Zone",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/pedestrianzone.png",
+      "description": "Area reserved for pedestrians vehicles excluded.",
+      "meaning": "🚶 Indicates you are entering a pedestrian-only zone.\n⛔ Vehicles are generally prohibited.\n⏰ Check for signs indicating times when access may be permitted.",
+      "tags": [
+        "pedestrian",
+        "zone",
+        "reserved",
+        "vehicles",
+        "excluded",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_398",
+      "name": "Periods of Operation",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/periodsofoperation.png",
+      "description": "Shows specific times a linked restriction is active.",
+      "meaning": "⏰ The restriction on the main sign only applies during the times shown.\n🗓️ It may also specify days of the week.\n✅ Outside these times, the restriction does not apply.",
+      "tags": [
+        "periods",
+        "operation",
+        "times",
+        "restriction",
+        "active",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_399",
+      "name": "Reduce Speed Now",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/reducespeednow.png",
+      "description": "Immediate speed reduction required.",
+      "meaning": "❗️ You must reduce your speed immediately.\n🐢 There is a hazard directly ahead.\n🚗 Do not wait to slow down.",
+      "tags": [
+        "reduce",
+        "speed",
+        "now",
+        "immediate",
+        "required",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_400",
+      "name": "Safe Headroom",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/safeheadroom.png",
+      "description": "Indicates available overhead clearance safe up to displayed height.",
+      "meaning": "↕️ Indicates the safe overhead clearance under a bridge or structure.\n🚚 Drivers of tall vehicles must ensure they have enough height.\n✅ It is safe to proceed if your vehicle is lower than the height shown.",
+      "tags": [
+        "safe",
+        "headroom",
+        "overhead",
+        "clearance",
+        "height",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_401",
+      "name": "Safe Overtaking of Cyclists 1.0m",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/safeovertakingofcyclists10m.png",
+      "description": "Advises minimum 1.0 m lateral clearance when passing cyclists.",
+      "meaning": "↔️ Advises drivers to leave at least 1 metre of space when overtaking cyclists.\n🚴 This applies on roads with a speed limit of 50 km/h or less.\n🚗 Give cyclists room for safety.",
+      "tags": [
+        "safe",
+        "overtaking",
+        "cyclists",
+        "1.0m",
+        "clearance",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_402",
+      "name": "Safe Overtaking of Cyclists 1.5m",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/safeovertakingofcyclists15m.png",
+      "description": "Advises minimum 1.5 m clearance when passing cyclists.",
+      "meaning": "↔️ Advises drivers to leave at least 1.5 metres of space when overtaking cyclists.\n🚴 This applies on roads with a speed limit over 50 km/h.\n🚗 Give cyclists plenty of room.",
+      "tags": [
+        "safe",
+        "overtaking",
+        "cyclists",
+        "1.5m",
+        "clearance",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_403",
+      "name": "Shoulder Closed",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/shoulderclosed.png",
+      "description": "Hard shoulder not available for stopping or refuge.",
+      "meaning": "⛔ The hard shoulder is closed.\n🚗 Do not use it for stopping, even in an emergency.\n🚧 This may be due to roadworks or an obstruction.",
+      "tags": [
+        "shoulder",
+        "closed",
+        "not",
+        "available",
+        "refuge",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_404",
+      "name": "Slow",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/slow.png",
+      "description": "Immediate need to reduce speed.",
+      "meaning": "🐢 Advises you to slow down.\n⚠️ There is a potential hazard ahead.\n🚗 Proceed at a reduced speed with caution.",
+      "tags": [
+        "slow",
+        "reduce",
+        "speed",
+        "immediate",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_405",
+      "name": "Time Limit",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/timelimit.png",
+      "description": "Maximum duration allowed for activity.",
+      "meaning": "⏰ Specifies the maximum time you are allowed to park.\n🅿️ For example, 'Parking... 1 Hour'.\n✅ Make sure to move your vehicle before the time limit expires.",
+      "tags": [
+        "time",
+        "limit",
+        "maximum",
+        "duration",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_406",
+      "name": "Traffic Calming Ahead",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/trafficcalmingahead.png",
+      "description": "Approaching measures designed to slow traffic.",
+      "meaning": "🐢 Warns of traffic calming measures ahead.\n〰️ Expect features like road humps or chicanes.\n🚗 Reduce your speed and drive carefully.",
+      "tags": [
+        "traffic",
+        "calming",
+        "ahead",
+        "measures",
+        "slow",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_407",
+      "name": "Tram Track",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/tramtrack.png",
+      "description": "Presence of tram rails reducing tyre grip.",
+      "meaning": "🚋 Warns that tram tracks are present.\n slippery, especially for cyclists and motorcyclists.\n🚗 Be careful when crossing the tracks.",
+      "tags": [
+        "tram",
+        "track",
+        "rails",
+        "grip",
+        "presence",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_408",
+      "name": "Turn Off Engine When Stopped",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/turnoffenginewhenstopped.png",
+      "description": "Requirement to shut engine while stationary.",
+      "meaning": "🚫 You must turn off your engine if you are stopped for more than a moment.\n🌿 This is usually for environmental reasons, e.g., in tunnels or near schools.\n🚗 Helps reduce air pollution.",
+      "tags": [
+        "turn",
+        "off",
+        "engine",
+        "stopped",
+        "stationary",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_409",
+      "name": "Type of Works (used for sign WK 001)",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/typeofworksusedforsignwk001.png",
+      "description": "Detail describing nature of the roadworks.",
+      "meaning": "ℹ️ Provides specific details about the type of roadworks taking place.\n👷 For example, 'Grass Cutting' or 'Surveying'.\n🚧 Used below the general 'Roadworks Ahead' sign.",
+      "tags": [
+        "type",
+        "works",
+        "detail",
+        "roadworks",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_410",
+      "name": "Unfinished Road Surface",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/unfinishedroadsurface.png",
+      "description": "Surface incomplete lowering grip and comfort.",
+      "meaning": "🚧 The road surface ahead is not finished.\n🚗 Expect a bumpy ride and potentially reduced grip.\n🐢 Slow down and drive with extra care.",
+      "tags": [
+        "unfinished",
+        "road",
+        "surface",
+        "grip",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_411",
+      "name": "Use Shoulder",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/useshoulder.png",
+      "description": "Instruction to route traffic temporarily onto shoulder.",
+      "meaning": "🚗 You are instructed to drive on the hard shoulder.\n↔️ This is a temporary measure to keep traffic moving past an incident or roadworks.\n🚧 Follow the instructions and merge back when indicated.",
+      "tags": [
+        "use",
+        "shoulder",
+        "traffic",
+        "temporary",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
+    },
+    {
+      "id": "supplementary_412",
+      "name": "Zonal No Parking",
+      "category": "Supplementary Plates",
+      "categories": [
+        "Supplementary Plates"
+      ],
+      "imagePath": "/signs/zonalnoparking.png",
+      "description": "Entire marked zone prohibits parking until zone end sign.",
+      "meaning": "🅿️ Placed with a 'No Parking' sign to indicate the start of a controlled zone.\n🚫 Parking is prohibited on all roads within this zone.\n🔚 The restriction applies until you see an 'End of Zone' sign.",
+      "tags": [
+        "zonal",
+        "no",
+        "parking",
+        "zone",
+        "end",
+        "supplementary"
+      ],
+      "shape": "Rectangular",
+      "color": "White and black"
     }
-    // Note: This is a simplified version. In production, you would include all signs here
-    // or use a different approach like API routes
   ]
-}
+};
 
-// FAQ data
 export const faqData = [
   {
     "id": "1",
     "question": "What symptoms might suggest a fault in the braking system?",
     "answer": "Reduced or uneven stopping efficiency, longer stopping distance, pulling to one side, warning light, unusual noises.",
     "category": "Braking",
-    "keywords": ["brake fault", "reduced braking", "uneven braking", "longer stopping distance", "pulls to one side", "brake warning light", "brake noise", "scraping", "grinding"]
+    "keywords": [
+      "brake fault",
+      "reduced braking",
+      "uneven braking",
+      "longer stopping distance",
+      "pulls to one side",
+      "brake warning light",
+      "brake noise",
+      "scraping",
+      "grinding"
+    ]
+  },
+  {
+    "id": "2",
+    "question": "Pressing the foot brake produces a scraping or grinding sound. Most likely cause?",
+    "answer": "Worn brake pads/shoes causing metal-to-metal contact with the disc/drum.",
+    "category": "Braking",
+    "keywords": [
+      "grinding",
+      "scraping",
+      "worn pads",
+      "worn shoes",
+      "metal-to-metal",
+      "disc",
+      "drum",
+      "brake wear"
+    ]
+  },
+  {
+    "id": "3",
+    "question": "What does a soft, spongy brake pedal usually indicate?",
+    "answer": "Air or moisture in the hydraulic system, or a fluid leak reducing hydraulic pressure.",
+    "category": "Braking",
+    "keywords": [
+      "soft pedal",
+      "spongy pedal",
+      "air in lines",
+      "moisture",
+      "fluid leak",
+      "hydraulic pressure",
+      "bleeding brakes"
+    ]
+  },
+  {
+    "id": "4",
+    "question": "Risk of an incorrectly adjusted driver’s seat?",
+    "answer": "Poor pedal and control reach leading to delayed reactions and reduced vehicle control.",
+    "category": "Ergonomics",
+    "keywords": [
+      "seat adjustment",
+      "ergonomics",
+      "pedal reach",
+      "control reach",
+      "reaction time",
+      "vehicle control",
+      "driving posture"
+    ]
+  },
+  {
+    "id": "5",
+    "question": "When should you use the handbrake (parking brake) to stop the vehicle?",
+    "answer": "Only to secure the vehicle when stationary—never for normal braking while moving (except in an emergency if foot brakes fail).",
+    "category": "Braking",
+    "keywords": [
+      "parking brake",
+      "handbrake",
+      "emergency",
+      "stationary",
+      "braking while moving",
+      "foot brake failure"
+    ]
+  },
+  {
+    "id": "6",
+    "question": "While driving, what might alert you that brake fluid is low?",
+    "answer": "Brake pedal travels further, braking feels weak or spongy, or the brake warning light illuminates.",
+    "category": "Braking",
+    "keywords": [
+      "brake fluid low",
+      "warning light",
+      "long pedal travel",
+      "weak braking",
+      "spongy brakes",
+      "hydraulic system"
+    ]
+  },
+  {
+    "id": "7",
+    "question": "Likely consequence of harsh, sudden braking?",
+    "answer": "Risk of a skid, loss of control, rear-end collision from following traffic.",
+    "category": "Handling",
+    "keywords": [
+      "harsh braking",
+      "emergency stop",
+      "skid",
+      "loss of control",
+      "rear-end collision",
+      "following distance"
+    ]
+  },
+  {
+    "id": "8",
+    "question": "Why is applying the parking brake while the vehicle is moving dangerous?",
+    "answer": "It can lock the rear wheels, causing a skid and loss of steering stability.",
+    "category": "Braking",
+    "keywords": [
+      "parking brake",
+      "rear wheel lock",
+      "skid",
+      "stability",
+      "loss of control",
+      "steering"
+    ]
+  },
+  {
+    "id": "9",
+    "question": "Which wheels does the parking brake typically act upon?",
+    "answer": "Normally the rear wheels.",
+    "category": "Braking",
+    "keywords": [
+      "parking brake",
+      "handbrake",
+      "rear wheels",
+      "brake system",
+      "mechanical brake"
+    ]
+  },
+  {
+    "id": "10",
+    "question": "What happens if the battery is completely flat?",
+    "answer": "Engine will not crank; electronics may fail to power or be very weak.",
+    "category": "Electrical",
+    "keywords": [
+      "flat battery",
+      "no crank",
+      "dead battery",
+      "electronics failure",
+      "starting issue"
+    ]
+  },
+  {
+    "id": "11",
+    "question": "Best practice for driving an automatic transmission vehicle?",
+    "answer": "Select the correct range (e.g. ‘D’), apply smooth throttle, brake progressively, avoid coasting in neutral.",
+    "category": "Transmission",
+    "keywords": [
+      "automatic",
+      "D range",
+      "smooth throttle",
+      "progressive braking",
+      "no coasting",
+      "neutral"
+    ]
+  },
+  {
+    "id": "12",
+    "question": "What noise can aggressive high‑speed cornering cause?",
+    "answer": "Tyre squeal from loss of grip at the contact patch.",
+    "category": "Handling",
+    "keywords": [
+      "tyre squeal",
+      "cornering",
+      "high speed",
+      "loss of grip",
+      "contact patch",
+      "understeer",
+      "oversteer"
+    ]
+  },
+  {
+    "id": "13",
+    "question": "Principal causes of a skid?",
+    "answer": "Excessive braking, harsh acceleration, sudden steering, poor tyres, slippery surface.",
+    "category": "Handling",
+    "keywords": [
+      "skid causes",
+      "excess braking",
+      "harsh acceleration",
+      "sudden steering",
+      "worn tyres",
+      "slippery roads",
+      "traction loss"
+    ]
+  },
+  {
+    "id": "14",
+    "question": "Where should a manual driver rest the left foot when not changing gear?",
+    "answer": "On the designated footrest—never riding the clutch pedal.",
+    "category": "Transmission",
+    "keywords": [
+      "manual",
+      "left foot",
+      "footrest",
+      "riding the clutch",
+      "clutch wear",
+      "proper technique"
+    ]
+  },
+  {
+    "id": "15",
+    "question": "Effect of driving with low oil pressure?",
+    "answer": "Accelerated engine wear and potential severe engine damage.",
+    "category": "Maintenance",
+    "keywords": [
+      "low oil pressure",
+      "engine wear",
+      "engine damage",
+      "lubrication",
+      "oil warning light"
+    ]
+  },
+  {
+    "id": "16",
+    "question": "How can a weak battery show up in vehicle performance?",
+    "answer": "Slow engine cranking, dim lights, erratic electronics—though driving power itself is mostly unaffected once running.",
+    "category": "Electrical",
+    "keywords": [
+      "weak battery",
+      "slow crank",
+      "dim lights",
+      "electronics erratic",
+      "alternator",
+      "starting"
+    ]
+  },
+  {
+    "id": "17",
+    "question": "Purpose of Anti-lock Braking System (ABS)?",
+    "answer": "Prevents wheel lock-up under heavy braking, preserving steering control.",
+    "category": "Braking",
+    "keywords": [
+      "ABS",
+      "anti-lock braking",
+      "wheel lock",
+      "steering control",
+      "emergency braking",
+      "stability"
+    ]
+  },
+  {
+    "id": "18",
+    "question": "How does an automatic gearbox affect engine braking?",
+    "answer": "Reduces engine braking effect unless manually selecting a lower gear/mode.",
+    "category": "Transmission",
+    "keywords": [
+      "automatic gearbox",
+      "engine braking",
+      "lower gear",
+      "manual mode",
+      "downshift"
+    ]
+  },
+  {
+    "id": "19",
+    "question": "When is passing (overtaking) on the left permitted?",
+    "answer": "When the vehicle ahead is turning right and you proceed straight/left; in slow multi‑lane traffic where the left lane is moving faster; or on a one‑way street with marked lanes.",
+    "category": "Lanes",
+    "keywords": [
+      "undertaking",
+      "overtake left",
+      "turning right",
+      "slow traffic",
+      "one-way street",
+      "lane rules"
+    ]
+  },
+  {
+    "id": "20",
+    "question": "Meaning of a continuous (solid) white centre line?",
+    "answer": "Do not cross or straddle unless necessary for safety (e.g. avoiding an obstruction) or accessing a property.",
+    "category": "Markings",
+    "keywords": [
+      "solid white line",
+      "centre line",
+      "no crossing",
+      "no straddling",
+      "overtaking restriction",
+      "obstruction"
+    ]
+  },
+  {
+    "id": "21",
+    "question": "Meaning of double broken white centre lines (hazard warning lines)?",
+    "answer": "Increased hazard ahead—overtake only with extra caution; visibility or conditions may soon restrict overtaking.",
+    "category": "Markings",
+    "keywords": [
+      "double broken white",
+      "hazard lines",
+      "overtake with caution",
+      "reduced visibility",
+      "hazard warning"
+    ]
+  },
+  {
+    "id": "22",
+    "question": "Stop sign with no painted stop line—where do you stop?",
+    "answer": "At (or just before) the stop sign line of sight—before entering the junction.",
+    "category": "Junctions",
+    "keywords": [
+      "stop sign",
+      "no stop line",
+      "stop position",
+      "junction entry",
+      "line of sight"
+    ]
+  },
+  {
+    "id": "23",
+    "question": "A continuous and a broken centre line side by side: which governs you?",
+    "answer": "You obey the line nearest you—if it’s continuous, you must not cross.",
+    "category": "Markings",
+    "keywords": [
+      "adjacent lines",
+      "continuous vs broken",
+      "nearest line",
+      "no crossing",
+      "overtaking rule"
+    ]
+  },
+  {
+    "id": "24",
+    "question": "Who has priority in a roundabout?",
+    "answer": "Traffic already circulating (approaching from your right in Irish context).",
+    "category": "Junctions",
+    "keywords": [
+      "roundabout priority",
+      "give way to right",
+      "circulating traffic",
+      "yield",
+      "entry rules"
+    ]
+  },
+  {
+    "id": "25",
+    "question": "When should you dip (use dipped headlights)?",
+    "answer": "In darkness, poor visibility, when meeting oncoming traffic, following another vehicle closely, and in lit built-up areas.",
+    "category": "Lights",
+    "keywords": [
+      "dipped headlights",
+      "low beam",
+      "oncoming traffic",
+      "following closely",
+      "poor visibility",
+      "night driving"
+    ]
+  },
+  {
+    "id": "26",
+    "question": "What should you do if dazzled by oncoming headlights?",
+    "answer": "Ease off speed, look slightly to the left verge/edge line, do not stare at the glare.",
+    "category": "Lights",
+    "keywords": [
+      "dazzled",
+      "glare",
+      "oncoming headlights",
+      "slow down",
+      "left verge",
+      "eye adaptation"
+    ]
+  },
+  {
+    "id": "27",
+    "question": "Restrictions on horn use?",
+    "answer": "Use only to warn of danger—avoid unnecessary use, especially in built-up areas at night.",
+    "category": "Etiquette",
+    "keywords": [
+      "horn",
+      "warning only",
+      "noise pollution",
+      "built-up areas",
+      "night-time",
+      "unnecessary use"
+    ]
+  },
+  {
+    "id": "28",
+    "question": "How close to the kerb should you park?",
+    "answer": "Typically within about 45 cm (18 inches) without touching it.",
+    "category": "Parking",
+    "keywords": [
+      "parking distance",
+      "kerb",
+      "curb",
+      "45 cm",
+      "18 inches",
+      "parallel parking"
+    ]
+  },
+  {
+    "id": "29",
+    "question": "Places where you must not overtake?",
+    "answer": "Approaching/joining bends, brows of hills, junctions, pedestrian crossings, continuous white line zones, restricted visibility areas.",
+    "category": "Lanes",
+    "keywords": [
+      "no overtaking",
+      "bends",
+      "brow of hill",
+      "junctions",
+      "pedestrian crossing",
+      "solid white line",
+      "restricted visibility"
+    ]
+  },
+  {
+    "id": "30",
+    "question": "Standard traffic light sequence (Ireland)?",
+    "answer": "Green → Amber → Red → (back to) Green.",
+    "category": "Signals",
+    "keywords": [
+      "traffic light sequence",
+      "Ireland",
+      "green amber red",
+      "signal phases",
+      "stop go"
+    ]
+  },
+  {
+    "id": "31",
+    "question": "What does a clearway denote?",
+    "answer": "No stopping or parking during the times shown (except permitted vehicles like buses if specified).",
+    "category": "Parking",
+    "keywords": [
+      "clearway",
+      "no stopping",
+      "no parking",
+      "time plates",
+      "bus exceptions"
+    ]
+  },
+  {
+    "id": "32",
+    "question": "Box junction rule?",
+    "answer": "Do not enter unless your exit is clear—except if turning right and blocked only by oncoming/right-turning traffic.",
+    "category": "Junctions",
+    "keywords": [
+      "box junction",
+      "keep clear",
+      "do not block",
+      "right turn exception",
+      "gridlock prevention"
+    ]
+  },
+  {
+    "id": "33",
+    "question": "Island in the middle of a pedestrian crossing—meaning?",
+    "answer": "Each half is treated as a separate crossing; ensure the half you enter is clear.",
+    "category": "Crossings",
+    "keywords": [
+      "pedestrian island",
+      "split crossing",
+      "zebra",
+      "pelican",
+      "crossing rules"
+    ]
+  },
+  {
+    "id": "34",
+    "question": "White zig‑zag lines near a zebra crossing?",
+    "answer": "No overtaking, parking, or stopping (other than to let pedestrians cross) within the zig‑zag zone.",
+    "category": "Crossings",
+    "keywords": [
+      "zig-zag lines",
+      "zebra crossing",
+      "no stopping",
+      "no parking",
+      "no overtaking",
+      "approach markings"
+    ]
+  },
+  {
+    "id": "35",
+    "question": "Typical built‑up area speed limit (Ireland)?",
+    "answer": "Generally 50 km/h unless signs indicate otherwise.",
+    "category": "Speed",
+    "keywords": [
+      "speed limit",
+      "built-up area",
+      "urban",
+      "50 km/h",
+      "default limit",
+      "Ireland"
+    ]
+  },
+  {
+    "id": "36",
+    "question": "Minimum legal car tyre tread depth?",
+    "answer": "1.6 mm across the central three‑quarters of the tread around the full circumference.",
+    "category": "Tyres",
+    "keywords": [
+      "tread depth",
+      "1.6 mm",
+      "tyre law",
+      "central three-quarters",
+      "roadworthiness",
+      "safety"
+    ]
+  },
+  {
+    "id": "37",
+    "question": "Basic bus lane rules?",
+    "answer": "Only permitted vehicles (buses, taxis, cyclists—check signage) during operational hours; others may use outside those hours.",
+    "category": "Buslanes",
+    "keywords": [
+      "bus lane",
+      "operational hours",
+      "permitted vehicles",
+      "taxis",
+      "cyclists",
+      "signage"
+    ]
+  },
+  {
+    "id": "38",
+    "question": "Minimum distance you should avoid parking from a junction?",
+    "answer": "At least about 5 metres.",
+    "category": "Parking",
+    "keywords": [
+      "parking distance",
+      "junction",
+      "5 metres",
+      "corner parking",
+      "visibility",
+      "safety"
+    ]
+  },
+  {
+    "id": "39",
+    "question": "Position for a right turn on a one‑way street?",
+    "answer": "Move to the right-hand side of the carriageway (right-most lane) in good time.",
+    "category": "Junctions",
+    "keywords": [
+      "one-way street",
+      "right turn position",
+      "lane discipline",
+      "right-most lane",
+      "setup for turn"
+    ]
+  },
+  {
+    "id": "40",
+    "question": "Hatched (diagonal) road markings meaning?",
+    "answer": "Areas separating traffic streams or protecting turning zones—do not enter unless necessary and permitted.",
+    "category": "Markings",
+    "keywords": [
+      "hatched markings",
+      "diagonal lines",
+      "chevrons",
+      "no entry area",
+      "turning protection",
+      "traffic separation"
+    ]
+  },
+  {
+    "id": "41",
+    "question": "Yield (Give Way) sign meaning?",
+    "answer": "Slow/prepare to stop; give right of way to traffic on the major road—proceed only when safe.",
+    "category": "Junctions",
+    "keywords": [
+      "yield",
+      "give way",
+      "priority",
+      "major road",
+      "right of way",
+      "proceed when safe"
+    ]
+  },
+  {
+    "id": "42",
+    "question": "What is a filter light?",
+    "answer": "A directional (arrow) traffic signal allowing movement in that arrow’s direction—may show green while other signals remain red.",
+    "category": "Signals",
+    "keywords": [
+      "filter arrow",
+      "directional signal",
+      "green arrow",
+      "protected turn",
+      "traffic lights"
+    ]
+  },
+  {
+    "id": "43",
+    "question": "Approach light turns amber—what do you do?",
+    "answer": "Stop if you can safely before the stop line; continue only if stopping would be unsafe.",
+    "category": "Signals",
+    "keywords": [
+      "amber light",
+      "yellow light",
+      "stop if safe",
+      "stop line",
+      "decision point",
+      "traffic signal"
+    ]
+  },
+  {
+    "id": "44",
+    "question": "Flashing amber at a pedestrian crossing?",
+    "answer": "Proceed if the crossing is clear; give way to any pedestrian still on it.",
+    "category": "Crossings",
+    "keywords": [
+      "flashing amber",
+      "pelican crossing",
+      "give way",
+      "pedestrians",
+      "proceed if clear"
+    ]
+  },
+  {
+    "id": "45",
+    "question": "Flashing red traffic lights (e.g. level crossing)?",
+    "answer": "Stop and wait until the lights cease flashing (and barriers, if any, rise).",
+    "category": "Signals",
+    "keywords": [
+      "flashing red",
+      "level crossing",
+      "stop and wait",
+      "barriers",
+      "rail crossing"
+    ]
+  },
+  {
+    "id": "46",
+    "question": "Single continuous yellow kerb line?",
+    "answer": "Parking (and often waiting) restricted at certain times—check plates.",
+    "category": "Parking",
+    "keywords": [
+      "single yellow line",
+      "kerb marking",
+      "parking restriction",
+      "time plates",
+      "waiting"
+    ]
+  },
+  {
+    "id": "47",
+    "question": "Double continuous yellow kerb lines?",
+    "answer": "No parking at any time.",
+    "category": "Parking",
+    "keywords": [
+      "double yellow lines",
+      "no parking",
+      "kerb markings",
+      "waiting prohibited",
+      "restriction"
+    ]
+  },
+  {
+    "id": "48",
+    "question": "Examples of prohibited parking locations?",
+    "answer": "On footpaths, near junctions, at pedestrian or school crossings, bus stops, cycle tracks, entrances, on bends or brows, clearways, hatched areas.",
+    "category": "Parking",
+    "keywords": [
+      "no parking",
+      "footpath",
+      "junctions",
+      "crossings",
+      "bus stop",
+      "cycle track",
+      "entrances",
+      "bends",
+      "clearway",
+      "hatched area"
+    ]
+  },
+  {
+    "id": "49",
+    "question": "Distance from a pedestrian crossing within which you must not park?",
+    "answer": "Generally within 15 metres of the crossing.",
+    "category": "Parking",
+    "keywords": [
+      "parking distance",
+      "pedestrian crossing",
+      "15 metres",
+      "zebra",
+      "safety zone"
+    ]
+  },
+  {
+    "id": "50",
+    "question": "Crossing a dual carriageway with a very narrow median refuge—procedure?",
+    "answer": "Attempt only if you can clear both directions safely in one movement; do not stop in a space too short to shelter your vehicle.",
+    "category": "Motorways",
+    "keywords": [
+      "dual carriageway",
+      "median refuge",
+      "crossing safely",
+      "one movement",
+      "no stopping in refuge"
+    ]
+  },
+  {
+    "id": "51",
+    "question": "Differences: motorway vs dual carriageway?",
+    "answer": "Motorways have controlled access, higher speed limit (usually 120 km/h), no stopping, no pedestrians/cyclists/learner certain restrictions; dual carriageways may have at‑grade junctions and lower limits (often 100 km/h).",
+    "category": "Motorways",
+    "keywords": [
+      "motorway",
+      "dual carriageway",
+      "controlled access",
+      "speed limits",
+      "no stopping",
+      "restrictions",
+      "at-grade junctions"
+    ]
+  },
+  {
+    "id": "52",
+    "question": "Priority at an unmarked crossroads of equal roads?",
+    "answer": "Yield to traffic approaching from your right; proceed cautiously.",
+    "category": "Junctions",
+    "keywords": [
+      "unmarked crossroads",
+      "equal roads",
+      "priority to right",
+      "yield",
+      "proceed with caution"
+    ]
+  },
+  {
+    "id": "53",
+    "question": "“No entry” road markings?",
+    "answer": "A continuous white line with a broken line behind it across the lane, plus NO ENTRY signs at the entrance.",
+    "category": "Signs",
+    "keywords": [
+      "no entry",
+      "road marking",
+      "continuous and broken line",
+      "regulatory sign",
+      "prohibition"
+    ]
+  },
+  {
+    "id": "54",
+    "question": "Hazards to watch for on rural/country roads?",
+    "answer": "Sharp bends, mud, loose gravel, concealed entrances, slow farm machinery, animals, narrow bridges.",
+    "category": "Rural",
+    "keywords": [
+      "rural hazards",
+      "sharp bends",
+      "mud",
+      "loose gravel",
+      "concealed entrances",
+      "farm machinery",
+      "animals",
+      "narrow bridges"
+    ]
+  },
+  {
+    "id": "55",
+    "question": "When being overtaken, what must you not do?",
+    "answer": "Do not accelerate, swerve, or obstruct—maintain steady course and speed.",
+    "category": "Lanes",
+    "keywords": [
+      "being overtaken",
+      "do not accelerate",
+      "no swerving",
+      "do not obstruct",
+      "keep steady speed",
+      "courtesy"
+    ]
+  },
+  {
+    "id": "56",
+    "question": "Where must you never perform a U‑turn?",
+    "answer": "On motorways, near bends or brows, close to junctions, pedestrian crossings, continuous line zones, or where visibility is limited.",
+    "category": "Manoeuvres",
+    "keywords": [
+      "U-turn",
+      "prohibited",
+      "motorway",
+      "bends",
+      "brows",
+      "junctions",
+      "crossings",
+      "continuous lines",
+      "limited visibility"
+    ]
+  },
+  {
+    "id": "57",
+    "question": "Meaning of tailgating?",
+    "answer": "Following another vehicle too closely, leaving insufficient stopping distance.",
+    "category": "Following",
+    "keywords": [
+      "tailgating",
+      "following too close",
+      "stopping distance",
+      "rear-end risk",
+      "safe gap"
+    ]
+  },
+  {
+    "id": "58",
+    "question": "Human factors impairing driving?",
+    "answer": "Fatigue, stress, illness, alcohol, drugs (including some medicines), distraction, strong emotions.",
+    "category": "Safety",
+    "keywords": [
+      "fatigue",
+      "stress",
+      "illness",
+      "alcohol",
+      "drugs",
+      "medication",
+      "distraction",
+      "emotions",
+      "impairment"
+    ]
+  },
+  {
+    "id": "59",
+    "question": "What is coasting and why risky?",
+    "answer": "Moving with the clutch disengaged or in neutral; reduces engine braking and control, can increase stopping distance.",
+    "category": "Transmission",
+    "keywords": [
+      "coasting",
+      "neutral",
+      "clutch disengaged",
+      "reduced control",
+      "engine braking loss",
+      "stopping distance"
+    ]
+  },
+  {
+    "id": "60",
+    "question": "Who is responsible for seat belt use?",
+    "answer": "The driver for themselves and ensuring legally required passengers (especially children) are properly restrained.",
+    "category": "Safety",
+    "keywords": [
+      "seat belt",
+      "responsibility",
+      "driver",
+      "passengers",
+      "child restraints",
+      "legal duty"
+    ]
+  },
+  {
+    "id": "61",
+    "question": "Normal lane for continued travel on a multi‑lane dual carriageway?",
+    "answer": "The left (inside) lane unless overtaking.",
+    "category": "Lanes",
+    "keywords": [
+      "lane discipline",
+      "keep left",
+      "inside lane",
+      "overtaking only",
+      "lane use",
+      "dual carriageway"
+    ]
+  },
+  {
+    "id": "62",
+    "question": "The “two‑second rule”—purpose?",
+    "answer": "Ensures a minimum safe following distance in dry conditions; double in wet, extend further on ice.",
+    "category": "Following",
+    "keywords": [
+      "two-second rule",
+      "following distance",
+      "safe gap",
+      "wet conditions",
+      "ice",
+      "stopping distance"
+    ]
+  },
+  {
+    "id": "63",
+    "question": "Meaning of a broken yellow line at road edge?",
+    "answer": "Denotes a hard shoulder normally for pedestrians/cyclists; may be used briefly in an emergency or to allow faster traffic to pass if safe.",
+    "category": "Markings",
+    "keywords": [
+      "broken yellow line",
+      "hard shoulder",
+      "pedestrians",
+      "cyclists",
+      "emergency use",
+      "allow overtaking"
+    ]
+  },
+  {
+    "id": "64",
+    "question": "Factors that increase total stopping distance?",
+    "answer": "Higher speed, wet/icy roads, worn tyres or brakes, heavy load, poor visibility, driver fatigue or distraction.",
+    "category": "Handling",
+    "keywords": [
+      "stopping distance",
+      "speed",
+      "wet roads",
+      "icy roads",
+      "worn tyres",
+      "worn brakes",
+      "heavy load",
+      "visibility",
+      "fatigue",
+      "distraction"
+    ]
+  },
+  {
+    "id": "65",
+    "question": "Recommended pre‑journey vehicle checks?",
+    "answer": "Tyres (pressure, tread), lights, indicators, brakes, mirrors, windows (clean), fluid levels (oil, coolant, washer), fuel, seat and restraint adjustments.",
+    "category": "Prechecks",
+    "keywords": [
+      "pre-drive checks",
+      "tyres",
+      "lights",
+      "indicators",
+      "brakes",
+      "mirrors",
+      "windows",
+      "fluid levels",
+      "fuel",
+      "seat adjustment",
+      "restraints"
+    ]
   }
-  // Note: This is a simplified version. In production, you would include all FAQ items here
-]
+];

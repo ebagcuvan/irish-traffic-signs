@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { trafficSignsData } from '../../../lib/data'
 
 interface TrafficSignData {
   id: string
@@ -42,15 +43,7 @@ const generateSlug = (id: string, name: string) => {
 // Generate metadata for a sign
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   try {
-    // Use fetch instead of filesystem for better compatibility
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
-    const response = await fetch(`${baseUrl}/data/traffic_signs.json`)
-    
-    if (!response.ok) {
-      throw new Error(`Failed to fetch data: ${response.status}`)
-    }
-    
-    const data = await response.json()
+    const data = trafficSignsData
     
     const slug = params.slug as string
     // Extract the ID from slug - handle both 2-part and 3-part IDs
@@ -144,15 +137,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 // Generate static params for all signs
 export async function generateStaticParams() {
   try {
-    // Use fetch instead of filesystem for better compatibility
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
-    const response = await fetch(`${baseUrl}/data/traffic_signs.json`)
-    
-    if (!response.ok) {
-      throw new Error(`Failed to fetch data: ${response.status}`)
-    }
-    
-    const data = await response.json()
+    const data = trafficSignsData
     
     return data.signs.map((sign: TrafficSignData) => ({
       slug: generateSlug(sign.id, sign.name),
