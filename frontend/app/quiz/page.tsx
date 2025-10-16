@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { TrafficSign } from '@/types'
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
@@ -52,6 +53,8 @@ interface QuizResult {
 }
 
 export default function QuizPage() {
+  const router = useRouter()
+  const searchParams = useSearchParams()
   const [quizStarted, setQuizStarted] = useState(false)
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null)
@@ -66,6 +69,25 @@ export default function QuizPage() {
   const [allSigns, setAllSigns] = useState<TrafficSign[]>([])
   const [isLoading, setIsLoading] = useState(false)
   const [quizQuestions, setQuizQuestions] = useState<QuizQuestion[]>([])
+
+  // URL'den sayfa numarasını oku
+  useEffect(() => {
+    const pageParam = searchParams.get('page')
+    if (pageParam && !isNaN(Number(pageParam))) {
+      const pageNumber = Number(pageParam) - 1 // URL'de 1-based, state'te 0-based
+      if (pageNumber >= 0 && pageNumber < quizQuestions.length) {
+        setCurrentQuestion(pageNumber)
+        setSelectedAnswer(userAnswers[pageNumber] || null)
+      }
+    }
+  }, [searchParams, quizQuestions.length, userAnswers])
+
+  // URL'yi güncelle
+  const updateURL = (questionIndex: number) => {
+    const newSearchParams = new URLSearchParams(searchParams.toString())
+    newSearchParams.set('page', (questionIndex + 1).toString())
+    router.push(`/quiz?${newSearchParams.toString()}`, { scroll: false })
+  }
 
   // Load signs from data file
   useEffect(() => {
@@ -138,6 +160,8 @@ export default function QuizPage() {
       const questions = generateQuizQuestions(allSigns, questionCount)
       setQuizQuestions(questions)
       setStartTime(Date.now())
+      // Quiz başladığında URL'yi güncelle
+      updateURL(0)
     }
   }, [allSigns, quizStarted, questionCount])
 
@@ -208,9 +232,11 @@ export default function QuizPage() {
     }
 
     if (currentQuestion < quizQuestions.length - 1) {
-      setCurrentQuestion(prev => prev + 1)
-      setSelectedAnswer(userAnswers[currentQuestion + 1] || null)
+      const nextQuestion = currentQuestion + 1
+      setCurrentQuestion(nextQuestion)
+      setSelectedAnswer(userAnswers[nextQuestion] || null)
       setShowResult(false)
+      updateURL(nextQuestion)
     } else {
       // Quiz completed
       const finalAnswers = {
@@ -224,9 +250,11 @@ export default function QuizPage() {
 
   const handlePreviousQuestion = () => {
     if (currentQuestion > 0) {
-      setCurrentQuestion(prev => prev - 1)
-      setSelectedAnswer(userAnswers[currentQuestion - 1] || null)
+      const prevQuestion = currentQuestion - 1
+      setCurrentQuestion(prevQuestion)
+      setSelectedAnswer(userAnswers[prevQuestion] || null)
       setShowResult(false)
+      updateURL(prevQuestion)
     }
   }
 
@@ -261,6 +289,8 @@ export default function QuizPage() {
     setCategory('')
     setDifficulty('MIXED')
     setQuestionCount(10)
+    // URL'yi temizle
+    router.push('/quiz', { scroll: false })
   }
 
   const getScoreColor = (accuracy: number) => {
@@ -608,6 +638,32 @@ export default function QuizPage() {
               </span>
             </div>
             <Progress value={progress} className="h-2" />
+            
+            {/* Page Numbers */}
+            <div className="flex justify-center mt-4">
+              <div className="flex gap-2">
+                {quizQuestions.map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={() => {
+                      setCurrentQuestion(index)
+                      setSelectedAnswer(userAnswers[index] || null)
+                      setShowResult(false)
+                      updateURL(index)
+                    }}
+                    className={`w-8 h-8 rounded-full text-sm font-medium transition-colors ${
+                      currentQuestion === index
+                        ? 'bg-primary-600 text-white'
+                        : userAnswers[index]
+                        ? 'bg-green-100 text-green-700 hover:bg-green-200 dark:bg-green-900/20 dark:text-green-400'
+                        : 'bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300'
+                    }`}
+                  >
+                    {index + 1}
+                  </button>
+                ))}
+              </div>
+            </div>
           </div>
 
           {/* Question Card */}
