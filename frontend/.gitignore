@@ -86,3 +86,7 @@ dist
 # Temporary folders
 tmp/
 temp/
+
+# Backend files (not needed for frontend build)
+../backend/
+../data/
