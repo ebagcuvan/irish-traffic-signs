@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { Search, ChevronDown, ChevronUp, HelpCircle, BookOpen, Shield, Car, AlertTriangle } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import faqData from '../../../public/data/faq.json'
 
 interface FAQItem {
   id: string
@@ -22,10 +23,9 @@ export default function FAQPage() {
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
-    const loadFAQData = async () => {
+    const loadFAQData = () => {
       try {
-        const response = await fetch('/data/faq.json')
-        const data = await response.json()
+        const data = faqData
         setFaqData(data)
       } catch (error) {
         console.error('Error loading FAQ data:', error)
