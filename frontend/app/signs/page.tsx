@@ -10,7 +10,7 @@ import Image from 'next/image'
 import trafficSignsData from '../../public/data/traffic_signs.json'
 
 interface TrafficSignData {
-  id: number
+  id: string
   name: string
   category: string
   categories: string[]
@@ -42,7 +42,7 @@ export default function SignsPage() {
         
         // Transform JSON data to TrafficSign format
         const transformedSigns: TrafficSign[] = data.signs.map((sign: TrafficSignData) => ({
-          id: sign.id.toString(),
+          id: sign.id,
           irishName: sign.name,
           englishName: sign.name,
           description: sign.description || sign.meaning || '',
@@ -50,6 +50,8 @@ export default function SignsPage() {
           difficultyLevel: determineDifficultyLevel(sign),
           imageUrl: sign.imagePath || 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300',
           context: sign.meaning || sign.description || '',
+          relatedSignIds: [],
+          createdAt: new Date().toISOString(),
           isFavorite: false,
           rating: 0
         }))
@@ -67,8 +69,8 @@ export default function SignsPage() {
   }, [])
 
   // Map category from JSON to database enum
-  const mapCategory = (category: string): string => {
-    const categoryMap: { [key: string]: string } = {
+  const mapCategory = (category: string): 'WARNING' | 'REGULATORY' | 'MANDATORY' | 'INFORMATIONAL' | 'DIRECTIONAL' | 'ROADWORK' | 'OTHERS' | 'SUPPLEMENTARY' => {
+    const categoryMap: { [key: string]: 'WARNING' | 'REGULATORY' | 'MANDATORY' | 'INFORMATIONAL' | 'DIRECTIONAL' | 'ROADWORK' | 'OTHERS' | 'SUPPLEMENTARY' } = {
       'Warning Signs': 'WARNING',
       'Regulatory Signs': 'REGULATORY',
       'Mandatory Signs': 'MANDATORY',
@@ -84,7 +86,7 @@ export default function SignsPage() {
   }
 
   // Determine difficulty level based on sign properties
-  const determineDifficultyLevel = (sign: TrafficSignData): string => {
+  const determineDifficultyLevel = (sign: TrafficSignData): 'BEGINNER' | 'INTERMEDIATE' | 'ADVANCED' => {
     if (sign.category === 'Warning Signs' && sign.tags?.includes('complex')) {
       return 'ADVANCED'
     }
