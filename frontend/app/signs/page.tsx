@@ -38,8 +38,14 @@ export default function SignsPage() {
     const loadSigns = async () => {
       try {
         setIsLoading(true)
+        console.log('Loading signs from /data/traffic_signs.json')
         const response = await fetch('/data/traffic_signs.json')
+        console.log('Response status:', response.status)
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`)
+        }
         const data = await response.json()
+        console.log('Data loaded:', data.signs?.length || 0, 'signs')
         
         // Transform JSON data to TrafficSign format
         const transformedSigns: TrafficSign[] = data.signs.map((sign: TrafficSignData) => ({
@@ -145,7 +151,8 @@ export default function SignsPage() {
     filteredSigns: filteredSigns.length,
     paginatedSigns: paginatedSigns.length,
     totalPages,
-    currentPage: page
+    currentPage: page,
+    firstSign: signs[0] || 'No signs loaded'
   })
 
   return (
