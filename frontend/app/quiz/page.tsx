@@ -421,17 +421,23 @@ export default function QuizPage() {
 
             {/* Start Quiz Button */}
             <div className="text-center">
-              <Button
+              <button
                 onClick={() => {
                   console.log('Start Quiz clicked!', { allSignsLength: allSigns.length, isLoading })
                   setQuizStarted(true)
                 }}
-                size="lg"
-                className="px-8 py-4 text-lg"
                 disabled={isLoading || allSigns.length === 0}
                 style={{ 
                   backgroundColor: (isLoading || allSigns.length === 0) ? '#gray' : '#blue',
-                  cursor: (isLoading || allSigns.length === 0) ? 'not-allowed' : 'pointer'
+                  cursor: (isLoading || allSigns.length === 0) ? 'not-allowed' : 'pointer',
+                  padding: '16px 32px',
+                  fontSize: '18px',
+                  borderRadius: '8px',
+                  border: 'none',
+                  color: 'white',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '8px'
                 }}
               >
                 <Play className="h-5 w-5 mr-2" />
