@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import { Search, ChevronDown, ChevronUp, HelpCircle, BookOpen, Shield, Car, AlertTriangle } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import faqData from '../../../public/data/faq.json'
+import faqData from '../../public/data/faq.json'
 
 interface FAQItem {
   id: string
