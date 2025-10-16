@@ -70,8 +70,10 @@ export default function QuizPage() {
   const [isLoading, setIsLoading] = useState(false)
   const [quizQuestions, setQuizQuestions] = useState<QuizQuestion[]>([])
 
-  // URL'den sayfa numarasını oku
+  // URL'den sayfa numarasını oku (sadece quiz başladıktan sonra)
   useEffect(() => {
+    if (!quizStarted || quizQuestions.length === 0) return
+    
     const pageParam = searchParams.get('page')
     if (pageParam && !isNaN(Number(pageParam))) {
       const pageNumber = Number(pageParam) - 1 // URL'de 1-based, state'te 0-based
@@ -80,7 +82,7 @@ export default function QuizPage() {
         setSelectedAnswer(userAnswers[pageNumber] || null)
       }
     }
-  }, [searchParams, quizQuestions.length, userAnswers])
+  }, [searchParams, quizQuestions.length, userAnswers, quizStarted])
 
   // URL'yi güncelle
   const updateURL = (questionIndex: number) => {
@@ -307,6 +309,15 @@ export default function QuizPage() {
     return 'Keep practicing! You\'ll get better with time.'
   }
 
+  // Debug quiz state
+  console.log('Quiz state:', { 
+    quizStarted, 
+    allSignsLength: allSigns.length, 
+    quizQuestionsLength: quizQuestions.length,
+    currentQuestion,
+    isLoading 
+  })
+
   // Don't auto-start quiz, let user choose settings first
 
   if (!quizStarted) {
@@ -408,6 +419,7 @@ export default function QuizPage() {
             <div className="text-center">
               <Button
                 onClick={() => {
+                  console.log('Start Quiz clicked!', { allSignsLength: allSigns.length, isLoading })
                   setQuizStarted(true)
                   updateURL(0)
                 }}
