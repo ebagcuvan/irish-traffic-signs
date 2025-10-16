@@ -442,7 +442,7 @@ export default function QuizPage() {
               >
                 <Play className="h-5 w-5 mr-2" />
                 {isLoading ? 'Loading Signs...' : allSigns.length === 0 ? 'No Signs Available' : 'Start Quiz'}
-              </Button>
+              </button>
               
               {allSigns.length > 0 && (
                 <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
