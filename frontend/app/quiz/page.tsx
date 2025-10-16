@@ -84,6 +84,8 @@ export default function QuizPage() {
           difficultyLevel: determineDifficultyLevel(sign),
           imageUrl: sign.imagePath || 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300',
           context: sign.meaning || sign.description || '',
+          relatedSignIds: [],
+          createdAt: new Date().toISOString(),
           isFavorite: false,
           rating: 0
         }))
