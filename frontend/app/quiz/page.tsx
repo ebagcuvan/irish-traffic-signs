@@ -156,12 +156,13 @@ export default function QuizPage() {
 
   // Generate quiz questions
   useEffect(() => {
+    console.log('Quiz useEffect triggered:', { allSignsLength: allSigns.length, quizStarted, questionCount })
     if (allSigns.length > 0 && quizStarted) {
+      console.log('Generating quiz questions...')
       const questions = generateQuizQuestions(allSigns, questionCount)
+      console.log('Generated questions:', questions.length)
       setQuizQuestions(questions)
       setStartTime(Date.now())
-      // Quiz başladığında URL'yi güncelle
-      updateURL(0)
     }
   }, [allSigns, quizStarted, questionCount])
 
@@ -406,7 +407,10 @@ export default function QuizPage() {
             {/* Start Quiz Button */}
             <div className="text-center">
               <Button
-                onClick={() => setQuizStarted(true)}
+                onClick={() => {
+                  setQuizStarted(true)
+                  updateURL(0)
+                }}
                 size="lg"
                 className="px-8 py-4 text-lg"
                 disabled={isLoading || allSigns.length === 0}
