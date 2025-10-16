@@ -3,6 +3,8 @@
 ../data/
 backend/
 data/
+prisma/
+*.prisma
 
 # Development files
 *.log
@@ -21,3 +23,8 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Build artifacts
+.next/
+out/
+build/
