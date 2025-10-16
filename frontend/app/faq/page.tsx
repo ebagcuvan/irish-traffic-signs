@@ -3,74 +3,25 @@
 import { useState, useEffect } from 'react'
 import { Search, ChevronDown, ChevronUp, HelpCircle, BookOpen, Shield, Car, AlertTriangle } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { faqData } from '../../lib/data'
+import { faqData } from '../../lib/faq-data'
 
 interface FAQItem {
   id: string
   question: string
   answer: string
-  category: string
-  keywords: string[]
 }
 
 export default function FAQPage() {
   const [searchTerm, setSearchTerm] = useState('')
-  const [selectedCategory, setSelectedCategory] = useState('')
   const [expandedItems, setExpandedItems] = useState<Set<string>>(new Set())
-
-  // FAQ verilerini yükle
-  const [faqData, setFaqData] = useState<FAQItem[]>([])
-  const [isLoading, setIsLoading] = useState(true)
-
-  useEffect(() => {
-    const loadFAQData = () => {
-      try {
-        const data = faqData
-        setFaqData(data)
-      } catch (error) {
-        console.error('Error loading FAQ data:', error)
-        setFaqData([])
-      } finally {
-        setIsLoading(false)
-      }
-    }
-    loadFAQData()
-  }, [])
-
-  const getCategoryIcon = (category: string) => {
-    const categoryInfo = categories.find(cat => cat.value === category)
-    return categoryInfo?.icon || BookOpen
-  }
-
-  const getCategoryColor = (category: string) => {
-    const categoryInfo = categories.find(cat => cat.value === category)
-    return categoryInfo?.color || 'bg-gray-100 text-gray-600'
-  }
-
-  // Sadece ana kategorileri göster
-  const categories = [
-    { name: 'All', value: '', icon: BookOpen, color: 'bg-gray-100 text-gray-600' },
-    { name: 'Braking', value: 'Braking', icon: Shield, color: 'bg-red-100 text-red-600' },
-    { name: 'Safety', value: 'Safety', icon: AlertTriangle, color: 'bg-yellow-100 text-yellow-600' },
-    { name: 'Traffic Rules', value: 'Lanes', icon: Car, color: 'bg-green-100 text-green-600' },
-    { name: 'Signs & Signals', value: 'Signals', icon: AlertTriangle, color: 'bg-blue-100 text-blue-600' }
-  ]
+  const [isLoading, setIsLoading] = useState(false)
 
   const filteredFAQs = faqData.filter(faq => {
     const matchesSearch = !searchTerm || 
       faq.question.toLowerCase().includes(searchTerm.toLowerCase()) ||
       faq.answer.toLowerCase().includes(searchTerm.toLowerCase())
     
-    let matchesCategory = true
-    if (selectedCategory === 'Lanes') {
-      matchesCategory = ['Lanes', 'Parking', 'Junctions', 'Motorways', 'Following', 'Manoeuvres'].includes(faq.category)
-    } else if (selectedCategory === 'Signals') {
-      matchesCategory = ['Signals', 'Signs', 'Markings', 'Crossings'].includes(faq.category)
-    } else if (selectedCategory) {
-      matchesCategory = faq.category === selectedCategory
-    }
-    
-    return matchesSearch && matchesCategory
+    return matchesSearch
   })
 
   const toggleExpanded = (id: string) => {
@@ -96,44 +47,17 @@ export default function FAQPage() {
           </p>
         </div>
 
-        {/* Search and Filters */}
+        {/* Search */}
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6 mb-8">
-          <div className="flex flex-col lg:flex-row gap-4 items-end">
-            {/* Search */}
-            <div className="flex-1">
-              <div className="relative">
-                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
-                <input
-                  type="text"
-                  placeholder="Search FAQs..."
-                  value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                  className="w-full pl-10 pr-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
-                />
-              </div>
-            </div>
-
-            {/* Category Filter */}
-            <div className="flex flex-wrap gap-2">
-              {categories.map((category) => {
-                const Icon = category.icon
-                return (
-                  <Button
-                    key={category.value}
-                    variant={selectedCategory === category.value ? "default" : "outline"}
-                    onClick={() => setSelectedCategory(category.value)}
-                    className={`flex items-center gap-2 h-10 ${
-                      selectedCategory === category.value 
-                        ? 'bg-primary-600 text-white' 
-                        : 'hover:bg-gray-50 dark:hover:bg-gray-700'
-                    }`}
-                  >
-                    <Icon className="h-4 w-4" />
-                    {category.name}
-                  </Button>
-                )
-              })}
-            </div>
+          <div className="relative">
+            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
+            <input
+              type="text"
+              placeholder="Search FAQs..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="w-full pl-10 pr-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+            />
           </div>
         </div>
 
@@ -173,19 +97,15 @@ export default function FAQPage() {
               <Button 
                 onClick={() => {
                   setSearchTerm('')
-                  setSelectedCategory('')
                 }}
                 variant="outline"
               >
-                Clear Filters
+                Clear Search
               </Button>
             </div>
           ) : (
             filteredFAQs.map((faq) => {
               const isExpanded = expandedItems.has(faq.id)
-              const categoryInfo = categories.find(cat => cat.value === faq.category)
-              const Icon = categoryInfo?.icon || BookOpen
-              const colorClass = categoryInfo?.color || 'bg-gray-100 text-gray-600'
               
               return (
                 <div
@@ -198,12 +118,6 @@ export default function FAQPage() {
                   >
                     <div className="flex items-start justify-between">
                       <div className="flex-1">
-                        <div className="flex items-center gap-3 mb-2">
-                          <span className={`inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium ${colorClass}`}>
-                            <Icon className="h-3 w-3 mr-1" />
-                            {faq.category}
-                          </span>
-                        </div>
                         <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
                           {faq.question}
                         </h3>
