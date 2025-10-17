@@ -7,9 +7,9 @@ import { Users, BookOpen, Trophy, Clock } from 'lucide-react'
 const stats = [
   {
     icon: Users,
-    value: '100+',
+    value: '10,000+',
     label: 'Active Learners',
-    description: 'Join hundreds of drivers mastering Irish traffic signs',
+    description: 'Join thousands of drivers mastering Irish traffic signs',
   },
   {
     icon: BookOpen,
@@ -47,10 +47,10 @@ export function Stats() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Trusted by hundreds of learners
+            Trusted by thousands of learners
           </h2>
           <p className="text-xl text-primary-100 max-w-3xl mx-auto">
-            Our platform has helped hundreds of drivers master Irish traffic signs and pass their driving tests.
+            Our platform has helped thousands of drivers master Irish traffic signs and pass their driving tests.
           </p>
         </motion.div>
 
