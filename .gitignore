@@ -78,6 +78,7 @@ Thumbs.db
 # Nuxt.js build / generate output
 .nuxt
 dist
+backend/dist/
 
 # Storybook build outputs
 .out
