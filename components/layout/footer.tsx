@@ -105,7 +105,7 @@ export function Footer() {
                 © {currentYear} Irish Traffic Signs. All rights reserved.
               </p>
               <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">
-                Bu uygulama resmi bir uygulama değildir. Eğitim amaçlı hazırlanmıştır.
+                This is not an official application. It is prepared for educational purposes.
               </p>
             </div>
             <p className="text-sm text-gray-600 dark:text-gray-400 mt-2 md:mt-0">

@@ -2,8 +2,9 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { useTheme } from '@/lib/theme-context'
-import { Menu, X, Sun, Moon, BookOpen } from 'lucide-react'
+import { Menu, X, Sun, Moon } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export function Header() {
@@ -26,8 +27,14 @@ export function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary-600 text-white">
-              <BookOpen className="h-5 w-5" />
+            <div className="flex h-8 w-8 items-center justify-center">
+              <Image
+                src="/favicon-32x32.png"
+                alt="Irish Traffic Signs Logo"
+                width={32}
+                height={32}
+                className="rounded-lg"
+              />
             </div>
             <span className="text-xl font-bold text-gray-900 dark:text-white">
               Irish Traffic Signs

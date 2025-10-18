@@ -13,7 +13,7 @@ const stats = [
   },
   {
     icon: BookOpen,
-    value: '200+',
+    value: '400+',
     label: 'Traffic Signs',
     description: 'Comprehensive library of Irish road signs',
   },
