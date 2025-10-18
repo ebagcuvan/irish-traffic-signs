@@ -38,7 +38,7 @@ export function MinimalTrafficSigns() {
         </motion.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {selectedSigns.map((sign, index) => sign && (
+          {selectedSigns.filter(Boolean).map((sign, index) => (
             <motion.div
               key={sign.id}
               initial={{ opacity: 0, y: 20 }}
