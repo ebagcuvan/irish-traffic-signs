@@ -26,19 +26,6 @@
       "@/types/*": ["./types/*"]
     }
   },
-  "include": [
-    "next-env.d.ts", 
-    "**/*.ts", 
-    "**/*.tsx", 
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "../backend",
-    "../data",
-    "../backend/**/*",
-    "../data/**/*",
-    "**/backend/**/*",
-    "**/data/**/*"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules", "../backend/**/*"]
 }

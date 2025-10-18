@@ -60,6 +60,7 @@ export default function HelpCenterPage() {
     costs: [
       { item: "Theory Test", cost: "€45" },
       { item: "Learner Permit", cost: "€35" },
+      { item: "Eye Examination", cost: "€25-45" },
       { item: "EDT Lessons (12)", cost: "€600-800" },
       { item: "Practical Test", cost: "€85" },
       { item: "Full License", cost: "€55" }
@@ -276,6 +277,26 @@ export default function HelpCenterPage() {
                       <span className="text-primary-600 dark:text-primary-400 font-bold">{cost.cost}</span>
                     </div>
                   ))}
+                </div>
+                
+                {/* Price Disclaimer */}
+                <div className="mt-6 p-4 bg-yellow-50 dark:bg-yellow-900/20 rounded-lg border border-yellow-200 dark:border-yellow-800">
+                  <div className="flex items-start gap-3">
+                    <div className="flex-shrink-0">
+                      <div className="w-6 h-6 bg-yellow-100 dark:bg-yellow-900 rounded-full flex items-center justify-center">
+                        <span className="text-yellow-600 dark:text-yellow-400 text-sm font-bold">⚠</span>
+                      </div>
+                    </div>
+                    <div>
+                      <h3 className="text-sm font-semibold text-yellow-800 dark:text-yellow-200 mb-1">
+                        Price Disclaimer
+                      </h3>
+                      <p className="text-sm text-yellow-700 dark:text-yellow-300">
+                        All prices are estimates and may vary depending on location, provider, and current market rates. 
+                        Please verify current costs with official sources before making any payments. Prices are subject to change without notice.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

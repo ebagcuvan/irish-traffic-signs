@@ -126,15 +126,15 @@ export default function AppPage() {
               },
               {
                 icon: Brain,
-                title: 'Smart Quizzes',
-                description: 'Adaptive quiz system that learns your strengths and weaknesses, providing personalized practice sessions.',
+                title: 'Visual Matching Quizzes',
+                description: 'Test your knowledge with sign and visual matching quizzes. Currently offers basic quiz functionality with development ongoing.',
                 color: 'text-blue-600',
                 bgColor: 'bg-blue-100 dark:bg-blue-900'
               },
               {
                 icon: Users,
-                title: 'Progress Tracking',
-                description: 'Track your learning journey with detailed analytics, achievements, and streak counters.',
+                title: 'Basic Progress Tracking',
+                description: 'View incorrect answers from each quiz session. No data is stored and comprehensive progress tracking is under development.',
                 color: 'text-purple-600',
                 bgColor: 'bg-purple-100 dark:bg-purple-900'
               },
@@ -148,14 +148,14 @@ export default function AppPage() {
               {
                 icon: Award,
                 title: 'Achievement System',
-                description: 'Unlock badges and certificates as you progress through different difficulty levels and categories.',
+                description: 'Achievement system is planned for future development. Currently focusing on core learning features.',
                 color: 'text-red-600',
                 bgColor: 'bg-red-100 dark:bg-red-900'
               },
               {
                 icon: Star,
                 title: 'Personalized Learning',
-                description: 'AI-powered recommendations based on your performance and learning preferences.',
+                description: 'Personalized learning features are planned for future development. Currently offering basic sign browsing and quiz functionality.',
                 color: 'text-yellow-600',
                 bgColor: 'bg-yellow-100 dark:bg-yellow-900'
               }
@@ -286,20 +286,28 @@ export default function AppPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
-                Track Your Progress
+                Basic Progress Tracking
               </h2>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                See your quiz results, track your learning progress, and celebrate your achievements. 
-                Our detailed analytics help you understand your strengths and areas for improvement.
+                View your quiz results and see which signs you got wrong. Currently offering basic progress 
+                tracking with plans for more comprehensive analytics in future updates.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">
                   <CheckCircle className="h-6 w-6 text-green-600 mr-3" />
-                  <span className="text-gray-700 dark:text-gray-300">Detailed quiz results and explanations</span>
+                  <span className="text-gray-700 dark:text-gray-300">Quiz results with correct/incorrect answers</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-6 w-6 text-green-600 mr-3" />
-                  <span className="text-gray-700 dark:text-gray-300">Progress tracking and statistics</span>
+                  <span className="text-gray-700 dark:text-gray-300">View incorrect answers after each quiz</span>
+                </div>
+                <div className="flex items-center">
+                  <CheckCircle className="h-6 w-6 text-green-600 mr-3" />
+                  <span className="text-gray-700 dark:text-gray-300">No data storage - privacy focused</span>
+                </div>
+                <div className="flex items-center">
+                  <CheckCircle className="h-6 w-6 text-yellow-600 mr-3" />
+                  <span className="text-gray-700 dark:text-gray-300">Advanced analytics coming soon</span>
                 </div>
               </div>
             </div>
