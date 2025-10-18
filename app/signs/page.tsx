@@ -236,7 +236,7 @@ export default function SignsPage() {
                     <option value="">All Categories</option>
                     {categories.map((cat) => (
                       <option key={cat} value={cat}>
-                        {cat.toLowerCase().replace('_', ' ')}
+                        {cat.charAt(0).toUpperCase() + cat.slice(1).toLowerCase().replace('_', ' ')}
                       </option>
                     ))}
                   </select>
@@ -254,7 +254,7 @@ export default function SignsPage() {
                     <option value="">All Levels</option>
                     {difficulties.map((diff) => (
                       <option key={diff} value={diff}>
-                        {diff.toLowerCase()}
+                        {diff.charAt(0).toUpperCase() + diff.slice(1).toLowerCase()}
                       </option>
                     ))}
                   </select>
@@ -334,7 +334,7 @@ export default function SignsPage() {
                 )}
                 {difficulty && (
                   <Badge variant="secondary" className="text-sm">
-                    {difficulty.toLowerCase()}
+                    {difficulty.charAt(0).toUpperCase() + difficulty.slice(1).toLowerCase()}
                   </Badge>
                 )}
                 {search && (

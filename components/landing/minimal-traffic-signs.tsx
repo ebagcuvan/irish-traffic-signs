@@ -7,14 +7,17 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export function MinimalTrafficSigns() {
-  // Get 5 random signs from the data
-  const getRandomSigns = () => {
-    const allSigns = trafficSignsData.signs
-    const shuffled = [...allSigns].sort(() => 0.5 - Math.random())
-    return shuffled.slice(0, 5)
-  }
+  // Selected 4 specific signs to display
+  const selectedSignIds = [
+    'warning_001', // Accompanied Horses
+    'regulatory_custom_133', // Barrier Board - 3 Bars
+    'others_custom_313', // Barrier Board - 4 Bars
+    'warning_005'  // Cattle or Farm Animals
+  ]
 
-  const randomSigns = getRandomSigns()
+  const selectedSigns = selectedSignIds.map(id => 
+    trafficSignsData.signs.find(sign => sign.id === id)
+  ).filter(Boolean)
 
   return (
     <section className="py-20 bg-gray-50 dark:bg-gray-800">
@@ -27,15 +30,15 @@ export function MinimalTrafficSigns() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Minimal Traffic Signs
+            Essential Traffic Signs
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Discover essential Irish traffic signs. Click on any sign to learn more about its meaning and importance.
+            Learn about these important Irish traffic signs. Click on any sign to discover its meaning and importance.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
-          {randomSigns.map((sign, index) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {selectedSigns.map((sign, index) => (
             <motion.div
               key={sign.id}
               initial={{ opacity: 0, y: 20 }}

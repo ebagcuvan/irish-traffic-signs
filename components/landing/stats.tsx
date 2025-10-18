@@ -7,9 +7,9 @@ import { Users, BookOpen, Trophy, Clock } from 'lucide-react'
 const stats = [
   {
     icon: Users,
-    value: '10,000+',
+    value: '100+',
     label: 'Active Learners',
-    description: 'Join thousands of drivers mastering Irish traffic signs',
+    description: 'Drivers learning Irish traffic signs',
   },
   {
     icon: BookOpen,

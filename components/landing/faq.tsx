@@ -11,7 +11,7 @@ const faqs = [
   },
   {
     question: 'How many traffic signs are included?',
-    answer: 'Our platform includes over 200 Irish traffic signs, covering all categories: warning signs, regulatory signs, mandatory signs, informational signs, and directional signs.',
+    answer: 'Our platform includes over 400 Irish traffic signs, covering all categories: warning signs, regulatory signs, mandatory signs, informational signs, and directional signs.',
   },
   {
     question: 'Can I use this on my mobile device?',
@@ -19,23 +19,23 @@ const faqs = [
   },
   {
     question: 'How does the quiz system work?',
-    answer: 'We offer multiple quiz types including multiple choice, true/false, matching, and image identification. Quizzes are available in different difficulty levels and can be timed or untimed.',
+    answer: 'Currently, we offer sign and visual matching quizzes. Development is ongoing to add more quiz types and features.',
   },
   {
     question: 'Will this help me pass my driving test?',
-    answer: 'Yes! Our platform is specifically designed to help learners master Irish traffic signs for the driving test. Many of our users have successfully passed their tests using our platform.',
+    answer: 'Yes! Our platform is specifically designed to help learners master Irish traffic signs for the driving test.',
   },
   {
     question: 'Can I track my learning progress?',
-    answer: 'Yes, you can track your progress with detailed analytics, see your quiz scores over time, maintain streaks, and earn achievements as you learn.',
+    answer: 'Currently, only incorrect answers from each quiz are shown. No data is stored and development is ongoing for more comprehensive progress tracking.',
   },
   {
     question: 'Is my data secure and private?',
-    answer: 'Absolutely. We use enterprise-grade security to protect your data. Your learning progress and personal information are encrypted and never shared with third parties.',
+    answer: 'Yes, we do not store any data.',
   },
   {
     question: 'Do you offer support if I have questions?',
-    answer: 'Yes! We provide comprehensive help documentation, FAQ sections, and customer support. You can contact us through our support system or email us directly.',
+    answer: 'Limited support is available through the links on the site. For more comprehensive help, please refer to official resources.',
   },
 ]
 
