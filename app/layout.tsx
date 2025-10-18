@@ -11,7 +11,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://irish-traffic-signs.vercel.app'),
+  metadataBase: new URL('https://www.irishtrafficsigns.com'),
   title: 'Irish Traffic Signs - Learn Irish Road Signs',
   description: 'Master Irish traffic signs with interactive quizzes, detailed explanations, and personalized learning paths.',
   keywords: ['Irish traffic signs', 'road signs', 'Ireland', 'driving', 'quiz', 'learning'],
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: 'Master Irish traffic signs with interactive quizzes, detailed explanations, and personalized learning paths.',
     type: 'website',
     locale: 'en_IE',
-    url: 'https://irish-traffic-signs.vercel.app',
+    url: 'https://www.irishtrafficsigns.com',
     siteName: 'Irish Traffic Signs',
     images: [
       {

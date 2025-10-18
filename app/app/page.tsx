@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://irish-traffic-signs.vercel.app'),
+  metadataBase: new URL('https://www.irishtrafficsigns.com'),
   title: 'Mobile App - Irish Traffic Signs',
   description: 'Download our mobile app and master Irish traffic signs anywhere, anytime. Interactive quizzes, offline learning, and progress tracking in your pocket.',
   keywords: ['Irish traffic signs app', 'mobile app', 'iOS', 'Android', 'offline learning', 'traffic signs quiz'],
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: 'Mobile App - Irish Traffic Signs',
     description: 'Download our mobile app and master Irish traffic signs anywhere, anytime. Interactive quizzes, offline learning, and progress tracking in your pocket.',
     type: 'website',
-    url: 'https://irish-traffic-signs.vercel.app/app',
+    url: 'https://www.irishtrafficsigns.com/app',
     siteName: 'Irish Traffic Signs',
     images: [
       {
