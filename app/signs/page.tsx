@@ -7,9 +7,10 @@ import { Badge } from '@/components/ui/badge'
 import { Search, Filter, Grid, List, Heart, Star, Eye, Clock, MapPin, ChevronDown } from 'lucide-react'
 import { SignCard } from '@/components/signs/sign-card'
 import Image from 'next/image'
+import { trafficSignsData } from '../../lib/data'
 
 interface TrafficSignData {
-  id: number
+  id: string
   name: string
   category: string
   categories: string[]
@@ -34,15 +35,16 @@ export default function SignsPage() {
 
   // Load signs from JSON file
   useEffect(() => {
-    const loadSigns = async () => {
+    const loadSigns = () => {
       try {
         setIsLoading(true)
-        const response = await fetch('/data/traffic_signs.json')
-        const data = await response.json()
+        console.log('Loading signs from imported data')
+        const data = trafficSignsData
+        console.log('Data loaded:', data.signs?.length || 0, 'signs')
         
         // Transform JSON data to TrafficSign format
         const transformedSigns: TrafficSign[] = data.signs.map((sign: TrafficSignData) => ({
-          id: sign.id.toString(),
+          id: sign.id,
           irishName: sign.name,
           englishName: sign.name,
           description: sign.description || sign.meaning || '',
@@ -50,6 +52,8 @@ export default function SignsPage() {
           difficultyLevel: determineDifficultyLevel(sign),
           imageUrl: sign.imagePath || 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300',
           context: sign.meaning || sign.description || '',
+          relatedSignIds: [],
+          createdAt: new Date().toISOString(),
           isFavorite: false,
           rating: 0
         }))
@@ -58,6 +62,7 @@ export default function SignsPage() {
         setFilteredSigns(transformedSigns)
       } catch (error) {
         console.error('Error loading signs:', error)
+        setSigns([])
       } finally {
         setIsLoading(false)
       }
@@ -67,8 +72,8 @@ export default function SignsPage() {
   }, [])
 
   // Map category from JSON to database enum
-  const mapCategory = (category: string): string => {
-    const categoryMap: { [key: string]: string } = {
+  const mapCategory = (category: string): 'WARNING' | 'REGULATORY' | 'MANDATORY' | 'INFORMATIONAL' | 'DIRECTIONAL' | 'ROADWORK' | 'OTHERS' | 'SUPPLEMENTARY' => {
+    const categoryMap: { [key: string]: 'WARNING' | 'REGULATORY' | 'MANDATORY' | 'INFORMATIONAL' | 'DIRECTIONAL' | 'ROADWORK' | 'OTHERS' | 'SUPPLEMENTARY' } = {
       'Warning Signs': 'WARNING',
       'Regulatory Signs': 'REGULATORY',
       'Mandatory Signs': 'MANDATORY',
@@ -84,7 +89,7 @@ export default function SignsPage() {
   }
 
   // Determine difficulty level based on sign properties
-  const determineDifficultyLevel = (sign: TrafficSignData): string => {
+  const determineDifficultyLevel = (sign: TrafficSignData): 'BEGINNER' | 'INTERMEDIATE' | 'ADVANCED' => {
     if (sign.category === 'Warning Signs' && sign.tags?.includes('complex')) {
       return 'ADVANCED'
     }
@@ -141,7 +146,8 @@ export default function SignsPage() {
     filteredSigns: filteredSigns.length,
     paginatedSigns: paginatedSigns.length,
     totalPages,
-    currentPage: page
+    currentPage: page,
+    firstSign: signs[0] || 'No signs loaded'
   })
 
   return (
@@ -230,7 +236,7 @@ export default function SignsPage() {
                     <option value="">All Categories</option>
                     {categories.map((cat) => (
                       <option key={cat} value={cat}>
-                        {cat.toLowerCase().replace('_', ' ')}
+                        {cat.charAt(0).toUpperCase() + cat.slice(1).toLowerCase().replace('_', ' ')}
                       </option>
                     ))}
                   </select>
@@ -248,7 +254,7 @@ export default function SignsPage() {
                     <option value="">All Levels</option>
                     {difficulties.map((diff) => (
                       <option key={diff} value={diff}>
-                        {diff.toLowerCase()}
+                        {diff.charAt(0).toUpperCase() + diff.slice(1).toLowerCase()}
                       </option>
                     ))}
                   </select>
@@ -328,7 +334,7 @@ export default function SignsPage() {
                 )}
                 {difficulty && (
                   <Badge variant="secondary" className="text-sm">
-                    {difficulty.toLowerCase()}
+                    {difficulty.charAt(0).toUpperCase() + difficulty.slice(1).toLowerCase()}
                   </Badge>
                 )}
                 {search && (

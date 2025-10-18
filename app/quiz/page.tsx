@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { TrafficSign } from '@/types'
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
@@ -20,9 +21,10 @@ import {
 } from 'lucide-react'
 import Image from 'next/image'
 import { formatTextWithLineBreaks } from '@/lib/text-utils'
+import { trafficSignsData } from '../../lib/data'
 
 interface TrafficSignData {
-  id: number
+  id: string
   name: string
   category: string
   categories: string[]
@@ -51,6 +53,8 @@ interface QuizResult {
 }
 
 export default function QuizPage() {
+  const router = useRouter()
+  const searchParams = useSearchParams()
   const [quizStarted, setQuizStarted] = useState(false)
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null)
@@ -66,17 +70,37 @@ export default function QuizPage() {
   const [isLoading, setIsLoading] = useState(false)
   const [quizQuestions, setQuizQuestions] = useState<QuizQuestion[]>([])
 
-  // Load signs from JSON file
+  // URL'den sayfa numarasını oku (sadece quiz başladıktan sonra)
+  // useEffect(() => {
+  //   if (!quizStarted || quizQuestions.length === 0) return
+  //   
+  //   const pageParam = searchParams.get('page')
+  //   if (pageParam && !isNaN(Number(pageParam))) {
+  //     const pageNumber = Number(pageParam) - 1 // URL'de 1-based, state'te 0-based
+  //     if (pageNumber >= 0 && pageNumber < quizQuestions.length) {
+  //       setCurrentQuestion(pageNumber)
+  //       setSelectedAnswer(userAnswers[pageNumber] || null)
+  //     }
+  //   }
+  // }, [searchParams, quizQuestions.length, userAnswers, quizStarted])
+
+  // URL'yi güncelle - kaldırıldı
+  // const updateURL = (questionIndex: number) => {
+  //   const newSearchParams = new URLSearchParams(searchParams.toString())
+  //   newSearchParams.set('page', (questionIndex + 1).toString())
+  //   router.push(`/quiz?${newSearchParams.toString()}`, { scroll: false })
+  // }
+
+  // Load signs from data file
   useEffect(() => {
-    const loadSigns = async () => {
+    const loadSigns = () => {
       try {
         setIsLoading(true)
-        const response = await fetch('/data/traffic_signs.json')
-        const data = await response.json()
+        const data = trafficSignsData
         
         // Transform JSON data to TrafficSign format
         const transformedSigns: TrafficSign[] = data.signs.map((sign: TrafficSignData) => ({
-          id: sign.id.toString(),
+          id: sign.id,
           irishName: sign.name,
           englishName: sign.name,
           description: sign.description || sign.meaning || '',
@@ -84,6 +108,8 @@ export default function QuizPage() {
           difficultyLevel: determineDifficultyLevel(sign),
           imageUrl: sign.imagePath || 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300',
           context: sign.meaning || sign.description || '',
+          relatedSignIds: [],
+          createdAt: new Date().toISOString(),
           isFavorite: false,
           rating: 0
         }))
@@ -100,8 +126,8 @@ export default function QuizPage() {
   }, [])
 
   // Map category from JSON to database enum
-  const mapCategory = (category: string): string => {
-    const categoryMap: { [key: string]: string } = {
+  const mapCategory = (category: string): 'WARNING' | 'REGULATORY' | 'MANDATORY' | 'INFORMATIONAL' | 'DIRECTIONAL' | 'ROADWORK' | 'OTHERS' | 'SUPPLEMENTARY' => {
+    const categoryMap: { [key: string]: 'WARNING' | 'REGULATORY' | 'MANDATORY' | 'INFORMATIONAL' | 'DIRECTIONAL' | 'ROADWORK' | 'OTHERS' | 'SUPPLEMENTARY' } = {
       'Warning Signs': 'WARNING',
       'Regulatory Signs': 'REGULATORY',
       'Mandatory Signs': 'MANDATORY',
@@ -117,7 +143,7 @@ export default function QuizPage() {
   }
 
   // Determine difficulty level based on sign properties
-  const determineDifficultyLevel = (sign: TrafficSignData): string => {
+  const determineDifficultyLevel = (sign: TrafficSignData): 'BEGINNER' | 'INTERMEDIATE' | 'ADVANCED' => {
     if (sign.category === 'Warning Signs' && sign.tags?.includes('complex')) {
       return 'ADVANCED'
     }
@@ -132,8 +158,11 @@ export default function QuizPage() {
 
   // Generate quiz questions
   useEffect(() => {
+    console.log('Quiz useEffect triggered:', { allSignsLength: allSigns.length, quizStarted, questionCount })
     if (allSigns.length > 0 && quizStarted) {
+      console.log('Generating quiz questions...')
       const questions = generateQuizQuestions(allSigns, questionCount)
+      console.log('Generated questions:', questions.length)
       setQuizQuestions(questions)
       setStartTime(Date.now())
     }
@@ -206,8 +235,9 @@ export default function QuizPage() {
     }
 
     if (currentQuestion < quizQuestions.length - 1) {
-      setCurrentQuestion(prev => prev + 1)
-      setSelectedAnswer(userAnswers[currentQuestion + 1] || null)
+      const nextQuestion = currentQuestion + 1
+      setCurrentQuestion(nextQuestion)
+      setSelectedAnswer(userAnswers[nextQuestion] || null)
       setShowResult(false)
     } else {
       // Quiz completed
@@ -222,8 +252,9 @@ export default function QuizPage() {
 
   const handlePreviousQuestion = () => {
     if (currentQuestion > 0) {
-      setCurrentQuestion(prev => prev - 1)
-      setSelectedAnswer(userAnswers[currentQuestion - 1] || null)
+      const prevQuestion = currentQuestion - 1
+      setCurrentQuestion(prevQuestion)
+      setSelectedAnswer(userAnswers[prevQuestion] || null)
       setShowResult(false)
     }
   }
@@ -274,6 +305,17 @@ export default function QuizPage() {
     return 'Keep practicing! You\'ll get better with time.'
   }
 
+  // Debug quiz state
+  const isButtonDisabled = isLoading || allSigns.length === 0
+  console.log('Quiz state:', { 
+    quizStarted, 
+    allSignsLength: allSigns.length, 
+    quizQuestionsLength: quizQuestions.length,
+    currentQuestion,
+    isLoading,
+    isButtonDisabled
+  })
+
   // Don't auto-start quiz, let user choose settings first
 
   if (!quizStarted) {
@@ -314,7 +356,7 @@ export default function QuizPage() {
                     <option value="">All Categories</option>
                     {Array.from(new Set(allSigns.map(sign => sign.category))).sort().map((cat) => (
                       <option key={cat} value={cat}>
-                        {cat.toLowerCase().replace('_', ' ')}
+                        {cat.charAt(0).toUpperCase() + cat.slice(1).toLowerCase().replace('_', ' ')}
                       </option>
                     ))}
                   </select>
@@ -374,19 +416,30 @@ export default function QuizPage() {
             {/* Start Quiz Button */}
             <div className="text-center">
               <Button
-                onClick={() => setQuizStarted(true)}
-                size="lg"
-                className="px-8 py-4 text-lg"
+                onClick={() => {
+                  console.log('Start Quiz clicked!', { allSignsLength: allSigns.length, isLoading })
+                  setQuizStarted(true)
+                }}
                 disabled={isLoading || allSigns.length === 0}
+                size="lg"
+                className="px-12 py-6 text-xl font-semibold bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none disabled:shadow-lg"
               >
-                <Play className="h-5 w-5 mr-2" />
+                <Play className="h-6 w-6 mr-3" />
                 {isLoading ? 'Loading Signs...' : allSigns.length === 0 ? 'No Signs Available' : 'Start Quiz'}
               </Button>
               
               {allSigns.length > 0 && (
-                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
-                  {allSigns.length} signs available for quiz
-                </p>
+                <div className="mt-6 p-4 bg-gradient-to-r from-green-50 to-blue-50 dark:from-green-900/20 dark:to-blue-900/20 rounded-xl border border-green-200 dark:border-green-800">
+                  <div className="flex items-center justify-center gap-2 text-green-700 dark:text-green-400">
+                    <Target className="h-5 w-5" />
+                    <span className="font-medium">
+                      {allSigns.length} signs available for quiz
+                    </span>
+                  </div>
+                  <p className="text-sm text-green-600 dark:text-green-500 mt-1">
+                    Choose your settings above and test your knowledge!
+                  </p>
+                </div>
               )}
             </div>
           </div>
@@ -606,6 +659,31 @@ export default function QuizPage() {
               </span>
             </div>
             <Progress value={progress} className="h-2" />
+            
+            {/* Page Numbers */}
+            <div className="flex justify-center mt-4">
+              <div className="flex gap-2">
+                {quizQuestions.map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={() => {
+                      setCurrentQuestion(index)
+                      setSelectedAnswer(userAnswers[index] || null)
+                      setShowResult(false)
+                    }}
+                    className={`w-8 h-8 rounded-full text-sm font-medium transition-colors ${
+                      currentQuestion === index
+                        ? 'bg-primary-600 text-white'
+                        : userAnswers[index]
+                        ? 'bg-green-100 text-green-700 hover:bg-green-200 dark:bg-green-900/20 dark:text-green-400'
+                        : 'bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300'
+                    }`}
+                  >
+                    {index + 1}
+                  </button>
+                ))}
+              </div>
+            </div>
           </div>
 
           {/* Question Card */}

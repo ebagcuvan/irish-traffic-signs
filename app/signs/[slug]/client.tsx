@@ -9,6 +9,7 @@ import { ArrowLeft, Heart, Share2, ExternalLink, MapPin, Clock, AlertTriangle, I
 import Image from 'next/image'
 import Link from 'next/link'
 import { formatTextWithLineBreaks } from '@/lib/text-utils'
+import { trafficSignsData } from '../../../lib/data'
 
 interface TrafficSignData {
   id: string
@@ -33,16 +34,10 @@ export default function SignDetailClient() {
 
   // Load sign data
   useEffect(() => {
-    const loadSignData = async () => {
+    const loadSignData = () => {
       try {
         setIsLoading(true)
-        const response = await fetch('/data/traffic_signs.json')
-        
-        if (!response.ok) {
-          throw new Error(`Failed to fetch data: ${response.status}`)
-        }
-        
-        const data = await response.json()
+        const data = trafficSignsData
         
         // Find sign by slug (convert from URL format)
         const slug = params.slug as string
