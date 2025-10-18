@@ -19,9 +19,9 @@ const stats = [
   },
   {
     icon: Trophy,
-    value: '95%',
-    label: 'Success Rate',
-    description: 'Average pass rate for our learners',
+    value: '24/7',
+    label: 'Available',
+    description: 'Learn anytime, anywhere at your own pace',
   },
   {
     icon: Clock,
@@ -47,10 +47,10 @@ export function Stats() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Trusted by thousands of learners
+            Trusted by hundreds of learners
           </h2>
           <p className="text-xl text-primary-100 max-w-3xl mx-auto">
-            Our platform has helped thousands of drivers master Irish traffic signs and pass their driving tests.
+            Our platform has helped hundreds of drivers master Irish traffic signs and improve their road knowledge.
           </p>
         </motion.div>
 

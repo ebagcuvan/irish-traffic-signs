@@ -222,10 +222,10 @@ export default function AboutPage() {
 
               <div className="text-center">
                 <div className="text-4xl font-bold text-primary-600 dark:text-primary-400 mb-2">
-                  95%
+                  Free
                 </div>
                 <div className="text-gray-600 dark:text-gray-300">
-                  Pass Rate
+                  Platform
                 </div>
               </div>
 

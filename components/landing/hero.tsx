@@ -91,8 +91,8 @@ export function Hero() {
                 <div className="flex items-center justify-center mb-3">
                   <Award className="h-8 w-8 text-green-600" />
                 </div>
-                <div className="text-3xl font-bold text-gray-900 dark:text-white mb-1">95%</div>
-                <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Success Rate</div>
+                <div className="text-3xl font-bold text-gray-900 dark:text-white mb-1">24/7</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Available</div>
               </div>
             </motion.div>
           </motion.div>

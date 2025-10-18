@@ -100,9 +100,14 @@ export function Footer() {
 
         <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-sm text-gray-600 dark:text-gray-400">
-              © {currentYear} Irish Traffic Signs. All rights reserved.
-            </p>
+            <div className="text-center md:text-left">
+              <p className="text-sm text-gray-600 dark:text-gray-400">
+                © {currentYear} Irish Traffic Signs. All rights reserved.
+              </p>
+              <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">
+                Bu uygulama resmi bir uygulama değildir. Eğitim amaçlı hazırlanmıştır.
+              </p>
+            </div>
             <p className="text-sm text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
               Made with ❤️ for Irish drivers
             </p>
