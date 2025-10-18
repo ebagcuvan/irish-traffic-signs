@@ -22,29 +22,29 @@ const features = [
   },
   {
     icon: Brain,
-    title: 'Visual Learning',
-    description: 'High-quality images and clear explanations for every Irish traffic sign with detailed meanings.',
+    title: 'Interactive Quizzes',
+    description: 'Test your knowledge with multiple quiz types: multiple choice, true/false, matching, and image identification.',
     color: 'text-green-700 dark:text-green-300',
     bgColor: 'bg-green-50 dark:bg-green-900/50',
   },
   {
     icon: Heart,
-    title: 'Detailed Meanings',
-    description: 'Comprehensive explanations with practical context about when and where each sign is used.',
+    title: 'Personalized Favorites',
+    description: 'Save your favorite signs, create custom collections, and organize your learning materials.',
     color: 'text-green-600 dark:text-green-400',
     bgColor: 'bg-green-100 dark:bg-green-900',
   },
   {
     icon: Trophy,
-    title: 'Category Organization',
-    description: 'Signs organized by categories: Warning, Regulatory, Mandatory, Informational, and more.',
+    title: 'Progress Tracking',
+    description: 'Monitor your learning progress with detailed analytics, achievements, and streak counters.',
     color: 'text-green-700 dark:text-green-300',
     bgColor: 'bg-green-50 dark:bg-green-900/50',
   },
   {
     icon: Users,
-    title: 'Easy Navigation',
-    description: 'Intuitive search and filtering to quickly find the traffic signs you need to learn.',
+    title: 'Community Features',
+    description: 'Join leaderboards, share progress, and learn from other drivers preparing for their test.',
     color: 'text-green-600 dark:text-green-400',
     bgColor: 'bg-green-100 dark:bg-green-900',
   },
@@ -83,10 +83,10 @@ export function Features() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Everything you need to learn Irish traffic signs
+            Everything you need to master Irish traffic signs
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Our comprehensive database provides detailed information, clear explanations, and organized categories for all Irish traffic signs.
+            Our comprehensive platform combines interactive learning, progress tracking, and community features to help you succeed.
           </p>
         </motion.div>
 

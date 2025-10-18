@@ -36,7 +36,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
-              Master Irish traffic signs with interactive quizzes, detailed explanations, and personalized learning paths.
+              Learn Irish traffic signs with visual matching quizzes and detailed explanations. Free platform for drivers preparing for their test.
             </p>
           </div>
 

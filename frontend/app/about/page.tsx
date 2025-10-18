@@ -55,10 +55,10 @@ export default function AboutPage() {
                   <Target className="h-8 w-8 text-primary-600 dark:text-primary-400" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                  Visual Learning
+                  Interactive Practice
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  High-quality images and clear explanations for every Irish traffic sign.
+                  Test your knowledge with quizzes and track your progress over time.
                 </p>
               </div>
 
@@ -67,10 +67,10 @@ export default function AboutPage() {
                   <Users className="h-8 w-8 text-primary-600 dark:text-primary-400" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                  Category Organization
+                  Community Driven
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Signs organized by categories: Warning, Regulatory, Mandatory, and more.
+                  Join thousands of Irish drivers improving their road safety knowledge.
                 </p>
               </div>
             </div>
@@ -89,21 +89,20 @@ export default function AboutPage() {
                 </h2>
                 <div className="space-y-4 text-gray-600 dark:text-gray-300">
                   <p>
-                    Irish Traffic Signs was created to solve a real problem: finding accurate, 
-                    up-to-date information about Irish traffic signs in one place. We noticed 
-                    that drivers often had to search through multiple sources to understand 
-                    what different signs meant.
+                    Irish Traffic Signs was born from a simple observation: many drivers, 
+                    both new and experienced, struggle with the vast array of traffic signs 
+                    on Irish roads. We noticed that while there were resources available, 
+                    they were often scattered, outdated, or not engaging enough.
                   </p>
                   <p>
-                    Our platform provides a comprehensive database of Irish traffic signs with 
-                    high-quality images, detailed meanings, and clear explanations. Each sign 
-                    is categorized properly and includes practical information about when and 
-                    where you'll encounter it on Irish roads.
+                    Our team of road safety experts, educators, and technology enthusiasts 
+                    came together to create a comprehensive, interactive platform that 
+                    makes learning traffic signs not just educational, but enjoyable.
                   </p>
                   <p>
-                    Whether you're preparing for your driving test, refreshing your knowledge, 
-                    or just curious about road signs, our platform makes it easy to learn 
-                    and understand Irish traffic signage.
+                    Today, we're proud to serve thousands of Irish drivers, helping them 
+                    become more confident and safer on the roads through better understanding 
+                    of traffic signage.
                   </p>
                 </div>
               </div>
@@ -142,10 +141,10 @@ export default function AboutPage() {
                   <Heart className="h-6 w-6 text-green-600 dark:text-green-400" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                  Accuracy
+                  Safety First
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-300">
-                  All information is verified and up-to-date with Irish road regulations.
+                  Road safety is our top priority in everything we do.
                 </p>
               </div>
 
@@ -154,10 +153,10 @@ export default function AboutPage() {
                   <Award className="h-6 w-6 text-blue-600 dark:text-blue-400" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                  Clarity
+                  Excellence
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-300">
-                  Clear, easy-to-understand explanations for every traffic sign.
+                  We strive for the highest quality in all our content and features.
                 </p>
               </div>
 
@@ -166,10 +165,10 @@ export default function AboutPage() {
                   <Users className="h-6 w-6 text-purple-600 dark:text-purple-400" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                  Organization
+                  Accessibility
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-300">
-                  Signs are well-organized by categories and easy to find.
+                  Making traffic sign education accessible to everyone.
                 </p>
               </div>
 
@@ -178,10 +177,10 @@ export default function AboutPage() {
                   <BookOpen className="h-6 w-6 text-orange-600 dark:text-orange-400" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                  Completeness
+                  Education
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-300">
-                  Comprehensive coverage of all Irish traffic signs in one place.
+                  Empowering drivers through knowledge and understanding.
                 </p>
               </div>
             </div>
@@ -214,19 +213,19 @@ export default function AboutPage() {
 
               <div className="text-center">
                 <div className="text-4xl font-bold text-primary-600 dark:text-primary-400 mb-2">
-                  8
+                  100+
                 </div>
                 <div className="text-gray-600 dark:text-gray-300">
-                  Categories
+                  Active Learners
                 </div>
               </div>
 
               <div className="text-center">
                 <div className="text-4xl font-bold text-primary-600 dark:text-primary-400 mb-2">
-                  100%
+                  95%
                 </div>
                 <div className="text-gray-600 dark:text-gray-300">
-                  Free Access
+                  Pass Rate
                 </div>
               </div>
 
@@ -248,23 +247,23 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">
-              Ready to Learn Irish Traffic Signs?
+              Ready to Master Irish Traffic Signs?
             </h2>
             <p className="text-xl text-primary-100 mb-8">
-              Browse our comprehensive database of Irish traffic signs with detailed explanations and meanings.
+              Join thousands of Irish drivers who are already improving their road safety knowledge.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="/signs"
                 className="bg-white text-primary-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                Browse All Signs
+                Explore Signs
               </a>
               <a
-                href="/help-center"
+                href="/quiz"
                 className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors"
               >
-                Learn More
+                Take Quiz
               </a>
             </div>
           </div>

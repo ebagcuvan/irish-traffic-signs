@@ -356,7 +356,7 @@ export default function QuizPage() {
                     <option value="">All Categories</option>
                     {Array.from(new Set(allSigns.map(sign => sign.category))).sort().map((cat) => (
                       <option key={cat} value={cat}>
-                        {cat.toLowerCase().replace('_', ' ')}
+                        {cat.charAt(0).toUpperCase() + cat.slice(1).toLowerCase().replace('_', ' ')}
                       </option>
                     ))}
                   </select>

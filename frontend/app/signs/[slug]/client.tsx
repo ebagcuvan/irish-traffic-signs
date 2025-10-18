@@ -31,6 +31,7 @@ export default function SignDetailClient() {
   const [isLoading, setIsLoading] = useState(true)
   const [isFavorited, setIsFavorited] = useState(false)
 
+
   // Load sign data
   useEffect(() => {
     const loadSignData = () => {
@@ -261,21 +262,21 @@ export default function SignDetailClient() {
               />
             </div>
             
-             {/* Action Buttons */}
-             <div className="flex items-center gap-3">
-               <Button
-                 onClick={handleFavorite}
-                 variant={isFavorited ? "default" : "outline"}
-                 className="flex-1"
-               >
-                 <Heart className={`h-4 w-4 mr-2 ${isFavorited ? 'fill-current' : ''}`} />
-                 {isFavorited ? 'Favorited' : 'Add to Favorites'}
-               </Button>
-               <Button onClick={handleShare} variant="outline">
-                 <Share2 className="h-4 w-4 mr-2" />
-                 Share
-               </Button>
-             </div>
+            {/* Action Buttons */}
+            <div className="flex items-center gap-3">
+              <Button
+                onClick={handleFavorite}
+                variant={isFavorited ? "default" : "outline"}
+                className="flex-1"
+              >
+                <Heart className={`h-4 w-4 mr-2 ${isFavorited ? 'fill-current' : ''}`} />
+                {isFavorited ? 'Favorited' : 'Add to Favorites'}
+              </Button>
+              <Button onClick={handleShare} variant="outline">
+                <Share2 className="h-4 w-4 mr-2" />
+                Share
+              </Button>
+            </div>
           </div>
 
           {/* Details Section */}
