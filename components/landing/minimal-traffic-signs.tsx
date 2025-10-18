@@ -15,9 +15,9 @@ export function MinimalTrafficSigns() {
     'warning_005'  // Cattle or Farm Animals
   ]
 
-  const selectedSigns = selectedSignIds.map(id => 
-    trafficSignsData.signs.find(sign => sign.id === id)
-  ).filter(Boolean)
+  const selectedSigns = selectedSignIds
+    .map(id => trafficSignsData.signs.find(sign => sign.id === id))
+    .filter((sign): sign is NonNullable<typeof sign> => sign !== undefined)
 
   return (
     <section className="py-20 bg-gray-50 dark:bg-gray-800">
@@ -38,7 +38,7 @@ export function MinimalTrafficSigns() {
         </motion.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {selectedSigns.filter(Boolean).map((sign, index) => (
+          {selectedSigns.map((sign, index) => (
             <motion.div
               key={sign.id}
               initial={{ opacity: 0, y: 20 }}
@@ -47,7 +47,7 @@ export function MinimalTrafficSigns() {
               viewport={{ once: true }}
               className="group"
             >
-              <Link 
+              <Link
                 href={`/signs/${sign.id}`}
                 className="block bg-white dark:bg-gray-900 rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-lg hover:border-primary-300 dark:hover:border-primary-600 transition-all duration-300 h-full"
               >
@@ -61,15 +61,15 @@ export function MinimalTrafficSigns() {
                       className="object-contain"
                     />
                   </div>
-                  
+
                   <h3 className="font-semibold text-gray-900 dark:text-white mb-2 text-sm leading-tight">
                     {sign.name}
                   </h3>
-                  
+
                   <p className="text-xs text-gray-600 dark:text-gray-400 mb-4 flex-grow">
                     {sign.category}
                   </p>
-                  
+
                   <div className="flex items-center text-primary-600 dark:text-primary-400 text-sm font-medium group-hover:text-primary-700 dark:group-hover:text-primary-300 transition-colors duration-300">
                     <span>Learn more</span>
                     <ArrowRight className="ml-1 h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
