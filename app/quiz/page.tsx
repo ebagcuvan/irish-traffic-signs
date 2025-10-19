@@ -35,7 +35,7 @@ interface TrafficSignData {
   tags: string[]
   shape: string
   color: string
-  difficultyLevel?: 'BEGINNER' | 'INTERMEDIATE' | 'ADVANCED'
+  difficultyLevel?: string
 }
 
 interface QuizQuestion {
@@ -169,7 +169,11 @@ export default function QuizPage() {
 
   // Get difficulty level from sign data (now included in JSON)
   const getDifficultyLevel = (sign: TrafficSignData): 'BEGINNER' | 'INTERMEDIATE' | 'ADVANCED' => {
-    return (sign as any).difficultyLevel || 'INTERMEDIATE'
+    const level = sign.difficultyLevel
+    if (level === 'BEGINNER' || level === 'INTERMEDIATE' || level === 'ADVANCED') {
+      return level
+    }
+    return 'INTERMEDIATE'
   }
 
   // Generate quiz questions
@@ -397,7 +401,10 @@ export default function QuizPage() {
                       const signsToUse = quizMode === 'favorites' ? favoritesSigns : allSigns
                       const count = level.value === 'MIXED' 
                         ? signsToUse.length 
-                        : signsToUse.filter(sign => (sign as any).difficultyLevel === level.value).length
+                        : signsToUse.filter(sign => {
+                            const signData = sign as any
+                            return signData.difficultyLevel === level.value
+                          }).length
                       
                       return (
                         <button
