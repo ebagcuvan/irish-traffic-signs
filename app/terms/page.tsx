@@ -16,7 +16,7 @@ export default function TermsPage() {
               Terms of Service
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Please read these terms carefully before using our educational platform.
+              These terms apply to the Irish Traffic Signs app and website created by Emre Bagcuvan as a Free educational service.
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
               Last updated: {new Date().toLocaleDateString()}
@@ -33,8 +33,12 @@ export default function TermsPage() {
                 </h2>
                 <div className="space-y-4 text-gray-700 dark:text-gray-300">
                   <p>
-                    By accessing and using Irish Traffic Signs, you accept and agree to be bound by the 
-                    terms and provision of this agreement.
+                    By accessing and using the Irish Traffic Signs application and website, you accept and agree to be bound by the 
+                    terms and provision of this agreement. This service is provided "AS IS" for educational purposes only.
+                  </p>
+                  <p>
+                    No registration is required to use this application. The service can be used anonymously without providing 
+                    any personal information.
                   </p>
                   <p>
                     If you do not agree to abide by the above, please do not use this service.
@@ -45,19 +49,23 @@ export default function TermsPage() {
               <section className="mb-8">
                 <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4 flex items-center">
                   <Users className="h-6 w-6 mr-3 text-green-600" />
-                  Use License
+                  Educational Use License
                 </h2>
                 <div className="space-y-4 text-gray-700 dark:text-gray-300">
                   <p>
-                    Permission is granted to temporarily use Irish Traffic Signs for personal, 
-                    non-commercial educational purposes. This is the grant of a license, not a 
-                    transfer of title, and under this license you may not:
+                    Permission is granted to use Irish Traffic Signs for personal, non-commercial educational purposes only. 
+                    This application is intended solely for learning Irish traffic signs and road safety education.
+                  </p>
+                  <p>
+                    The application contains information compiled from open-source materials, Wikipedia, 
+                    and other publicly available educational resources from the internet. Under this license you may not:
                   </p>
                   <ul className="list-disc pl-6 space-y-2">
-                    <li>Modify or copy the materials</li>
-                    <li>Use the materials for any commercial purpose or for any public display</li>
-                    <li>Attempt to reverse engineer any software contained on the website</li>
-                    <li>Remove any copyright or other proprietary notations from the materials</li>
+                    <li>Use the application for any commercial purpose</li>
+                    <li>Redistribute or resell the content</li>
+                    <li>Attempt to reverse engineer the software</li>
+                    <li>Use the information for official driving tests or legal purposes</li>
+                    <li>Claim ownership of the educational content</li>
                   </ul>
                 </div>
               </section>
@@ -70,11 +78,12 @@ export default function TermsPage() {
                 <div className="space-y-4 text-gray-700 dark:text-gray-300">
                   <p>As a user of our platform, you agree to:</p>
                   <ul className="list-disc pl-6 space-y-2">
-                    <li>Provide accurate and complete information when creating an account</li>
-                    <li>Maintain the security of your account credentials</li>
-                    <li>Use the service only for lawful educational purposes</li>
+                    <li>Use the service only for educational purposes</li>
+                    <li>Not rely on this application for official driving tests or legal compliance</li>
+                    <li>Verify traffic sign information through official Irish authorities when needed</li>
+                    <li>Use the service in compliance with Irish laws and regulations</li>
                     <li>Not attempt to gain unauthorized access to our systems</li>
-                    <li>Respect the intellectual property rights of others</li>
+                    <li>Understand that no registration or personal information is required</li>
                   </ul>
                 </div>
               </section>
@@ -99,18 +108,28 @@ export default function TermsPage() {
               <section className="mb-8">
                 <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4 flex items-center">
                   <Gavel className="h-6 w-6 mr-3 text-green-600" />
-                  Disclaimer
+                  Content Disclaimer and Sources
                 </h2>
                 <div className="space-y-4 text-gray-700 dark:text-gray-300">
                   <p>
-                    The information on this website is provided on an 'as is' basis. To the fullest extent 
-                    permitted by law, Irish Traffic Signs:
+                    The information in this application is compiled from open-source materials, Wikipedia, 
+                    and other publicly available educational resources from the internet. The content is provided on an 
+                    'AS IS' basis for educational purposes only.
                   </p>
+                  <p>
+                    <strong>IMPORTANT DISCLAIMER:</strong> The Service Provider accepts no responsibility for the 
+                    accuracy, completeness, or timeliness of the traffic sign information provided. Users should 
+                    verify all information through official Irish authorities before relying on it for legal or 
+                    official purposes.
+                  </p>
+                  <p>To the fullest extent permitted by Irish law, the Service Provider:</p>
                   <ul className="list-disc pl-6 space-y-2">
-                    <li>Excludes all representations and warranties relating to this website and its contents</li>
-                    <li>Does not guarantee the accuracy, completeness, or timeliness of the information</li>
-                    <li>Is not responsible for any errors or omissions in the content</li>
+                    <li>Makes no warranties regarding the accuracy of traffic sign information</li>
+                    <li>Does not guarantee the completeness or timeliness of the educational content</li>
+                    <li>Is not responsible for any errors or omissions in the compiled information</li>
+                    <li>Disclaims liability for decisions made based on this educational content</li>
                     <li>Reserves the right to modify or discontinue the service at any time</li>
+                    <li>Does not provide official driving test preparation or legal advice</li>
                   </ul>
                 </div>
               </section>
@@ -121,11 +140,19 @@ export default function TermsPage() {
                 </h2>
                 <div className="space-y-4 text-gray-700 dark:text-gray-300">
                   <p>
-                    In no event shall Irish Traffic Signs, nor its directors, employees, partners, agents, 
-                    suppliers, or affiliates, be liable for any indirect, incidental, special, consequential, 
-                    or punitive damages, including without limitation, loss of profits, data, use, goodwill, 
-                    or other intangible losses, resulting from your use of the service.
+                    In no event shall Emre Bagcuvan (the Service Provider), be liable for any direct, indirect, 
+                    incidental, special, consequential, or punitive damages, including without limitation, loss of 
+                    profits, data, use, goodwill, or other intangible losses, resulting from your use of the service.
                   </p>
+                  <p>
+                    The Service Provider specifically disclaims liability for any consequences arising from:
+                  </p>
+                  <ul className="list-disc pl-6 space-y-2">
+                    <li>Reliance on traffic sign information for official purposes</li>
+                    <li>Use of the application for driving tests or legal compliance</li>
+                    <li>Inaccuracies in the compiled educational content</li>
+                    <li>Decisions made based on the educational materials provided</li>
+                  </ul>
                 </div>
               </section>
 
@@ -161,11 +188,11 @@ export default function TermsPage() {
                 </h2>
                 <div className="space-y-4 text-gray-700 dark:text-gray-300">
                   <p>
-                    If you have any questions about these Terms of Service, please contact us:
+                    If you have any questions about these Terms of Service, please contact the Service Provider:
                   </p>
                   <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
-                    <p><strong>Email:</strong> legal@irishtrafficsigns.ie</p>
-                    <p><strong>Address:</strong> Irish Traffic Signs, Dublin, Ireland</p>
+                    <p><strong>Email:</strong> emreba2@yandex.com</p>
+                    <p><strong>Developer:</strong> Emre Bagcuvan</p>
                   </div>
                 </div>
               </section>

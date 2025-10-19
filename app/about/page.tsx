@@ -19,6 +19,11 @@ export default function AboutPage() {
             <p className="text-xl md:text-2xl text-primary-100 mb-8">
               Empowering Irish drivers with comprehensive traffic sign knowledge through innovative learning experiences.
             </p>
+            <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-800 p-4 rounded-lg max-w-2xl mx-auto">
+              <p className="font-semibold text-sm">
+                <strong>IMPORTANT DISCLAIMER:</strong> This educational platform uses information compiled from open-source materials, Wikipedia, and publicly available internet resources. Content is NOT from official sources. Always verify traffic sign information through current official Irish authorities for legal and official purposes.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -33,7 +38,8 @@ export default function AboutPage() {
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300">
                 We believe that understanding traffic signs is fundamental to safe and confident driving in Ireland. 
-                Our platform makes learning these essential road rules engaging, accessible, and effective.
+                Our educational platform compiles open-source information to make learning these essential road rules engaging, 
+                accessible, and effective. Created by Emre Bagcuvan as a free educational service for the Irish driving community.
               </p>
             </div>
 
@@ -95,14 +101,20 @@ export default function AboutPage() {
                     they were often scattered, outdated, or not engaging enough.
                   </p>
                   <p>
-                    Our team of road safety experts, educators, and technology enthusiasts 
-                    came together to create a comprehensive, interactive platform that 
-                    makes learning traffic signs not just educational, but enjoyable.
+                    This educational platform compiles information from open-source materials, 
+                    Wikipedia, and publicly available internet resources to create a comprehensive, 
+                    interactive learning experience. The content is provided for educational purposes only.
                   </p>
                   <p>
-                    Today, we're proud to serve thousands of Irish drivers, helping them 
-                    become more confident and safer on the roads through better understanding 
-                    of traffic signage.
+                    <strong>Important:</strong> This platform does not use official sources. 
+                    Users should always verify traffic sign information through current official 
+                    Irish authorities (such as the Road Safety Authority) for legal compliance 
+                    and official driving tests.
+                  </p>
+                  <p>
+                    Today, we're proud to serve the Irish driving community with this free 
+                    educational resource, helping drivers become more confident through 
+                    accessible learning materials.
                   </p>
                 </div>
               </div>
@@ -113,7 +125,8 @@ export default function AboutPage() {
                     Made in Ireland
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Developed by car lovers, for Irish drivers, with Irish road safety in mind.
+                    Developed by Emre Bagcuvan as a free educational service for Irish drivers, 
+                    using open-source information for learning purposes only.
                   </p>
                 </div>
               </div>

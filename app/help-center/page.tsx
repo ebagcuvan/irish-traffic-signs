@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { BookOpen, Car, FileText, Clock, Shield, Users, Phone, Mail, MapPin, ExternalLink } from 'lucide-react'
+import { BookOpen, Car, FileText, Clock, Shield, Users, Phone, Mail, MapPin, ExternalLink, AlertTriangle } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export default function HelpCenterPage() {
@@ -165,9 +165,39 @@ export default function HelpCenterPage() {
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
             Help Center
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8">
             Everything you need to know about getting your Irish driving license and passing your driving test.
           </p>
+          
+          {/* Important Disclaimer */}
+          <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg max-w-4xl mx-auto">
+            <div className="flex items-start gap-3">
+              <AlertTriangle className="h-6 w-6 text-red-600 dark:text-red-400 flex-shrink-0 mt-0.5" />
+              <div>
+                <h3 className="text-lg font-semibold text-red-800 dark:text-red-200 mb-2">
+                  Important Disclaimer
+                </h3>
+                <div className="text-red-700 dark:text-red-300 space-y-2">
+                  <p className="font-medium">
+                    This information is compiled from open-source materials and publicly available internet resources. 
+                    It is NOT from official sources and is provided for general guidance only.
+                  </p>
+                  <p>
+                    <strong>Always verify current information through official Irish authorities:</strong>
+                  </p>
+                  <ul className="list-disc ml-5 space-y-1">
+                    <li>Road Safety Authority (RSA) - www.rsa.ie</li>
+                    <li>National Driver Licence Service (NDLS) - www.ndls.ie</li>
+                    <li>Citizens Information - www.citizensinformation.ie</li>
+                  </ul>
+                  <p className="font-medium">
+                    All prices, requirements, and procedures may change. Check official sources for current information 
+                    before making any decisions or payments.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Tabs */}
@@ -217,10 +247,15 @@ export default function HelpCenterPage() {
             <div className="space-y-8">
               {/* Requirements */}
               <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-8">
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
                   <Shield className="h-6 w-6 text-primary-600" />
                   Test Requirements
                 </h2>
+                <div className="mb-6 p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-800">
+                  <p className="text-sm text-blue-700 dark:text-blue-300">
+                    <strong>Guidance Only:</strong> Requirements may change. Always verify current requirements with the RSA (rsa.ie) before applying.
+                  </p>
+                </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {drivingTestInfo.requirements.map((req, index) => {
                     const Icon = req.icon
@@ -243,10 +278,15 @@ export default function HelpCenterPage() {
 
               {/* Process Steps */}
               <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-8">
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
                   <Clock className="h-6 w-6 text-primary-600" />
                   Step-by-Step Process
                 </h2>
+                <div className="mb-6 p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-800">
+                  <p className="text-sm text-blue-700 dark:text-blue-300">
+                    <strong>General Guidance:</strong> Process steps may vary. Check current procedures with RSA and NDLS official websites.
+                  </p>
+                </div>
                 <div className="space-y-4">
                   {drivingTestInfo.process.map((step, index) => (
                     <div key={index} className="flex items-start gap-4">
@@ -282,19 +322,28 @@ export default function HelpCenterPage() {
                 {/* Price Disclaimer */}
                 <div className="mt-6 p-4 bg-yellow-50 dark:bg-yellow-900/20 rounded-lg border border-yellow-200 dark:border-yellow-800">
                   <div className="flex items-start gap-3">
-                    <div className="flex-shrink-0">
-                      <div className="w-6 h-6 bg-yellow-100 dark:bg-yellow-900 rounded-full flex items-center justify-center">
-                        <span className="text-yellow-600 dark:text-yellow-400 text-sm font-bold">⚠</span>
-                      </div>
-                    </div>
+                    <AlertTriangle className="h-5 w-5 text-yellow-600 dark:text-yellow-400 flex-shrink-0 mt-0.5" />
                     <div>
-                      <h3 className="text-sm font-semibold text-yellow-800 dark:text-yellow-200 mb-1">
-                        Price Disclaimer
+                      <h3 className="text-sm font-semibold text-yellow-800 dark:text-yellow-200 mb-2">
+                        Price Disclaimer - Examples Only
                       </h3>
-                      <p className="text-sm text-yellow-700 dark:text-yellow-300">
-                        All prices are estimates and may vary depending on location, provider, and current market rates. 
-                        Please verify current costs with official sources before making any payments. Prices are subject to change without notice.
-                      </p>
+                      <div className="text-sm text-yellow-700 dark:text-yellow-300 space-y-1">
+                        <p className="font-medium">
+                          <strong>These prices are EXAMPLES ONLY and for general guidance purposes.</strong>
+                        </p>
+                        <p>
+                          • Prices are approximate averages and may vary significantly by location, provider, and time
+                        </p>
+                        <p>
+                          • No guarantee of accuracy - prices change frequently without notice
+                        </p>
+                        <p>
+                          • Information compiled from open-source materials, not official sources
+                        </p>
+                        <p className="font-medium pt-1">
+                          <strong>ALWAYS verify current official prices with RSA (rsa.ie) and NDLS (ndls.ie) before making any payments or decisions.</strong>
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -307,10 +356,15 @@ export default function HelpCenterPage() {
             <div className="space-y-8">
               {/* License Types */}
               <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-8">
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
                   <FileText className="h-6 w-6 text-primary-600" />
                   License Types
                 </h2>
+                <div className="mb-6 p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-800">
+                  <p className="text-sm text-blue-700 dark:text-blue-300">
+                    <strong>Information Only:</strong> License requirements and validity periods may change. Verify current information with NDLS (ndls.ie).
+                  </p>
+                </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {licenseInfo.types.map((license, index) => (
                     <div key={index} className="p-6 rounded-lg border border-gray-200 dark:border-gray-600">
@@ -340,10 +394,15 @@ export default function HelpCenterPage() {
 
               {/* Renewal Info */}
               <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-8">
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
                   <Clock className="h-6 w-6 text-primary-600" />
                   License Renewal
                 </h2>
+                <div className="mb-6 p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-800">
+                  <p className="text-sm text-blue-700 dark:text-blue-300">
+                    <strong>General Information:</strong> Renewal procedures and requirements may change. Always check current process with NDLS (ndls.ie).
+                  </p>
+                </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   {licenseInfo.renewal.map((info, index) => (
                     <div key={index} className="p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
@@ -360,10 +419,16 @@ export default function HelpCenterPage() {
           {activeTab === 'resources' && (
             <div className="space-y-8">
               <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-8">
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
                   <BookOpen className="h-6 w-6 text-primary-600" />
-                  Useful Resources
+                  Official Resources - Always Use These for Current Information
                 </h2>
+                <div className="mb-6 p-4 bg-green-50 dark:bg-green-900/20 rounded-lg border border-green-200 dark:border-green-800">
+                  <p className="text-sm text-green-700 dark:text-green-300 font-medium">
+                    <strong>These are official Irish government resources.</strong> Always use these websites for the most current, 
+                    accurate, and legally valid information about driving tests, licenses, and requirements.
+                  </p>
+                </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {resources.map((resource, index) => {
                     const Icon = resource.icon
@@ -398,10 +463,16 @@ export default function HelpCenterPage() {
           {activeTab === 'contact' && (
             <div className="space-y-8">
               <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-8">
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
                   <Phone className="h-6 w-6 text-primary-600" />
-                  Get Help & Support
+                  Official Support Contacts
                 </h2>
+                <div className="mb-6 p-4 bg-green-50 dark:bg-green-900/20 rounded-lg border border-green-200 dark:border-green-800">
+                  <p className="text-sm text-green-700 dark:text-green-300">
+                    <strong>For official help and accurate information,</strong> contact these official Irish government services directly. 
+                    They provide authoritative answers about driving tests, licenses, and requirements.
+                  </p>
+                </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   {contactInfo.map((contact, index) => {
                     const Icon = contact.icon
