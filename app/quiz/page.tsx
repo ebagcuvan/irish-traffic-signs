@@ -17,7 +17,8 @@ import {
   ArrowRight,
   ArrowLeft,
   HelpCircle,
-  Target
+  Target,
+  Heart
 } from 'lucide-react'
 import Image from 'next/image'
 import { formatTextWithLineBreaks } from '@/lib/text-utils'
@@ -69,6 +70,9 @@ export default function QuizPage() {
   const [allSigns, setAllSigns] = useState<TrafficSign[]>([])
   const [isLoading, setIsLoading] = useState(false)
   const [quizQuestions, setQuizQuestions] = useState<QuizQuestion[]>([])
+  const [quizMode, setQuizMode] = useState<'all' | 'favorites'>('all')
+  const [favoritesSigns, setFavoritesSigns] = useState<TrafficSign[]>([])
+  const [favoritesCount, setFavoritesCount] = useState(0)
 
   // URL'den sayfa numarasını oku (sadece quiz başladıktan sonra)
   // useEffect(() => {
@@ -90,6 +94,26 @@ export default function QuizPage() {
   //   newSearchParams.set('page', (questionIndex + 1).toString())
   //   router.push(`/quiz?${newSearchParams.toString()}`, { scroll: false })
   // }
+
+  // Load favorite signs from localStorage
+  useEffect(() => {
+    const loadFavorites = () => {
+      try {
+        const savedFavorites = localStorage.getItem('favoriteSigns')
+        if (savedFavorites) {
+          const favorites = JSON.parse(savedFavorites)
+          setFavoritesSigns(favorites)
+          setFavoritesCount(favorites.length)
+        }
+      } catch (error) {
+        console.error('Error loading favorites:', error)
+        setFavoritesSigns([])
+        setFavoritesCount(0)
+      }
+    }
+    
+    loadFavorites()
+  }, [])
 
   // Load signs from data file
   useEffect(() => {
@@ -158,19 +182,20 @@ export default function QuizPage() {
 
   // Generate quiz questions
   useEffect(() => {
-    console.log('Quiz useEffect triggered:', { allSignsLength: allSigns.length, quizStarted, questionCount })
+    console.log('Quiz useEffect triggered:', { allSignsLength: allSigns.length, quizStarted, questionCount, quizMode, favoritesCount })
     if (allSigns.length > 0 && quizStarted) {
       console.log('Generating quiz questions...')
-      const questions = generateQuizQuestions(allSigns, questionCount)
+      const signsToUse = quizMode === 'favorites' ? favoritesSigns : allSigns
+      const questions = generateQuizQuestions(signsToUse, allSigns, questionCount)
       console.log('Generated questions:', questions.length)
       setQuizQuestions(questions)
       setStartTime(Date.now())
     }
-  }, [allSigns, quizStarted, questionCount])
+  }, [allSigns, favoritesSigns, quizStarted, questionCount, quizMode, favoritesCount])
 
-  const generateQuizQuestions = (signs: TrafficSign[], count: number): QuizQuestion[] => {
+  const generateQuizQuestions = (questionSigns: TrafficSign[], allSigns: TrafficSign[], count: number): QuizQuestion[] => {
     // Filter signs based on difficulty and category
-    let filteredSigns = signs
+    let filteredSigns = questionSigns
     if (difficulty !== 'MIXED') {
       filteredSigns = filteredSigns.filter(sign => sign.difficultyLevel.toUpperCase() === difficulty)
     }
@@ -178,18 +203,18 @@ export default function QuizPage() {
       filteredSigns = filteredSigns.filter(sign => sign.category === category)
     }
     
-    // If not enough signs for the selected filters, use all signs
+    // If not enough signs for the selected filters, use all question signs
     if (filteredSigns.length < count) {
-      filteredSigns = signs
+      filteredSigns = questionSigns
     }
     
     const shuffled = [...filteredSigns].sort(() => Math.random() - 0.5)
     const selectedSigns = shuffled.slice(0, count)
     
     return selectedSigns.map((sign, index) => {
-      // Get other signs for wrong options (from same category if possible)
-      const sameCategorySigns = signs.filter(s => s.category === sign.category && s.id !== sign.id)
-      const otherSigns = signs.filter(s => s.id !== sign.id)
+      // Get other signs for wrong options (from all signs, not just favorites)
+      const sameCategorySigns = allSigns.filter(s => s.category === sign.category && s.id !== sign.id)
+      const otherSigns = allSigns.filter(s => s.id !== sign.id)
       
       // Try to get 2 from same category, 1 from different category
       let wrongOptions: string[] = []
@@ -389,6 +414,46 @@ export default function QuizPage() {
                   </div>
                 </div>
 
+                {/* Quiz Mode */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
+                    Quiz Mode
+                  </label>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <button
+                      onClick={() => setQuizMode('all')}
+                      className={`px-4 py-3 rounded-lg text-sm font-medium transition-colors flex items-center gap-2 ${
+                        quizMode === 'all'
+                          ? 'bg-blue-100 text-blue-800 ring-2 ring-blue-500 dark:bg-blue-900/50 dark:text-blue-200'
+                          : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                      }`}
+                    >
+                      <Target className="h-4 w-4" />
+                      All Signs
+                    </button>
+                    <button
+                      onClick={() => setQuizMode('favorites')}
+                      disabled={favoritesCount < 5}
+                      className={`px-4 py-3 rounded-lg text-sm font-medium transition-colors flex items-center gap-2 ${
+                        quizMode === 'favorites'
+                          ? 'bg-red-100 text-red-800 ring-2 ring-red-500 dark:bg-red-900/50 dark:text-red-200'
+                          : favoritesCount < 5
+                          ? 'bg-gray-50 text-gray-400 cursor-not-allowed dark:bg-gray-800 dark:text-gray-500'
+                          : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                      }`}
+                    >
+                      <Heart className={`h-4 w-4 ${quizMode === 'favorites' ? 'fill-current' : ''}`} />
+                      My Favorites ({favoritesCount})
+                    </button>
+                  </div>
+                  {favoritesCount < 5 && (
+                    <p className="text-sm text-amber-600 dark:text-amber-400 mt-2 flex items-center gap-1">
+                      <HelpCircle className="h-4 w-4" />
+                      Add at least 5 signs to favorites to use this mode
+                    </p>
+                  )}
+                </div>
+
                 {/* Question Count */}
                 <div>
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
@@ -417,27 +482,47 @@ export default function QuizPage() {
             <div className="text-center">
               <Button
                 onClick={() => {
-                  console.log('Start Quiz clicked!', { allSignsLength: allSigns.length, isLoading })
+                  console.log('Start Quiz clicked!', { allSignsLength: allSigns.length, isLoading, quizMode, favoritesCount })
+                  if (quizMode === 'favorites' && favoritesCount < 5) {
+                    alert('Please add at least 5 signs to your favorites to use this mode.')
+                    return
+                  }
                   setQuizStarted(true)
                 }}
-                disabled={isLoading || allSigns.length === 0}
+                disabled={isLoading || allSigns.length === 0 || (quizMode === 'favorites' && favoritesCount < 5)}
                 size="lg"
                 className="px-12 py-6 text-xl font-semibold bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none disabled:shadow-lg"
               >
                 <Play className="h-6 w-6 mr-3" />
-                {isLoading ? 'Loading Signs...' : allSigns.length === 0 ? 'No Signs Available' : 'Start Quiz'}
+                {isLoading 
+                  ? 'Loading Signs...' 
+                  : allSigns.length === 0 
+                  ? 'No Signs Available' 
+                  : quizMode === 'favorites' && favoritesCount < 5
+                  ? 'Need 5+ Favorites'
+                  : `Start ${quizMode === 'favorites' ? 'Favorites' : ''} Quiz`}
               </Button>
               
               {allSigns.length > 0 && (
                 <div className="mt-6 p-4 bg-gradient-to-r from-green-50 to-blue-50 dark:from-green-900/20 dark:to-blue-900/20 rounded-xl border border-green-200 dark:border-green-800">
                   <div className="flex items-center justify-center gap-2 text-green-700 dark:text-green-400">
-                    <Target className="h-5 w-5" />
+                    {quizMode === 'favorites' ? (
+                      <Heart className="h-5 w-5 fill-current" />
+                    ) : (
+                      <Target className="h-5 w-5" />
+                    )}
                     <span className="font-medium">
-                      {allSigns.length} signs available for quiz
+                      {quizMode === 'favorites' 
+                        ? `${favoritesCount} favorite signs available for quiz`
+                        : `${allSigns.length} signs available for quiz`
+                      }
                     </span>
                   </div>
                   <p className="text-sm text-green-600 dark:text-green-500 mt-1">
-                    Choose your settings above and test your knowledge!
+                    {quizMode === 'favorites' 
+                      ? 'Test yourself on your favorite signs!'
+                      : 'Choose your settings above and test your knowledge!'
+                    }
                   </p>
                 </div>
               )}
