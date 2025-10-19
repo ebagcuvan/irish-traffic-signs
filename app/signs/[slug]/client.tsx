@@ -22,6 +22,7 @@ interface TrafficSignData {
   tags: string[]
   shape: string
   color: string
+  difficultyLevel?: string
 }
 
 export default function SignDetailClient() {
@@ -65,7 +66,7 @@ export default function SignDetailClient() {
             englishName: signData.name,
             description: signData.description || signData.meaning || '',
             category: mapCategory(signData.category) as any,
-            difficultyLevel: determineDifficultyLevel(signData) as any,
+            difficultyLevel: getDifficultyLevel(signData),
             imageUrl: signData.imagePath || 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300',
             context: signData.meaning || signData.description || '',
             relatedSignIds: [],
@@ -86,7 +87,7 @@ export default function SignDetailClient() {
               englishName: s.name,
               description: s.description || s.meaning || '',
               category: mapCategory(s.category) as any,
-              difficultyLevel: determineDifficultyLevel(s) as any,
+              difficultyLevel: getDifficultyLevel(s),
               imageUrl: s.imagePath || 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300',
               context: s.meaning || s.description || '',
               relatedSignIds: [],
@@ -130,16 +131,11 @@ export default function SignDetailClient() {
     return categoryMap[category] || 'OTHERS'
   }
 
-  // Determine difficulty level based on sign properties
-  const determineDifficultyLevel = (sign: TrafficSignData): string => {
-    if (sign.category === 'Warning Signs' && sign.tags?.includes('complex')) {
-      return 'ADVANCED'
-    }
-    if (sign.category === 'Regulatory Signs' || sign.category === 'Mandatory Signs') {
-      return 'INTERMEDIATE'
-    }
-    if (sign.category === 'Informational Signs' || sign.category === 'Directional Signs') {
-      return 'BEGINNER'
+  // Get difficulty level from sign data (now included in JSON)
+  const getDifficultyLevel = (sign: TrafficSignData): 'BEGINNER' | 'INTERMEDIATE' | 'ADVANCED' => {
+    const level = sign.difficultyLevel
+    if (level === 'BEGINNER' || level === 'INTERMEDIATE' || level === 'ADVANCED') {
+      return level
     }
     return 'INTERMEDIATE'
   }

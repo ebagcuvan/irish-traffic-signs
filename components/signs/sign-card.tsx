@@ -118,7 +118,7 @@ export function SignCard({ sign, viewMode, showFavoriteButton = true, isFavorite
                 {sign.category.charAt(0).toUpperCase() + sign.category.slice(1).toLowerCase()}
               </span>
               <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${getDifficultyColor(sign.difficultyLevel)}`}>
-                {sign.difficultyLevel.toLowerCase()}
+                {sign.difficultyLevel.charAt(0).toUpperCase() + sign.difficultyLevel.slice(1).toLowerCase()}
               </span>
             </div>
           </div>
@@ -179,7 +179,7 @@ export function SignCard({ sign, viewMode, showFavoriteButton = true, isFavorite
                 {sign.category.charAt(0).toUpperCase() + sign.category.slice(1).toLowerCase()}
               </span>
               <span className={`inline-flex items-center px-2 py-1 rounded-full text-xs font-medium ${getDifficultyColor(sign.difficultyLevel)}`}>
-                {sign.difficultyLevel.toLowerCase()}
+                {sign.difficultyLevel.charAt(0).toUpperCase() + sign.difficultyLevel.slice(1).toLowerCase()}
               </span>
             </div>
             
