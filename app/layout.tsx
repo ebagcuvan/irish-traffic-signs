@@ -72,6 +72,20 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="Irish Traffic Signs" />
+        <meta name="yandex-verification" content="9d14088c5168cb08" />
+        <meta name="msvalidate.01" content="2A7EBDCF0F4D28DDBC684A1206D3EC27" />
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WX9EGPG16Y"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-WX9EGPG16Y');
+            `,
+          }}
+        />
       </head>
       <body className={inter.className}>
         <Providers>
