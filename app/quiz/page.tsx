@@ -35,6 +35,7 @@ interface TrafficSignData {
   tags: string[]
   shape: string
   color: string
+  difficultyLevel?: 'BEGINNER' | 'INTERMEDIATE' | 'ADVANCED'
 }
 
 interface QuizQuestion {
@@ -129,7 +130,7 @@ export default function QuizPage() {
           englishName: sign.name,
           description: sign.description || sign.meaning || '',
           category: mapCategory(sign.category),
-          difficultyLevel: determineDifficultyLevel(sign),
+          difficultyLevel: getDifficultyLevel(sign),
           imageUrl: sign.imagePath || 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300',
           context: sign.meaning || sign.description || '',
           relatedSignIds: [],
@@ -166,18 +167,9 @@ export default function QuizPage() {
     return categoryMap[category] || 'OTHERS'
   }
 
-  // Determine difficulty level based on sign properties
-  const determineDifficultyLevel = (sign: TrafficSignData): 'BEGINNER' | 'INTERMEDIATE' | 'ADVANCED' => {
-    if (sign.category === 'Warning Signs' && sign.tags?.includes('complex')) {
-      return 'ADVANCED'
-    }
-    if (sign.category === 'Regulatory Signs' || sign.category === 'Mandatory Signs') {
-      return 'INTERMEDIATE'
-    }
-    if (sign.category === 'Informational Signs' || sign.category === 'Directional Signs') {
-      return 'BEGINNER'
-    }
-    return 'INTERMEDIATE'
+  // Get difficulty level from sign data (now included in JSON)
+  const getDifficultyLevel = (sign: TrafficSignData): 'BEGINNER' | 'INTERMEDIATE' | 'ADVANCED' => {
+    return (sign as any).difficultyLevel || 'INTERMEDIATE'
   }
 
   // Generate quiz questions
@@ -197,7 +189,10 @@ export default function QuizPage() {
     // Filter signs based on difficulty and category
     let filteredSigns = questionSigns
     if (difficulty !== 'MIXED') {
-      filteredSigns = filteredSigns.filter(sign => sign.difficultyLevel.toUpperCase() === difficulty)
+      filteredSigns = filteredSigns.filter(sign => {
+        const signData = sign as any
+        return signData.difficultyLevel === difficulty
+      })
     }
     if (category) {
       filteredSigns = filteredSigns.filter(sign => sign.category === category)
@@ -398,19 +393,27 @@ export default function QuizPage() {
                       { value: 'BEGINNER', label: 'Beginner', color: 'bg-green-100 text-green-800' },
                       { value: 'INTERMEDIATE', label: 'Intermediate', color: 'bg-yellow-100 text-yellow-800' },
                       { value: 'ADVANCED', label: 'Advanced', color: 'bg-red-100 text-red-800' }
-                    ].map((level) => (
-                      <button
-                        key={level.value}
-                        onClick={() => setDifficulty(level.value as any)}
-                        className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                          difficulty === level.value
-                            ? level.color + ' ring-2 ring-primary-500'
-                            : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-                        }`}
-                      >
-                        {level.label}
-                      </button>
-                    ))}
+                    ].map((level) => {
+                      const signsToUse = quizMode === 'favorites' ? favoritesSigns : allSigns
+                      const count = level.value === 'MIXED' 
+                        ? signsToUse.length 
+                        : signsToUse.filter(sign => (sign as any).difficultyLevel === level.value).length
+                      
+                      return (
+                        <button
+                          key={level.value}
+                          onClick={() => setDifficulty(level.value as any)}
+                          className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors flex flex-col items-center gap-1 ${
+                            difficulty === level.value
+                              ? level.color + ' ring-2 ring-primary-500'
+                              : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                          }`}
+                        >
+                          <span>{level.label}</span>
+                          <span className="text-xs opacity-75">({count} signs)</span>
+                        </button>
+                      )
+                    })}
                   </div>
                 </div>
 
@@ -592,6 +595,51 @@ export default function QuizPage() {
                   <div className="text-sm text-gray-600 dark:text-gray-300">
                     Accuracy
                   </div>
+                </div>
+              </div>
+              
+              {/* Quiz Settings Summary */}
+              <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">Quiz Settings</h3>
+                <div className="flex flex-wrap gap-4">
+                  <div className="flex items-center gap-2">
+                    <span className="text-gray-600 dark:text-gray-400">Mode:</span>
+                    <Badge variant="outline" className="flex items-center gap-1">
+                      {quizMode === 'favorites' ? (
+                        <>
+                          <Heart className="h-3 w-3 fill-current" />
+                          My Favorites
+                        </>
+                      ) : (
+                        <>
+                          <Target className="h-3 w-3" />
+                          All Signs
+                        </>
+                      )}
+                    </Badge>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-gray-600 dark:text-gray-400">Difficulty:</span>
+                    <Badge 
+                      variant="outline" 
+                      className={`${
+                        difficulty === 'BEGINNER' ? 'bg-green-50 text-green-700 border-green-200' :
+                        difficulty === 'INTERMEDIATE' ? 'bg-yellow-50 text-yellow-700 border-yellow-200' :
+                        difficulty === 'ADVANCED' ? 'bg-red-50 text-red-700 border-red-200' :
+                        'bg-gray-50 text-gray-700 border-gray-200'
+                      }`}
+                    >
+                      {difficulty === 'MIXED' ? 'Mixed' : difficulty.charAt(0) + difficulty.slice(1).toLowerCase()}
+                    </Badge>
+                  </div>
+                  {category && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-gray-600 dark:text-gray-400">Category:</span>
+                      <Badge variant="outline">
+                        {category}
+                      </Badge>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

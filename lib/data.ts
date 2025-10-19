@@ -18,7 +18,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_002",
@@ -39,7 +40,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_003",
@@ -60,7 +62,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "warning_004",
@@ -81,7 +84,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_005",
@@ -101,7 +105,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_006",
@@ -120,7 +125,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_007",
@@ -139,7 +145,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_008",
@@ -158,7 +165,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "warning_custom_009",
@@ -180,7 +188,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_custom_010",
@@ -203,7 +212,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_011",
@@ -224,7 +234,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_012",
@@ -244,7 +255,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_013",
@@ -264,7 +276,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_014",
@@ -284,7 +297,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "warning_015",
@@ -303,7 +317,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_custom_016",
@@ -325,7 +340,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_017",
@@ -344,7 +360,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_018",
@@ -362,7 +379,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_019",
@@ -383,7 +401,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_020",
@@ -402,7 +421,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_021",
@@ -421,7 +441,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_022",
@@ -441,7 +462,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_023",
@@ -460,7 +482,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_024",
@@ -479,7 +502,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_025",
@@ -499,7 +523,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_026",
@@ -519,7 +544,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_custom_027",
@@ -542,7 +568,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "warning_028",
@@ -563,7 +590,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_029",
@@ -585,7 +613,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_030",
@@ -607,7 +636,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_031",
@@ -629,7 +659,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_032",
@@ -652,7 +683,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_custom_033",
@@ -676,7 +708,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_custom_034",
@@ -700,7 +733,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_035",
@@ -720,7 +754,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_036",
@@ -740,7 +775,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_037",
@@ -761,7 +797,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_custom_038",
@@ -784,7 +821,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_custom_039",
@@ -806,7 +844,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_custom_040",
@@ -828,7 +867,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_custom_041",
@@ -851,7 +891,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_custom_042",
@@ -874,7 +915,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "warning_custom_043",
@@ -896,7 +938,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_044",
@@ -916,7 +959,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_custom_045",
@@ -938,7 +982,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_custom_046",
@@ -960,7 +1005,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_047",
@@ -980,7 +1026,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "warning_048",
@@ -999,7 +1046,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_049",
@@ -1019,7 +1067,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_custom_050",
@@ -1040,7 +1089,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "warning_051",
@@ -1060,7 +1110,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_052",
@@ -1080,7 +1131,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_053",
@@ -1100,7 +1152,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_054",
@@ -1120,7 +1173,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_055",
@@ -1140,7 +1194,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "warning_056",
@@ -1160,7 +1215,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_057",
@@ -1179,7 +1235,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_058",
@@ -1199,7 +1256,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_059",
@@ -1219,7 +1277,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_custom_060",
@@ -1240,7 +1299,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_061",
@@ -1258,7 +1318,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_062",
@@ -1277,7 +1338,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "warning_063",
@@ -1296,7 +1358,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_064",
@@ -1316,7 +1379,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_065",
@@ -1336,7 +1400,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_custom_066",
@@ -1358,7 +1423,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_067",
@@ -1378,7 +1444,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_068",
@@ -1398,7 +1465,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_custom_069",
@@ -1421,7 +1489,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_custom_070",
@@ -1443,7 +1512,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_custom_071",
@@ -1465,7 +1535,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_custom_072",
@@ -1487,7 +1558,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "warning_custom_073",
@@ -1509,7 +1581,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_074",
@@ -1529,7 +1602,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_custom_075",
@@ -1551,7 +1625,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_custom_076",
@@ -1573,7 +1648,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_077",
@@ -1593,7 +1669,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_custom_078",
@@ -1615,7 +1692,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_079",
@@ -1635,7 +1713,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_080",
@@ -1655,7 +1734,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_081",
@@ -1675,7 +1755,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_custom_082",
@@ -1697,7 +1778,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_custom_083",
@@ -1719,7 +1801,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_084",
@@ -1739,7 +1822,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_085",
@@ -1760,7 +1844,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_086",
@@ -1782,7 +1867,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_087",
@@ -1803,7 +1889,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_088",
@@ -1825,7 +1912,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_089",
@@ -1847,7 +1935,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_090",
@@ -1869,7 +1958,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_091",
@@ -1891,7 +1981,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "warning_092",
@@ -1911,7 +2002,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_093",
@@ -1931,7 +2023,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_094",
@@ -1951,7 +2044,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_custom_095",
@@ -1973,7 +2067,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_096",
@@ -1993,7 +2088,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_custom_097",
@@ -2016,7 +2112,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_098",
@@ -2037,7 +2134,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_099",
@@ -2058,7 +2156,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "warning_100",
@@ -2079,7 +2178,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "warning_custom_101",
@@ -2102,7 +2202,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_102",
@@ -2123,7 +2224,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_103",
@@ -2144,7 +2246,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_104",
@@ -2164,7 +2267,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_105",
@@ -2184,7 +2288,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_106",
@@ -2204,7 +2309,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_custom_107",
@@ -2226,7 +2332,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_custom_108",
@@ -2249,7 +2356,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "warning_custom_109",
@@ -2273,7 +2381,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "warning_110",
@@ -2295,7 +2404,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "warning_custom_111",
@@ -2319,7 +2429,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_custom_112",
@@ -2343,7 +2454,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_113",
@@ -2365,7 +2477,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_114",
@@ -2387,7 +2500,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_115",
@@ -2409,7 +2523,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_116",
@@ -2430,7 +2545,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_117",
@@ -2450,7 +2566,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_118",
@@ -2470,7 +2587,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_119",
@@ -2490,7 +2608,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_custom_120",
@@ -2513,7 +2632,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "warning_custom_121",
@@ -2534,7 +2654,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_122",
@@ -2555,7 +2676,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_123",
@@ -2576,7 +2698,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_124",
@@ -2596,7 +2719,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_125",
@@ -2616,7 +2740,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_126",
@@ -2636,7 +2761,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_127",
@@ -2657,7 +2783,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_128",
@@ -2677,7 +2804,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "warning_custom_129",
@@ -2699,7 +2827,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_130",
@@ -2719,7 +2848,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "warning_131",
@@ -2739,7 +2869,8 @@ export const trafficSignsData = {
         "warning"
       ],
       "shape": "Triangular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_132",
@@ -2758,7 +2889,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_custom_133",
@@ -2781,7 +2913,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_custom_134",
@@ -2804,7 +2937,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "regulatory_custom_135",
@@ -2826,7 +2960,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_136",
@@ -2846,7 +2981,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_137",
@@ -2867,7 +3003,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_138",
@@ -2888,7 +3025,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_custom_139",
@@ -2911,7 +3049,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_custom_140",
@@ -2933,7 +3072,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_custom_141",
@@ -2955,7 +3095,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_custom_142",
@@ -2977,7 +3118,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_143",
@@ -2997,7 +3139,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_144",
@@ -3017,7 +3160,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_145",
@@ -3037,7 +3181,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_146",
@@ -3057,7 +3202,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_147",
@@ -3078,7 +3224,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_148",
@@ -3098,7 +3245,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_149",
@@ -3118,7 +3266,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_150",
@@ -3138,7 +3287,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_151",
@@ -3158,7 +3308,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_custom_152",
@@ -3180,7 +3331,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_153",
@@ -3200,7 +3352,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_custom_154",
@@ -3222,7 +3375,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "regulatory_155",
@@ -3242,7 +3396,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "regulatory_156",
@@ -3262,7 +3417,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_custom_157",
@@ -3284,7 +3440,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_custom_158",
@@ -3306,7 +3463,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_159",
@@ -3326,7 +3484,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_160",
@@ -3347,7 +3506,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "regulatory_custom_161",
@@ -3370,7 +3530,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_custom_162",
@@ -3392,7 +3553,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_custom_163",
@@ -3414,7 +3576,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_custom_164",
@@ -3436,7 +3599,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_165",
@@ -3457,7 +3621,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_custom_166",
@@ -3479,7 +3644,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_167",
@@ -3500,7 +3666,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_custom_168",
@@ -3522,7 +3689,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_169",
@@ -3542,7 +3710,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_170",
@@ -3562,7 +3731,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_171",
@@ -3582,7 +3752,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_custom_172",
@@ -3604,7 +3775,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_173",
@@ -3625,7 +3797,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_174",
@@ -3645,7 +3818,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_custom_175",
@@ -3667,7 +3841,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_176",
@@ -3687,7 +3862,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_177",
@@ -3708,7 +3884,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_custom_178",
@@ -3731,7 +3908,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_179",
@@ -3752,7 +3930,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "regulatory_custom_180",
@@ -3775,7 +3954,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_181",
@@ -3795,7 +3975,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_182",
@@ -3815,7 +3996,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_183",
@@ -3836,7 +4018,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "regulatory_184",
@@ -3855,7 +4038,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_185",
@@ -3875,7 +4059,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_custom_186",
@@ -3897,7 +4082,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_187",
@@ -3917,7 +4103,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_custom_188",
@@ -3939,7 +4126,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_189",
@@ -3959,7 +4147,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_190",
@@ -3979,7 +4168,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_custom_191",
@@ -4001,7 +4191,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_custom_192",
@@ -4023,7 +4214,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_custom_193",
@@ -4045,7 +4237,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_custom_194",
@@ -4067,7 +4260,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_custom_195",
@@ -4089,7 +4283,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "regulatory_196",
@@ -4109,7 +4304,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "regulatory_197",
@@ -4129,7 +4325,8 @@ export const trafficSignsData = {
         "regulatory"
       ],
       "shape": "Circular",
-      "color": "Red and white"
+      "color": "Red and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "roadwork_198",
@@ -4150,7 +4347,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_199",
@@ -4171,7 +4369,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_200",
@@ -4191,7 +4390,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_202",
@@ -4210,7 +4410,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_203",
@@ -4229,7 +4430,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_204",
@@ -4249,7 +4451,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_205",
@@ -4269,7 +4472,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "roadwork_206",
@@ -4289,7 +4493,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_207",
@@ -4310,7 +4515,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_208",
@@ -4331,7 +4537,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_custom_209",
@@ -4353,7 +4560,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_210",
@@ -4373,7 +4581,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_211",
@@ -4393,7 +4602,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_212",
@@ -4413,7 +4623,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_213",
@@ -4434,7 +4645,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_214",
@@ -4454,7 +4666,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_215",
@@ -4474,7 +4687,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "roadwork_216",
@@ -4495,7 +4709,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_custom_217",
@@ -4518,7 +4733,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_218",
@@ -4539,7 +4755,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_219",
@@ -4561,7 +4778,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_220",
@@ -4582,7 +4800,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_221",
@@ -4603,7 +4822,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_222",
@@ -4625,7 +4845,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_223",
@@ -4646,7 +4867,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_224",
@@ -4668,7 +4890,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_225",
@@ -4690,7 +4913,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_226",
@@ -4712,7 +4936,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_227",
@@ -4735,7 +4960,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_228",
@@ -4756,7 +4982,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_229",
@@ -4778,7 +5005,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_230",
@@ -4800,7 +5028,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_231",
@@ -4822,7 +5051,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_232",
@@ -4845,7 +5075,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_233",
@@ -4867,7 +5098,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_234",
@@ -4889,7 +5121,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_235",
@@ -4912,7 +5145,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_236",
@@ -4934,7 +5168,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_237",
@@ -4957,7 +5192,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "roadwork_238",
@@ -4979,7 +5215,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_239",
@@ -5002,7 +5239,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_240",
@@ -5024,7 +5262,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_241",
@@ -5046,7 +5285,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_242",
@@ -5068,7 +5308,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "roadwork_243",
@@ -5090,7 +5331,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_244",
@@ -5112,7 +5354,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_245",
@@ -5134,7 +5377,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_246",
@@ -5156,7 +5400,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_custom_247",
@@ -5180,7 +5425,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_248",
@@ -5202,7 +5448,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_249",
@@ -5223,7 +5470,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_250",
@@ -5243,7 +5491,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_custom_251",
@@ -5265,7 +5514,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_252",
@@ -5285,7 +5535,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "roadwork_254",
@@ -5306,7 +5557,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_255",
@@ -5327,7 +5579,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_256",
@@ -5348,7 +5601,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_custom_257",
@@ -5370,7 +5624,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_258",
@@ -5390,7 +5645,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_custom_259",
@@ -5413,7 +5669,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_260",
@@ -5433,7 +5690,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_custom_261",
@@ -5456,7 +5714,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "roadwork_custom_262",
@@ -5479,7 +5738,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_263",
@@ -5499,7 +5759,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_264",
@@ -5519,7 +5780,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_265",
@@ -5539,7 +5801,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_266",
@@ -5559,7 +5822,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_custom_267",
@@ -5582,7 +5846,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_custom_268",
@@ -5604,7 +5869,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_custom_269",
@@ -5626,7 +5892,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_custom_270",
@@ -5648,7 +5915,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_271",
@@ -5669,7 +5937,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_272",
@@ -5690,7 +5959,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "roadwork_custom_273",
@@ -5712,7 +5982,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_274",
@@ -5732,7 +6003,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_275",
@@ -5752,7 +6024,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_custom_276",
@@ -5774,7 +6047,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_custom_277",
@@ -5796,7 +6070,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_278",
@@ -5816,7 +6091,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "roadwork_279",
@@ -5836,7 +6112,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "roadwork_280",
@@ -5856,7 +6133,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_custom_281",
@@ -5878,7 +6156,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_custom_282",
@@ -5901,7 +6180,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "roadwork_custom_283",
@@ -5925,7 +6205,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_custom_284",
@@ -5947,7 +6228,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "roadwork_285",
@@ -5967,7 +6249,8 @@ export const trafficSignsData = {
         "roadwork"
       ],
       "shape": "Triangular",
-      "color": "Amber and black"
+      "color": "Amber and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_286",
@@ -5988,7 +6271,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_287",
@@ -6009,7 +6293,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_288",
@@ -6030,7 +6315,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_289",
@@ -6051,7 +6337,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_290",
@@ -6072,7 +6359,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_291",
@@ -6092,7 +6380,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_292",
@@ -6113,7 +6402,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_293",
@@ -6133,7 +6423,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_294",
@@ -6153,7 +6444,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_295",
@@ -6172,7 +6464,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_296",
@@ -6192,7 +6485,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_297",
@@ -6212,7 +6506,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_298",
@@ -6232,7 +6527,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_299",
@@ -6252,7 +6548,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_300",
@@ -6273,7 +6570,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_301",
@@ -6294,7 +6592,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_custom_302",
@@ -6317,7 +6616,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_303",
@@ -6338,7 +6638,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_304",
@@ -6358,7 +6659,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_custom_305",
@@ -6380,7 +6682,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_306",
@@ -6400,7 +6703,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_307",
@@ -6420,7 +6724,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_308",
@@ -6440,7 +6745,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_309",
@@ -6460,7 +6766,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_310",
@@ -6480,7 +6787,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "others_311",
@@ -6499,7 +6807,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_312",
@@ -6519,7 +6828,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_custom_313",
@@ -6541,7 +6851,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_314",
@@ -6562,7 +6873,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_315",
@@ -6583,7 +6895,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_316",
@@ -6603,7 +6916,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_317",
@@ -6624,7 +6938,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_318",
@@ -6644,7 +6959,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_319",
@@ -6665,7 +6981,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_320",
@@ -6686,7 +7003,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_321",
@@ -6706,7 +7024,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_322",
@@ -6727,7 +7046,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_323",
@@ -6747,7 +7067,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_324",
@@ -6768,7 +7089,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_325",
@@ -6789,7 +7111,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_326",
@@ -6809,7 +7132,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_327",
@@ -6828,7 +7152,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_custom_328",
@@ -6849,7 +7174,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_329",
@@ -6870,7 +7196,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_330",
@@ -6891,7 +7218,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_331",
@@ -6911,7 +7239,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_332",
@@ -6931,7 +7260,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_333",
@@ -6951,7 +7281,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_334",
@@ -6972,7 +7303,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_335",
@@ -6993,7 +7325,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_336",
@@ -7014,7 +7347,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_337",
@@ -7035,7 +7369,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_338",
@@ -7056,7 +7391,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_339",
@@ -7076,7 +7412,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_340",
@@ -7096,7 +7433,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_341",
@@ -7117,7 +7455,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_342",
@@ -7138,7 +7477,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_343",
@@ -7159,7 +7499,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_344",
@@ -7179,7 +7520,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "others_345",
@@ -7200,7 +7542,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_346",
@@ -7219,7 +7562,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_347",
@@ -7238,7 +7582,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_348",
@@ -7258,7 +7603,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_349",
@@ -7278,7 +7624,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_350",
@@ -7299,7 +7646,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_351",
@@ -7320,7 +7668,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_352",
@@ -7341,7 +7690,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_353",
@@ -7361,7 +7711,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_354",
@@ -7382,7 +7733,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_custom_355",
@@ -7404,7 +7756,8 @@ export const trafficSignsData = {
         "custom"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_356",
@@ -7425,7 +7778,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_357",
@@ -7446,7 +7800,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_358",
@@ -7467,7 +7822,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_359",
@@ -7487,7 +7843,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_360",
@@ -7507,7 +7864,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_361",
@@ -7528,7 +7886,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_362",
@@ -7548,7 +7907,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_363",
@@ -7569,7 +7929,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_364",
@@ -7590,7 +7951,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_365",
@@ -7611,7 +7973,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_366",
@@ -7632,7 +7995,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_367",
@@ -7652,7 +8016,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_368",
@@ -7673,7 +8038,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "others_369",
@@ -7694,7 +8060,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_370",
@@ -7715,7 +8082,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_371",
@@ -7735,7 +8103,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "others_372",
@@ -7756,7 +8125,8 @@ export const trafficSignsData = {
         "others"
       ],
       "shape": "Rectangular",
-      "color": "Blue and white"
+      "color": "Blue and white",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_373",
@@ -7776,7 +8146,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_374",
@@ -7796,7 +8167,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "supplementary_375",
@@ -7816,7 +8188,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "supplementary_376",
@@ -7836,7 +8209,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_377",
@@ -7856,7 +8230,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "supplementary_378",
@@ -7876,7 +8251,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "supplementary_379",
@@ -7895,7 +8271,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_380",
@@ -7914,7 +8291,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_381",
@@ -7934,7 +8312,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "supplementary_382",
@@ -7954,7 +8333,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "supplementary_383",
@@ -7974,7 +8354,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "supplementary_384",
@@ -7994,7 +8375,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_385",
@@ -8014,7 +8396,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "supplementary_386",
@@ -8034,7 +8417,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_387",
@@ -8053,7 +8437,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_388",
@@ -8074,7 +8459,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_389",
@@ -8095,7 +8481,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "supplementary_390",
@@ -8115,7 +8502,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "supplementary_391",
@@ -8136,7 +8524,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_392",
@@ -8157,7 +8546,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_393",
@@ -8177,7 +8567,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_394",
@@ -8198,7 +8589,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_395",
@@ -8218,7 +8610,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_396",
@@ -8238,7 +8631,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_397",
@@ -8259,7 +8653,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_398",
@@ -8280,7 +8675,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_399",
@@ -8301,7 +8697,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "supplementary_400",
@@ -8322,7 +8719,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_401",
@@ -8343,7 +8741,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_402",
@@ -8364,7 +8763,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_403",
@@ -8385,7 +8785,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_404",
@@ -8405,7 +8806,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_405",
@@ -8425,7 +8827,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_406",
@@ -8446,7 +8849,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "supplementary_407",
@@ -8467,7 +8871,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "supplementary_408",
@@ -8488,7 +8893,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_409",
@@ -8508,7 +8914,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     },
     {
       "id": "supplementary_410",
@@ -8528,7 +8935,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "BEGINNER"
     },
     {
       "id": "supplementary_411",
@@ -8548,7 +8956,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "ADVANCED"
     },
     {
       "id": "supplementary_412",
@@ -8569,7 +8978,8 @@ export const trafficSignsData = {
         "supplementary"
       ],
       "shape": "Rectangular",
-      "color": "White and black"
+      "color": "White and black",
+      "difficultyLevel": "INTERMEDIATE"
     }
   ]
 };
