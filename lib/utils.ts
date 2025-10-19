@@ -24,12 +24,12 @@ export function formatScore(score: number, total: number) {
 }
 
 export function getDifficultyColor(difficulty: string) {
-  switch (difficulty) {
-    case 'beginner':
+  switch (difficulty?.toUpperCase()) {
+    case 'BEGINNER':
       return 'text-green-600 bg-green-100 dark:text-green-400 dark:bg-green-900'
-    case 'intermediate':
+    case 'INTERMEDIATE':
       return 'text-yellow-600 bg-yellow-100 dark:text-yellow-400 dark:bg-yellow-900'
-    case 'advanced':
+    case 'ADVANCED':
       return 'text-red-600 bg-red-100 dark:text-red-400 dark:bg-red-900'
     default:
       return 'text-gray-600 bg-gray-100 dark:text-gray-400 dark:bg-gray-900'

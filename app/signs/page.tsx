@@ -20,6 +20,7 @@ interface TrafficSignData {
   tags: string[]
   shape: string
   color: string
+  difficultyLevel?: string
 }
 
 export default function SignsPage() {
@@ -49,7 +50,7 @@ export default function SignsPage() {
           englishName: sign.name,
           description: sign.description || sign.meaning || '',
           category: mapCategory(sign.category),
-          difficultyLevel: determineDifficultyLevel(sign),
+          difficultyLevel: getDifficultyLevel(sign),
           imageUrl: sign.imagePath || 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300',
           context: sign.meaning || sign.description || '',
           relatedSignIds: [],
@@ -88,16 +89,11 @@ export default function SignsPage() {
     return categoryMap[category] || 'OTHERS'
   }
 
-  // Determine difficulty level based on sign properties
-  const determineDifficultyLevel = (sign: TrafficSignData): 'BEGINNER' | 'INTERMEDIATE' | 'ADVANCED' => {
-    if (sign.category === 'Warning Signs' && sign.tags?.includes('complex')) {
-      return 'ADVANCED'
-    }
-    if (sign.category === 'Regulatory Signs' || sign.category === 'Mandatory Signs') {
-      return 'INTERMEDIATE'
-    }
-    if (sign.category === 'Informational Signs' || sign.category === 'Directional Signs') {
-      return 'BEGINNER'
+  // Get difficulty level from sign data (now included in JSON)
+  const getDifficultyLevel = (sign: TrafficSignData): 'BEGINNER' | 'INTERMEDIATE' | 'ADVANCED' => {
+    const level = sign.difficultyLevel
+    if (level === 'BEGINNER' || level === 'INTERMEDIATE' || level === 'ADVANCED') {
+      return level
     }
     return 'INTERMEDIATE'
   }
@@ -147,7 +143,13 @@ export default function SignsPage() {
     paginatedSigns: paginatedSigns.length,
     totalPages,
     currentPage: page,
-    firstSign: signs[0] || 'No signs loaded'
+    firstSign: signs[0] || 'No signs loaded',
+    difficulties: difficulties,
+    difficultyCounts: {
+      BEGINNER: signs.filter(s => s.difficultyLevel === 'BEGINNER').length,
+      INTERMEDIATE: signs.filter(s => s.difficultyLevel === 'INTERMEDIATE').length,
+      ADVANCED: signs.filter(s => s.difficultyLevel === 'ADVANCED').length
+    }
   })
 
   return (
@@ -251,12 +253,15 @@ export default function SignsPage() {
                     onChange={(e) => setDifficulty(e.target.value)}
                     className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
                   >
-                    <option value="">All Levels</option>
-                    {difficulties.map((diff) => (
-                      <option key={diff} value={diff}>
-                        {diff.charAt(0).toUpperCase() + diff.slice(1).toLowerCase()}
-                      </option>
-                    ))}
+                    <option value="">All Levels ({signs.length})</option>
+                    {difficulties.map((diff) => {
+                      const count = signs.filter(s => s.difficultyLevel === diff).length
+                      return (
+                        <option key={diff} value={diff}>
+                          {diff.charAt(0).toUpperCase() + diff.slice(1).toLowerCase()} ({count})
+                        </option>
+                      )
+                    })}
                   </select>
                 </div>
               </div>
