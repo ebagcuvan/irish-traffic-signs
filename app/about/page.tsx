@@ -39,7 +39,7 @@ export default function AboutPage() {
               <p className="text-lg text-gray-600 dark:text-gray-300">
                 We believe that understanding traffic signs is fundamental to safe and confident driving in Ireland. 
                 Our educational platform compiles open-source information to make learning these essential road rules engaging, 
-                accessible, and effective. Created by Emre Bagcuvan as a free educational service for the Irish driving community.
+                accessible, and effective as a free educational service for the Irish driving community.
               </p>
             </div>
 
@@ -125,7 +125,7 @@ export default function AboutPage() {
                     Made in Ireland
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Developed by Emre Bagcuvan as a free educational service for Irish drivers, 
+                    Developed as a free educational service for Irish drivers, 
                     using open-source information for learning purposes only.
                   </p>
                 </div>

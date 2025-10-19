@@ -16,7 +16,7 @@ export default function PrivacyPage() {
               Privacy Policy
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              This privacy policy applies to the Irish Traffic Signs app and website created by Emre Bagcuvan as a Free service.
+              This privacy policy applies to the Irish Traffic Signs app and website provided as a Free educational service.
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
               Last updated: {new Date().toLocaleDateString()}
@@ -66,7 +66,7 @@ export default function PrivacyPage() {
                     </p>
                   </div>
                   <p>
-                    The Service Provider (Emre Bagcuvan) accepts no responsibility for the accuracy, completeness, 
+                    The Service Provider accepts no responsibility for the accuracy, completeness, 
                     or timeliness of the traffic sign information provided. This application is intended for 
                     educational purposes only.
                   </p>
@@ -158,7 +158,7 @@ export default function PrivacyPage() {
                   <p>
                     If you have reason to believe that a child has provided personally identifiable information to the 
                     Service Provider through the Application and/or Services, please contact the Service Provider 
-                    (emreba2@yandex.com) so that they will be able to take the necessary actions. You must also be at 
+                    (support [at] irishtrafficsigns [dot] com) so that they will be able to take the necessary actions. You must also be at 
                     least 16 years of age to consent to the processing of your personally identifiable information in 
                     your country (in some countries we may allow your parent or guardian to do so on your behalf).
                   </p>
@@ -223,8 +223,14 @@ export default function PrivacyPage() {
                     please contact us at:
                   </p>
                   <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
-                    <p><strong>Email:</strong> emreba2@yandex.com</p>
-                    <p><strong>Developer:</strong> Emre Bagcuvan</p>
+                    <p><strong>Email:</strong> support [at] irishtrafficsigns [dot] com</p>
+                    <p><strong>Support Team:</strong> Irish Traffic Signs</p>
+                    <div className="mt-3 p-3 bg-blue-50 dark:bg-blue-900/20 rounded border border-blue-200 dark:border-blue-800">
+                      <p className="text-sm text-blue-700 dark:text-blue-300">
+                        <strong>Copyright Infringement Notice:</strong> For any copyright infringement claims, 
+                        please contact us at the above email. We will respond within 1 week of receiving your notice.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </section>

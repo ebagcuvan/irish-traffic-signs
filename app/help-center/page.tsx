@@ -165,39 +165,9 @@ export default function HelpCenterPage() {
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
             Help Center
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8">
+          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Everything you need to know about getting your Irish driving license and passing your driving test.
           </p>
-          
-          {/* Important Disclaimer */}
-          <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg max-w-4xl mx-auto">
-            <div className="flex items-start gap-3">
-              <AlertTriangle className="h-6 w-6 text-red-600 dark:text-red-400 flex-shrink-0 mt-0.5" />
-              <div>
-                <h3 className="text-lg font-semibold text-red-800 dark:text-red-200 mb-2">
-                  Important Disclaimer
-                </h3>
-                <div className="text-red-700 dark:text-red-300 space-y-2">
-                  <p className="font-medium">
-                    This information is compiled from open-source materials and publicly available internet resources. 
-                    It is NOT from official sources and is provided for general guidance only.
-                  </p>
-                  <p>
-                    <strong>Always verify current information through official Irish authorities:</strong>
-                  </p>
-                  <ul className="list-disc ml-5 space-y-1">
-                    <li>Road Safety Authority (RSA) - www.rsa.ie</li>
-                    <li>National Driver Licence Service (NDLS) - www.ndls.ie</li>
-                    <li>Citizens Information - www.citizensinformation.ie</li>
-                  </ul>
-                  <p className="font-medium">
-                    All prices, requirements, and procedures may change. Check official sources for current information 
-                    before making any decisions or payments.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* Tabs */}
@@ -343,6 +313,62 @@ export default function HelpCenterPage() {
                         <p className="font-medium pt-1">
                           <strong>ALWAYS verify current official prices with RSA (rsa.ie) and NDLS (ndls.ie) before making any payments or decisions.</strong>
                         </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Important Disclaimer - Moved here */}
+              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-8">
+                <div className="bg-gradient-to-r from-red-50 to-orange-50 dark:from-red-900/20 dark:to-orange-900/20 rounded-xl p-6 border border-red-200 dark:border-red-800">
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0">
+                      <div className="p-3 rounded-full bg-red-100 dark:bg-red-900">
+                        <AlertTriangle className="h-8 w-8 text-red-600 dark:text-red-400" />
+                      </div>
+                    </div>
+                    <div className="flex-1">
+                      <h2 className="text-2xl font-bold text-red-800 dark:text-red-200 mb-4 flex items-center gap-2">
+                        Important Legal Disclaimer
+                      </h2>
+                      <div className="grid md:grid-cols-2 gap-6">
+                        <div className="space-y-3">
+                          <div className="bg-white dark:bg-gray-800 rounded-lg p-4 border border-red-200 dark:border-red-700">
+                            <h3 className="font-semibold text-red-800 dark:text-red-200 mb-2">⚠️ Content Source</h3>
+                            <p className="text-sm text-red-700 dark:text-red-300">
+                              This information is compiled from <strong>open-source materials</strong> and publicly available internet resources. 
+                              It is <strong>NOT from official sources</strong> and is provided for general guidance only.
+                            </p>
+                          </div>
+                          <div className="bg-white dark:bg-gray-800 rounded-lg p-4 border border-red-200 dark:border-red-700">
+                            <h3 className="font-semibold text-red-800 dark:text-red-200 mb-2">💰 Price Information</h3>
+                            <p className="text-sm text-red-700 dark:text-red-300">
+                              All prices are <strong>examples only</strong> and approximate averages. 
+                              No guarantee of accuracy - prices change frequently without notice.
+                            </p>
+                          </div>
+                        </div>
+                        <div className="space-y-3">
+                          <div className="bg-white dark:bg-gray-800 rounded-lg p-4 border border-red-200 dark:border-red-700">
+                            <h3 className="font-semibold text-red-800 dark:text-red-200 mb-2">🏛️ Official Sources Required</h3>
+                            <p className="text-sm text-red-700 dark:text-red-300 mb-2">
+                              <strong>Always verify current information through official Irish authorities:</strong>
+                            </p>
+                            <ul className="text-xs text-red-600 dark:text-red-400 space-y-1">
+                              <li>• Road Safety Authority (RSA) - www.rsa.ie</li>
+                              <li>• National Driver Licence Service (NDLS) - www.ndls.ie</li>
+                              <li>• Citizens Information - www.citizensinformation.ie</li>
+                            </ul>
+                          </div>
+                          <div className="bg-white dark:bg-gray-800 rounded-lg p-4 border border-red-200 dark:border-red-700">
+                            <h3 className="font-semibold text-red-800 dark:text-red-200 mb-2">⚖️ Legal Notice</h3>
+                            <p className="text-sm text-red-700 dark:text-red-300">
+                              Check official sources for current information before making any decisions or payments. 
+                              Requirements and procedures may change without notice.
+                            </p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>

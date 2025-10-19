@@ -16,7 +16,7 @@ export default function TermsPage() {
               Terms of Service
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              These terms apply to the Irish Traffic Signs app and website created by Emre Bagcuvan as a Free educational service.
+              These terms apply to the Irish Traffic Signs app and website provided as a Free educational service.
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
               Last updated: {new Date().toLocaleDateString()}
@@ -140,7 +140,7 @@ export default function TermsPage() {
                 </h2>
                 <div className="space-y-4 text-gray-700 dark:text-gray-300">
                   <p>
-                    In no event shall Emre Bagcuvan (the Service Provider), be liable for any direct, indirect, 
+                    In no event shall the Service Provider be liable for any direct, indirect, 
                     incidental, special, consequential, or punitive damages, including without limitation, loss of 
                     profits, data, use, goodwill, or other intangible losses, resulting from your use of the service.
                   </p>
@@ -191,8 +191,14 @@ export default function TermsPage() {
                     If you have any questions about these Terms of Service, please contact the Service Provider:
                   </p>
                   <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
-                    <p><strong>Email:</strong> emreba2@yandex.com</p>
-                    <p><strong>Developer:</strong> Emre Bagcuvan</p>
+                    <p><strong>Email:</strong> support [at] irishtrafficsigns [dot] com</p>
+                    <p><strong>Support Team:</strong> Irish Traffic Signs</p>
+                    <div className="mt-3 p-3 bg-blue-50 dark:bg-blue-900/20 rounded border border-blue-200 dark:border-blue-800">
+                      <p className="text-sm text-blue-700 dark:text-blue-300">
+                        <strong>Copyright Infringement Notice:</strong> For any copyright infringement claims, 
+                        please contact us at the above email. We will respond within 1 week of receiving your notice.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </section>
