@@ -14,6 +14,7 @@ export function Header() {
   const navigation = [
     { name: 'Signs', href: '/signs' },
     { name: 'Quiz', href: '/quiz' },
+    { name: 'Penalty Points', href: '/penalty-points' },
     { name: 'App', href: '/app' },
     { name: 'FAQ', href: '/faq' },
     { name: 'Help Center', href: '/help-center' },

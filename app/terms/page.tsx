@@ -191,7 +191,7 @@ export default function TermsPage() {
                     If you have any questions about these Terms of Service, please contact the Service Provider:
                   </p>
                   <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
-                    <p><strong>Email:</strong> support [at] irishtrafficsigns [dot] com</p>
+                    <p><strong>Email:</strong> sign [at] emrebagcuvan [dot] com.tr</p>
                     <p><strong>Support Team:</strong> Irish Traffic Signs</p>
                     <div className="mt-3 p-3 bg-blue-50 dark:bg-blue-900/20 rounded border border-blue-200 dark:border-blue-800">
                       <p className="text-sm text-blue-700 dark:text-blue-300">

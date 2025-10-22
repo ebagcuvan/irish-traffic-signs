@@ -79,6 +79,7 @@ frontend/
 - **Home** (`/`): Landing page with hero, features, and testimonials
 - **Signs** (`/signs`): Browse all traffic signs with filtering
 - **Quiz** (`/quiz`): Interactive learning quizzes
+- **Penalty Points** (`/penalty-points`): Complete guide to Irish traffic penalty points and fines
 - **FAQ** (`/faq`): Frequently asked questions
 - **Help Center** (`/help-center`): Comprehensive help and support
 - **App** (`/app`): Mobile app promotion and features
